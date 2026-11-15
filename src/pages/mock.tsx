@@ -255,22 +255,22 @@ export function MockSessionPage() {
             {question.type === "multiple" ? (
               <div className="flex flex-col gap-2.5">
                 {question.options.map((option) => (
-                  <div
+                  <Checkbox
                     key={option.id}
                     className={cx(
-                      "rounded-2xl border p-4",
+                      "w-full rounded-2xl border p-4",
                       selected.includes(option.id)
                         ? "border-accent-400 bg-accent-50"
                         : "border-border-button-default bg-background-primary-default",
                     )}
+                    isSelected={selected.includes(option.id)}
+                    onChange={() => selectOption(option.id)}
                   >
-                    <Checkbox isSelected={selected.includes(option.id)} onChange={() => selectOption(option.id)}>
-                      <span className="flex items-start gap-3">
-                        <LetterBadge label={option.label} selected={selected.includes(option.id)} />
-                        <span className="pt-0.5 text-body-regular text-text-primary">{option.text}</span>
-                      </span>
-                    </Checkbox>
-                  </div>
+                    <span className="flex items-start gap-3">
+                      <LetterBadge label={option.label} selected={selected.includes(option.id)} />
+                      <span className="pt-0.5 text-body-regular text-text-primary">{option.text}</span>
+                    </span>
+                  </Checkbox>
                 ))}
               </div>
             ) : (

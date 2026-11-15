@@ -139,7 +139,7 @@ export function PracticeSetupPage({ route }: { route: string }) {
       <PageHeader
         eyebrow="Practice"
         title="开始一轮练习"
-        description="单选/判断点击选项即提交并显示官方答案；多选勾选后点“下一题”提交。退出后进度会保留。"
+        description="单选/判断点击选项即提交并显示官方答案；多选点击“提交答案”判分，再点“下一题”继续。退出后进度会保留。"
         actions={
           <>
             {session?.status === "active" ? (
@@ -356,25 +356,13 @@ export function PracticeSessionPage() {
     actions.moveQuestion(session.currentIndex + 1);
   }
 
+  function submitMultipleAnswer() {
+    if (!question || question.type !== "multiple" || locked || selected.length === 0) return;
+    actions.answerPractice(question.questionId, selected);
+  }
+
   function next() {
-    if (!session || !question) return;
-    if (completed) {
-      finish();
-      return;
-    }
-    if (!revealed && selected.length > 0) {
-      const correctAnswer = isCorrect(question, selected);
-      const willComplete = session.questionIds.every((id) =>
-        id === question.questionId ? true : Boolean(session.revealed[id]),
-      );
-      actions.answerPractice(question.questionId, selected);
-      if (question.type === "multiple") {
-        toast[correctAnswer ? "success" : "error"](correctAnswer ? "回答正确" : "回答错误", {
-          description: `官方答案：${question.answerText.join(" / ")}`,
-        });
-      }
-      if (willComplete) return;
-    }
+    if (!question || (question.type === "multiple" && !locked)) return;
     advance();
   }
 
@@ -457,20 +445,21 @@ export function PracticeSessionPage() {
                   const isSelected = selected.includes(option.id);
                   const isAnswer = question.answerKey.includes(option.id);
                   return (
-                    <div
+                    <Checkbox
                       key={option.id}
                       className={cx(
-                        "option-card rounded-2xl border p-4 transition-colors",
+                        "option-card w-full rounded-2xl border p-4 transition-colors",
                         optionTone(revealed, isSelected, isAnswer),
                       )}
+                      isSelected={isSelected}
+                      isDisabled={locked}
+                      onChange={() => selectOption(option.id)}
                     >
-                      <Checkbox isSelected={isSelected} isDisabled={locked} onChange={() => selectOption(option.id)}>
-                        <span className="flex w-full items-start gap-3">
-                          <OptionBadge label={option.label} selected={isSelected} revealed={revealed} correct={isAnswer} />
-                          <span className="pt-0.5 text-body-regular text-text-primary">{option.text}</span>
-                        </span>
-                      </Checkbox>
-                    </div>
+                      <span className="flex w-full items-start gap-3">
+                        <OptionBadge label={option.label} selected={isSelected} revealed={revealed} correct={isAnswer} />
+                        <span className="pt-0.5 text-body-regular text-text-primary">{option.text}</span>
+                      </span>
+                    </Checkbox>
                   );
                 })}
               </div>
@@ -538,18 +527,36 @@ export function PracticeSessionPage() {
               >
                 上一题
               </Button>
-              {completed && session.currentIndex < session.questionIds.length - 1 ? (
-                <Button size="medium" variant="secondary" trailingIcon={RiArrowRightLine} onClick={() => actions.moveQuestion(session.currentIndex + 1)}>
-                  下一题
+              <div className="flex flex-wrap items-center justify-end gap-2">
+                {question.type === "multiple" ? (
+                  <Button
+                    size="medium"
+                    variant={revealed ? "secondary" : "primary"}
+                    isDisabled={locked || selected.length === 0}
+                    onClick={submitMultipleAnswer}
+                  >
+                    {revealed ? "已提交" : "提交答案"}
+                  </Button>
+                ) : null}
+                {completed && session.currentIndex < session.questionIds.length - 1 ? (
+                  <Button size="medium" variant="secondary" trailingIcon={RiArrowRightLine} onClick={() => actions.moveQuestion(session.currentIndex + 1)}>
+                    下一题
+                  </Button>
+                ) : null}
+                <Button
+                  size="medium"
+                  variant={question.type === "multiple" && !revealed ? "secondary" : "primary"}
+                  trailingIcon={RiArrowRightLine}
+                  isDisabled={question.type === "multiple" && !locked}
+                  onClick={completed ? finish : next}
+                >
+                  {completed || session.currentIndex >= session.questionIds.length - 1 ? "完成练习" : "下一题"}
                 </Button>
-              ) : null}
-              <Button size="medium" trailingIcon={RiArrowRightLine} onClick={completed ? finish : next}>
-                {completed || session.currentIndex >= session.questionIds.length - 1 ? "完成练习" : "下一题"}
-              </Button>
+              </div>
             </div>
             {question.type === "multiple" && !locked ? (
               <p className="mt-3 text-caption-1-medium text-text-tertiary">
-                多选题：勾选后点击“下一题 / 完成练习”提交本题并继续；提交前可修改选项。
+                多选题：点击整条选项可勾选或取消，选好后点击“提交答案”查看对错与解析，再点击“下一题 / 完成练习”继续。
               </p>
             ) : null}
           </Panel>
