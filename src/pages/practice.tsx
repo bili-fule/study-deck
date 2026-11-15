@@ -41,7 +41,7 @@ const MODES: Array<{
   {
     mode: "chapter",
     title: "章节顺序",
-    description: "按制度文件顺序逐题推进，适合系统学习。",
+    description: "按当前题库的章节顺序逐题推进，适合系统练习。",
     icon: RiBookOpenLine,
     tone: "bg-accent-50 text-accent-700",
   },

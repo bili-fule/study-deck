@@ -62,13 +62,13 @@ export function DashboardPage() {
               <Chip color="blue" variant="caption">
                 {greeting()} · {name}
               </Chip>
-              <span className="text-caption-1-medium text-text-tertiary">距考试还有充足时间，稳扎稳打。</span>
+              <span className="text-caption-1-medium text-text-tertiary">给自己留一点刷题时间。</span>
             </div>
             <h1 className="max-w-2xl text-display-4-semibold leading-tight text-text-primary sm:text-display-3-semibold">
-              把校规校纪，<span className="text-accent-600">练成自己的底气。</span>
+              选好题库，<span className="text-accent-600">按自己的节奏刷题。</span>
             </h1>
             <p className="mt-3 max-w-xl text-body-regular text-text-secondary">
-              {activeBank.coverageNote} 章节、随机、智能加权与模拟考试，全部在本机可用。
+              章节练习、随机刷题、模拟考试与错题复习。题库自由切换，学习记录优先保存在本机。
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {session && session.status === "active" ? (
@@ -169,7 +169,7 @@ export function DashboardPage() {
             <ModeCard
               icon={RiBookOpenLine}
               title="章节顺序"
-              description="按制度文件逐章推进，适合第一次系统学。"
+              description="按当前题库的章节逐题推进，适合系统练习。"
               meta={`${activeBank.chapters.length} 个章节`}
               onClick={() => navigate("/practice?mode=chapter")}
               tone="accent"
@@ -236,7 +236,7 @@ export function DashboardPage() {
               {projection.wrongQuestionIds.length > 0
                 ? `先清掉 ${Math.min(10, projection.wrongQuestionIds.length)} 道错题，再做一组随机练习。`
                 : projection.attempted === 0
-                  ? "从章节顺序开始，先建立完整的制度框架。"
+                  ? "从章节顺序开始，先熟悉当前题库。"
                   : "状态不错，用智能加权巩固薄弱章节。"}
             </p>
             <Button

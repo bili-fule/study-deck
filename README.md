@@ -1,6 +1,6 @@
 # 砺知 StudyDeck
 
-学生手册、实验室安全与军事理论题库的本地优先学习台。React 19 + TypeScript + Vite + Tailwind CSS v4 + BoardUI 免费组件，中文界面，桌面/手机响应式，明暗主题。
+供个人与小范围使用的通用刷题网站，支持多题库练习、模拟考试与复习，学习记录优先保存在本机。React 19 + TypeScript + Vite + Tailwind CSS v4 + BoardUI 免费组件，中文界面，桌面/手机响应式，明暗主题。学生手册、实验室安全与军事理论均为独立题库，不限定站点主题。
 
 ## 快速开始
 
@@ -90,4 +90,4 @@ Windows 说明：当前 Windows 环境的 Wrangler/workerd 可能在创建 `mini
 
 BoardUI 免费组件通过 `npx boardui@latest init --yes` / `add ... --yes` 安装，源码位于 `components/`、`styles/`、`utils/`，按 BoardUI 免费源码的 MIT 许可使用；来源与版权声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。同时保留 React Aria Components（Apache-2.0）、Remix Icon、Inter 等依赖的许可与归属。
 
-题库内容来自肇庆学院官方考试页面快照；本项目不虚构题目、答案或解析。
+题库内容来自肇庆学院考试平台与学习通模拟考试详情的采集快照；本项目不虚构题目、答案或解析。

@@ -176,7 +176,7 @@ export function AppShell({ route, children }: { route: string; children: ReactNo
         )}
       </div>
       <p className="px-1 text-caption-2-regular leading-relaxed text-text-tertiary">
-        官方题库 {projection.attempted > 0 ? "· 本地优先" : "· 296 题"}
+        本地优先 · 当前题库 {activeBank.collected} 题
       </p>
     </div>
   );
@@ -214,7 +214,7 @@ export function AppShell({ route, children }: { route: string; children: ReactNo
       </div>
 
       <Drawer isOpen={mobileOpen} onOpenChange={setMobileOpen} placement="start" size="sm" aria-label="站点导航">
-        <DrawerHeader title="砺知 StudyDeck" description="校规校纪 · 学习与复习" />
+        <DrawerHeader title="砺知 StudyDeck" description="刷题 · 复习 · 记录" />
         <DrawerBody className="p-4">
           {bankSwitcher}
           {nav}
