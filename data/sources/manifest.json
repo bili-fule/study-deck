@@ -1,0 +1,14 @@
+{
+  "banks": [
+    {
+      "file": "question-bank.json",
+      "bankId": "bank_yooc_610277",
+      "title": "肇庆学院 · 学生手册题库",
+      "shortTitle": "学生手册",
+      "description": "肇庆学院校规校纪、学籍管理、奖励资助与校园生活综合题库。",
+      "sourceUrl": "https://exam.yooc.me/group/10965207/exam/610277/take",
+      "expectedTotal": 297,
+      "coverageNote": "官方页面显示 297 题，已采集 296 题；未采集的第 297 题不补造、不臆测。"
+    }
+  ]
+}

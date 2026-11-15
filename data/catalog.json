@@ -1,0 +1,4419 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-15T08:21:03.623Z",
+  "banks": [
+    {
+      "bankId": "bank_yooc_610277",
+      "title": "肇庆学院 · 学生手册题库",
+      "questionCount": 296
+    }
+  ],
+  "chapters": [
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_085d6df676",
+      "title": "肇庆学院章程",
+      "category": "校规校纪"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "title": "肇庆学院全日制本科生学分制学籍管理办法（试行）（肇学院〔2021〕71号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "title": "肇庆学院全日制学生学费、住宿费收缴管理办法（肇学院〔2024〕127号）",
+      "category": "校规校纪"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "title": "肇庆学院全日制本科生转专业管理规定（2024年修订）（肇学院〔2024〕20号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4966fbfc62",
+      "title": "肇庆学院本科生导师管理办法（肇学院〔2020〕81号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "title": "肇庆学院课程修读管理办法（试行）（肇学院〔2019〕80号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "title": "肇庆学院学生选课管理办法（试行）（肇学院〔2019〕80号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "title": "肇庆学院考试管理规定（2026年修订）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_27d0cf42a6",
+      "title": "肇庆学院全日制本科生学士学位授予与管理工作细则（肇学院〔2025〕60号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "title": "肇庆学院学生出国（境）交流学习管理办法（肇学院〔2024〕73号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "title": "肇庆学院课程考核与成绩评定管理规定（肇学院〔2022〕96号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "title": "肇庆学院图书借阅管理办法（肇学院〔2025〕22号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "title": "肇庆学院学生综合素质测评办法（肇学院〔2025〕120号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ac4aaa9a5c",
+      "title": "肇庆学院本科生“先进班集体”“校园十佳班集体”评选办法（肇学院〔2025〕121号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "title": "肇庆学院学生违纪处分规定（肇学院〔2025〕126号）",
+      "category": "校规校纪"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b3baffa7b",
+      "title": "肇庆学院学生申诉处理办法（肇学院〔2023〕73号）",
+      "category": "校规校纪"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "title": "肇庆学院全日制本科生学生证管理规定（肇学院〔2024〕19号）",
+      "category": "校规校纪"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f2fd310554",
+      "title": "肇庆学院学生助教岗位设置与管理办法（试行）（肇学院〔2014〕29号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9b17f2de62",
+      "title": "肇庆学院学生课程学习违纪行为处理办法（试行）（肇学院〔2022〕21号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_44ea41b153",
+      "title": "肇庆学院本科“优秀毕业生”评选办法（肇学院〔2025〕125号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5752c21b63",
+      "title": "肇庆学院本科生国家奖助学金实施办法（肇学院〔2025〕78号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7808e45b43",
+      "title": "肇庆学院家庭经济困难学生认定工作实施办法（肇学院〔2023〕56号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "title": "肇庆学院全日制本科生课程替换及学分认定暂行管理办法（肇学院〔2021〕71号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e23b1f0f28",
+      "title": "肇庆学院本科生学业预警管理办法（试行）（肇学院〔2019〕80号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ce09d8198c",
+      "title": "肇庆学院本科生提前毕业和延长修业期暂行办法（肇学院〔2021〕71号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_2ad6b791c3",
+      "title": "肇庆学院本科生修读辅修专业、辅修学士学位管理办法（试行）（肇学院〔2021〕71号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_54f8215184",
+      "title": "肇庆学院本科生“三好学生”评选办法（肇学院〔2025〕124号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_2848677429",
+      "title": "肇庆学院“优秀青年志愿者”评选办法（肇学院〔2020〕53号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7455dceafe",
+      "title": "肇庆学院本科学生资助工作实施办法（肇学院〔2023〕54号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e9538c0220",
+      "title": "肇庆学院大学体育课程教学管理暂行办法（肇学院〔2014〕77号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_0f55aeb95d",
+      "title": "肇庆学院“优秀学生骨干”评选办法（肇学院〔2022〕55号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4286dbcf5e",
+      "title": "肇庆学院学生“文明宿舍”及建设先进单位评选办法（肇学院〔2025〕123号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7b078cdd96",
+      "title": "肇庆学院本科港澳台学生学籍管理细则（肇学院〔2021〕71号）",
+      "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_8d0f2e7226",
+      "title": "肇庆学院校园网管理办法（试行）（肇学院〔2019〕23号）",
+      "category": "校规校纪"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6708e1bf9f",
+      "title": "肇庆学院全日制本科生转学工作实施细则（肇学院〔2021〕71号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9a759b2dcd",
+      "title": "肇庆学院本科生国家奖学金实施细则",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_717555390d",
+      "title": "肇庆学院本科生国家助学金实施细则",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_355278347d",
+      "title": "肇庆学院学生诚信档案管理办法（试行）（肇学院〔2020〕53号）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_d8a09d954d",
+      "title": "肇庆学院学生勤工助学管理办法（修订）（肇学院〔2021〕44号）",
+      "category": "评优资助"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4a8e8fd6cb",
+      "title": "肇庆学院学生宿舍管理规定（肇学院〔2016〕31号，2021年8月修订）",
+      "category": "综合"
+    },
+    {
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_bb7ca229c2",
+      "title": "肇庆学院全日制在校生学籍信息变更管理办法（肇学院〔2021〕71号）",
+      "category": "学籍管理"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q_193aef5d79d7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_085d6df676",
+      "type": "single",
+      "optionKeys": [
+        "o_951c3fe5eb",
+        "o_bcf4d41e84",
+        "o_111b067b24",
+        "o_ce32344193"
+      ],
+      "answerKey": [
+        "o_bcf4d41e84"
+      ]
+    },
+    {
+      "questionId": "q_e9e23f3c6e23",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_085d6df676",
+      "type": "single",
+      "optionKeys": [
+        "o_a073b9bf7b",
+        "o_b9b807d18b",
+        "o_1cdb6d233f",
+        "o_4532a46e1b"
+      ],
+      "answerKey": [
+        "o_b9b807d18b"
+      ]
+    },
+    {
+      "questionId": "q_c9df9d9ff7ee",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_14abfabf05",
+        "o_bf28b63de3",
+        "o_52fad48040",
+        "o_b6b36c0523"
+      ],
+      "answerKey": [
+        "o_bf28b63de3"
+      ]
+    },
+    {
+      "questionId": "q_b91a98058d35",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_f9d4061486",
+        "o_803ab79310",
+        "o_ee2caa07b7",
+        "o_a8792c0282"
+      ],
+      "answerKey": [
+        "o_803ab79310"
+      ]
+    },
+    {
+      "questionId": "q_dc7cd2094dfc",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_0956983d0f",
+        "o_78b84465f9",
+        "o_2432c5e368",
+        "o_5fbfaae7aa"
+      ],
+      "answerKey": [
+        "o_78b84465f9"
+      ]
+    },
+    {
+      "questionId": "q_2bceca5681cc",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_380d9eb576",
+        "o_50dd0319d6",
+        "o_1a25c932bf",
+        "o_77a12ddbaa"
+      ],
+      "answerKey": [
+        "o_50dd0319d6"
+      ]
+    },
+    {
+      "questionId": "q_0e2fe4c5f879",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_76619f585d",
+        "o_b58bdf308c",
+        "o_f885ef8d4f",
+        "o_66f1177d67"
+      ],
+      "answerKey": [
+        "o_b58bdf308c"
+      ]
+    },
+    {
+      "questionId": "q_5c3b5292dc0e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "type": "single",
+      "optionKeys": [
+        "o_1df30ffd07",
+        "o_2b01c5b342",
+        "o_ea7ba4661a",
+        "o_5e1164e36f"
+      ],
+      "answerKey": [
+        "o_2b01c5b342"
+      ]
+    },
+    {
+      "questionId": "q_139a84472f6b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4966fbfc62",
+      "type": "single",
+      "optionKeys": [
+        "o_18fb774265",
+        "o_49fab4bc9a",
+        "o_6b43dff872",
+        "o_e8d0a877b9"
+      ],
+      "answerKey": [
+        "o_49fab4bc9a"
+      ]
+    },
+    {
+      "questionId": "q_24006d7b8a98",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "single",
+      "optionKeys": [
+        "o_a568a0e84a",
+        "o_e5d377127b",
+        "o_38708faa56",
+        "o_b10ed7f654"
+      ],
+      "answerKey": [
+        "o_e5d377127b"
+      ]
+    },
+    {
+      "questionId": "q_3198cf70bd99",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "single",
+      "optionKeys": [
+        "o_1df30ffd07",
+        "o_2b01c5b342",
+        "o_ea7ba4661a",
+        "o_5e1164e36f"
+      ],
+      "answerKey": [
+        "o_2b01c5b342"
+      ]
+    },
+    {
+      "questionId": "q_d2a69ec96fa0",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "single",
+      "optionKeys": [
+        "o_94b78daac6",
+        "o_2ba17efacc",
+        "o_b464728927",
+        "o_eac8ee629c"
+      ],
+      "answerKey": [
+        "o_2ba17efacc"
+      ]
+    },
+    {
+      "questionId": "q_1874e2a0f94a",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_c02d95def4",
+        "o_c9e72455c7",
+        "o_4f82c59755",
+        "o_98f69813c9"
+      ],
+      "answerKey": [
+        "o_c9e72455c7"
+      ]
+    },
+    {
+      "questionId": "q_9f6c7917f60f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_b0a124cfab",
+        "o_1e09126963",
+        "o_801006587e",
+        "o_2b4c5ae75c"
+      ],
+      "answerKey": [
+        "o_1e09126963"
+      ]
+    },
+    {
+      "questionId": "q_126500df043d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_27d0cf42a6",
+      "type": "single",
+      "optionKeys": [
+        "o_aa8f289ebe",
+        "o_70142f6647",
+        "o_555a5c5c92",
+        "o_bdc1408a91"
+      ],
+      "answerKey": [
+        "o_70142f6647"
+      ]
+    },
+    {
+      "questionId": "q_e5e90089329f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "single",
+      "optionKeys": [
+        "o_c28c65ed1c",
+        "o_b279bb1510",
+        "o_6bbd946a71",
+        "o_dade859cce"
+      ],
+      "answerKey": [
+        "o_b279bb1510"
+      ]
+    },
+    {
+      "questionId": "q_5bd7bdc74880",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "single",
+      "optionKeys": [
+        "o_40e8dfdd11",
+        "o_819d266307",
+        "o_ebe3f78d36",
+        "o_a925471ac1"
+      ],
+      "answerKey": [
+        "o_819d266307"
+      ]
+    },
+    {
+      "questionId": "q_033edd7676ea",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "single",
+      "optionKeys": [
+        "o_b2cee45835",
+        "o_bafe5a4394",
+        "o_7c759c11e6",
+        "o_820f1316f3"
+      ],
+      "answerKey": [
+        "o_bafe5a4394"
+      ]
+    },
+    {
+      "questionId": "q_40afa1da1058",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_7be81b1f5d",
+        "o_7f234f8450",
+        "o_f2fa0e4643",
+        "o_9223ba3adf"
+      ],
+      "answerKey": [
+        "o_f2fa0e4643"
+      ]
+    },
+    {
+      "questionId": "q_eab7cc023843",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_e99c431b70",
+        "o_9bd0dc843f",
+        "o_40e8dfdd11",
+        "o_aaf051d0fb"
+      ],
+      "answerKey": [
+        "o_9bd0dc843f"
+      ]
+    },
+    {
+      "questionId": "q_756c9b9b457a",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_1df30ffd07",
+        "o_ea7ba4661a",
+        "o_842543af29",
+        "o_7e0783095c"
+      ],
+      "answerKey": [
+        "o_ea7ba4661a"
+      ]
+    },
+    {
+      "questionId": "q_77d857a08ef5",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_d54f21a345",
+        "o_b5518f2e85",
+        "o_d4dd458276",
+        "o_89bb499dea"
+      ],
+      "answerKey": [
+        "o_b5518f2e85"
+      ]
+    },
+    {
+      "questionId": "q_27b8a464fcdd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_d639b8195c",
+        "o_54252b9056",
+        "o_9c564d9792",
+        "o_0847709906"
+      ],
+      "answerKey": [
+        "o_0847709906"
+      ]
+    },
+    {
+      "questionId": "q_3021d16c4523",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_b30a92c957",
+        "o_f2afab3a7e",
+        "o_ecfe0a1ae3",
+        "o_f39a9933be"
+      ],
+      "answerKey": [
+        "o_f2afab3a7e"
+      ]
+    },
+    {
+      "questionId": "q_2a84bf4c62ff",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ac4aaa9a5c",
+      "type": "single",
+      "optionKeys": [
+        "o_5366a74167",
+        "o_ce25e2fd47",
+        "o_5f5369e31f",
+        "o_fae31ecec0"
+      ],
+      "answerKey": [
+        "o_ce25e2fd47"
+      ]
+    },
+    {
+      "questionId": "q_a7309e8a608a",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_3578cb0366",
+        "o_8be80cf8d3",
+        "o_4c4ad31f4a",
+        "o_cf64157211"
+      ],
+      "answerKey": [
+        "o_8be80cf8d3"
+      ]
+    },
+    {
+      "questionId": "q_432a16e1e2c7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b3baffa7b",
+      "type": "single",
+      "optionKeys": [
+        "o_b63638fb46",
+        "o_14abfabf05",
+        "o_3f82e0ff2e",
+        "o_bf28b63de3"
+      ],
+      "answerKey": [
+        "o_14abfabf05"
+      ]
+    },
+    {
+      "questionId": "q_97fdb46cf6a1",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_af98af75b926",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_348d630a98f2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_449713841913",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_30cdaea1efa1",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7817b7106680",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_617b66426c3e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_14e847c44597",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_f3098d5ee441",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7e45262affd6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b49308b9863e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_827f06e22561",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_27d0cf42a6",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c7beaef4dcc4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_27d0cf42a6",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_79b5942b8542",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_96f3e8668539",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f2fd310554",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_d2f3c32f5a10",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9b17f2de62",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_d0a512a55c6e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9b17f2de62",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_cacaca3c259c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_5d9683a22236",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e6825fef6f97",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ac4aaa9a5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_21b4a0044dc7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_44ea41b153",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_29e9fb5c8637",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5752c21b63",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_9ad9bbb2fc66",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7808e45b43",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7e029fd540a4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_085d6df676",
+      "type": "single",
+      "optionKeys": [
+        "o_c8fe55fc92",
+        "o_0272de5ff3",
+        "o_73edd0a485",
+        "o_6eecd27658"
+      ],
+      "answerKey": [
+        "o_0272de5ff3"
+      ]
+    },
+    {
+      "questionId": "q_2243a2501251",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_085d6df676",
+      "type": "single",
+      "optionKeys": [
+        "o_b0c0bff5d4",
+        "o_19e4c06c9d",
+        "o_a092a87872",
+        "o_280d4c7471"
+      ],
+      "answerKey": [
+        "o_a092a87872"
+      ]
+    },
+    {
+      "questionId": "q_bf291c09ae01",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_c748464525",
+        "o_5862af5131",
+        "o_75430c297b",
+        "o_b91da4801b"
+      ],
+      "answerKey": [
+        "o_5862af5131"
+      ]
+    },
+    {
+      "questionId": "q_9529f8b16495",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_40e8dfdd11",
+        "o_a617d4c9d4",
+        "o_8fb7ce8982",
+        "o_1784894047"
+      ],
+      "answerKey": [
+        "o_8fb7ce8982"
+      ]
+    },
+    {
+      "questionId": "q_63e61bfbbb03",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_2e11f48466",
+        "o_1df30ffd07",
+        "o_2b01c5b342",
+        "o_ea7ba4661a"
+      ],
+      "answerKey": [
+        "o_1df30ffd07"
+      ]
+    },
+    {
+      "questionId": "q_02c9e8a84179",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_15a5847e7a",
+        "o_1357a6c464",
+        "o_12d678dbd5",
+        "o_184c2baf24"
+      ],
+      "answerKey": [
+        "o_1357a6c464"
+      ]
+    },
+    {
+      "questionId": "q_3fa6050d0f03",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_433bdb131b",
+        "o_b46da6ec37",
+        "o_5366a74167",
+        "o_fae31ecec0"
+      ],
+      "answerKey": [
+        "o_b46da6ec37"
+      ]
+    },
+    {
+      "questionId": "q_53f41318453b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "type": "single",
+      "optionKeys": [
+        "o_71395d6e5b",
+        "o_df61253008",
+        "o_f1ffe4166e",
+        "o_09c4fc252c"
+      ],
+      "answerKey": [
+        "o_71395d6e5b"
+      ]
+    },
+    {
+      "questionId": "q_e2b24214d8a2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_01513e217b",
+        "o_d05b97f15b",
+        "o_27c88548d0",
+        "o_baaf691e0a"
+      ],
+      "answerKey": [
+        "o_27c88548d0"
+      ]
+    },
+    {
+      "questionId": "q_3ff95763a82e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_01513e217b",
+        "o_d05b97f15b",
+        "o_27c88548d0",
+        "o_baaf691e0a"
+      ],
+      "answerKey": [
+        "o_baaf691e0a"
+      ]
+    },
+    {
+      "questionId": "q_c2268fc272fc",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "single",
+      "optionKeys": [
+        "o_79176103e6",
+        "o_3a6d3bda71",
+        "o_4988d38c9c",
+        "o_820f1316f3"
+      ],
+      "answerKey": [
+        "o_3a6d3bda71"
+      ]
+    },
+    {
+      "questionId": "q_1f8a1ebae187",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "single",
+      "optionKeys": [
+        "o_5520725123",
+        "o_4971346fb8",
+        "o_6f3bbd02c2",
+        "o_507e41cc8c"
+      ],
+      "answerKey": [
+        "o_4971346fb8"
+      ]
+    },
+    {
+      "questionId": "q_53790ba711dc",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_d54f21a345",
+        "o_b5518f2e85",
+        "o_d4dd458276",
+        "o_89bb499dea"
+      ],
+      "answerKey": [
+        "o_d4dd458276"
+      ]
+    },
+    {
+      "questionId": "q_f343fb91dbb9",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_21347f9f03",
+        "o_b78ca9281e",
+        "o_5351da77b9",
+        "o_d3aa031b02"
+      ],
+      "answerKey": [
+        "o_b78ca9281e"
+      ]
+    },
+    {
+      "questionId": "q_cd021afc94c3",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_ba4cd6529d",
+        "o_0ab330605b",
+        "o_54252b9056",
+        "o_9c564d9792"
+      ],
+      "answerKey": [
+        "o_0ab330605b"
+      ]
+    },
+    {
+      "questionId": "q_0d51f0edf0c5",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_9b87f09b61",
+        "o_d639b8195c",
+        "o_9c564d9792",
+        "o_0847709906"
+      ],
+      "answerKey": [
+        "o_0847709906"
+      ]
+    },
+    {
+      "questionId": "q_16add60e0770",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_44ea41b153",
+      "type": "single",
+      "optionKeys": [
+        "o_1df30ffd07",
+        "o_2b01c5b342",
+        "o_ea7ba4661a",
+        "o_5e1164e36f"
+      ],
+      "answerKey": [
+        "o_2b01c5b342"
+      ]
+    },
+    {
+      "questionId": "q_09c16df4005e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_085d6df676",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_078afbc95bb7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f4abdc5b33e2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_23054a6f8d08",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_288673ed990d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b7e56dbbfec2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_1cb23f95fe27",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f447dec32a88",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_fdbc57309902",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e23b1f0f28",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_68010ccb0531",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_19f10ed630f2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_48e27c0bb863",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c2d81f70b835",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ddd9b200e9ea",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_173d16645153",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_f46e1f0625f6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_0a0a77e54b1c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ce09d8198c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b077590be4d4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_2ad6b791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a07f8fff9885",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_87194b5fc2f2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_0c295d2a8679",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9b17f2de62",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ab3238fd9854",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ac4aaa9a5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_c0409a9c2fe5",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_54f8215184",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_2d63cef011e6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e7a2b25aba61",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b3baffa7b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_bc6556eaba98",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_d069055740",
+        "o_a6bf5b1374",
+        "o_12e2e679ff",
+        "o_52d6a0d883"
+      ],
+      "answerKey": [
+        "o_a6bf5b1374"
+      ]
+    },
+    {
+      "questionId": "q_23c133a6f4dd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_cb43f0fbfe",
+        "o_2edd390566",
+        "o_12855e5225",
+        "o_89f8e8c82d"
+      ],
+      "answerKey": [
+        "o_2edd390566"
+      ]
+    },
+    {
+      "questionId": "q_68da853ce45f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_86a4cf4567",
+        "o_f6a5b90503",
+        "o_2e449d6255",
+        "o_b63638fb46"
+      ],
+      "answerKey": [
+        "o_2e449d6255"
+      ]
+    },
+    {
+      "questionId": "q_21bab531d0d6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_a5f813a6be",
+        "o_a9676edb7f",
+        "o_1c862b54e7",
+        "o_c133dc6ac9"
+      ],
+      "answerKey": [
+        "o_a9676edb7f"
+      ]
+    },
+    {
+      "questionId": "q_0efadb19b572",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "type": "single",
+      "optionKeys": [
+        "o_b81621958a",
+        "o_c09a4ee152",
+        "o_3786daa754",
+        "o_33526c9985"
+      ],
+      "answerKey": [
+        "o_b81621958a"
+      ]
+    },
+    {
+      "questionId": "q_b9b2a8714643",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "single",
+      "optionKeys": [
+        "o_94143c9cdc",
+        "o_ea64718d84",
+        "o_507967a59d",
+        "o_ccbbab6dd2"
+      ],
+      "answerKey": [
+        "o_94143c9cdc"
+      ]
+    },
+    {
+      "questionId": "q_b3952dd9015b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_01513e217b",
+        "o_d05b97f15b",
+        "o_27c88548d0",
+        "o_baaf691e0a"
+      ],
+      "answerKey": [
+        "o_d05b97f15b"
+      ]
+    },
+    {
+      "questionId": "q_80d223534817",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_2ad6b791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_cd1f20720d",
+        "o_8c7774f061",
+        "o_e7e1ff4197",
+        "o_977d75dc8b"
+      ],
+      "answerKey": [
+        "o_8c7774f061"
+      ]
+    },
+    {
+      "questionId": "q_ac2edf4a7c26",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "single",
+      "optionKeys": [
+        "o_4bda521ec7",
+        "o_97ad8730a3",
+        "o_602dd82ede",
+        "o_bd0f309115"
+      ],
+      "answerKey": [
+        "o_97ad8730a3"
+      ]
+    },
+    {
+      "questionId": "q_2a4e28eff142",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "single",
+      "optionKeys": [
+        "o_5afb2a36c4",
+        "o_a943d60dc8",
+        "o_4af6659a90",
+        "o_c418663bd9"
+      ],
+      "answerKey": [
+        "o_5afb2a36c4"
+      ]
+    },
+    {
+      "questionId": "q_e22f8fe90613",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_396f4e4006",
+        "o_23a7778913",
+        "o_58308f74da",
+        "o_8f96a2a25c"
+      ],
+      "answerKey": [
+        "o_23a7778913"
+      ]
+    },
+    {
+      "questionId": "q_aecc350388a2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_0ab330605b",
+        "o_9c564d9792",
+        "o_0847709906",
+        "o_b7a23797d8"
+      ],
+      "answerKey": [
+        "o_9c564d9792"
+      ]
+    },
+    {
+      "questionId": "q_910bff1c8e48",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ac4aaa9a5c",
+      "type": "single",
+      "optionKeys": [
+        "o_ea7ba4661a",
+        "o_7e0783095c",
+        "o_2b01c5b342",
+        "o_2e11f48466"
+      ],
+      "answerKey": [
+        "o_7e0783095c"
+      ]
+    },
+    {
+      "questionId": "q_1cf3cadfdee8",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_54f8215184",
+      "type": "single",
+      "optionKeys": [
+        "o_5e1164e36f",
+        "o_3bb1546694",
+        "o_b46da6ec37",
+        "o_1971b5043d"
+      ],
+      "answerKey": [
+        "o_3bb1546694"
+      ]
+    },
+    {
+      "questionId": "q_5afedc2a9960",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_54f8215184",
+      "type": "single",
+      "optionKeys": [
+        "o_4fd078e9e4",
+        "o_9d2c3d1616",
+        "o_3e61f36792",
+        "o_fd4462d6dd"
+      ],
+      "answerKey": [
+        "o_9d2c3d1616"
+      ]
+    },
+    {
+      "questionId": "q_d24c860a60a9",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_2848677429",
+      "type": "single",
+      "optionKeys": [
+        "o_04362b2c18",
+        "o_134e56fe87",
+        "o_5361355b23",
+        "o_97ab74f918"
+      ],
+      "answerKey": [
+        "o_134e56fe87"
+      ]
+    },
+    {
+      "questionId": "q_c7e12f827a27",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_6e9333db7e",
+        "o_037a630dad",
+        "o_9b26f8f326",
+        "o_28ec7e9729"
+      ],
+      "answerKey": [
+        "o_037a630dad"
+      ]
+    },
+    {
+      "questionId": "q_aa3591af3d18",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_64ca8589ab",
+        "o_84915cd536",
+        "o_99550d60ab",
+        "o_5521e368d8"
+      ],
+      "answerKey": [
+        "o_84915cd536"
+      ]
+    },
+    {
+      "questionId": "q_865e68e45df7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_d2e033847e",
+        "o_a5f813a6be",
+        "o_a9676edb7f",
+        "o_1c862b54e7"
+      ],
+      "answerKey": [
+        "o_d2e033847e"
+      ]
+    },
+    {
+      "questionId": "q_c710c1726fda",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b3baffa7b",
+      "type": "single",
+      "optionKeys": [
+        "o_f6a5b90503",
+        "o_b63638fb46",
+        "o_14abfabf05",
+        "o_bf28b63de3"
+      ],
+      "answerKey": [
+        "o_b63638fb46"
+      ]
+    },
+    {
+      "questionId": "q_196cdecd99d7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7455dceafe",
+      "type": "single",
+      "optionKeys": [
+        "o_37d2d7d097",
+        "o_a613d6e080",
+        "o_9f65196112",
+        "o_b03f5add42"
+      ],
+      "answerKey": [
+        "o_a613d6e080"
+      ]
+    },
+    {
+      "questionId": "q_6eea7534d3b3",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_dfc6d9315a08",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e23b1f0f28",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ecef9194bed7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e9538c0220",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c2f89c2b3a23",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e9538c0220",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_555942aced61",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_75e34f4ebf85",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_6c01435d0a83",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_410f54a921d1",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_508fa247756a",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_8744a057a52f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ac4aaa9a5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_36cb21e5d3fa",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_0f55aeb95d",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_c52b81616fe5",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_cf5a7cd6a608",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7808e45b43",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_1e228ed2a4a5",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_3961bb1818d1",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4286dbcf5e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_00fc50ea2746",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_085d6df676",
+      "type": "single",
+      "optionKeys": [
+        "o_2b58d88b2c",
+        "o_872461af05",
+        "o_3ade981ce2",
+        "o_8e2f16c4e2"
+      ],
+      "answerKey": [
+        "o_2b58d88b2c"
+      ]
+    },
+    {
+      "questionId": "q_d63e449fe15b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_0956983d0f",
+        "o_78b84465f9",
+        "o_2432c5e368",
+        "o_5fbfaae7aa"
+      ],
+      "answerKey": [
+        "o_78b84465f9"
+      ]
+    },
+    {
+      "questionId": "q_d958c926082f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_40e8dfdd11",
+        "o_819d266307",
+        "o_ebe3f78d36",
+        "o_183fec166b"
+      ],
+      "answerKey": [
+        "o_819d266307"
+      ]
+    },
+    {
+      "questionId": "q_c1bfb1ab8a5c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "type": "single",
+      "optionKeys": [
+        "o_f1ffe4166e",
+        "o_ffa8b6b6fd",
+        "o_07f5eee6c1",
+        "o_707c9c7844"
+      ],
+      "answerKey": [
+        "o_ffa8b6b6fd"
+      ]
+    },
+    {
+      "questionId": "q_2653c2a16649",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "single",
+      "optionKeys": [
+        "o_a527039365",
+        "o_2760fb5254",
+        "o_8c92f2dc93",
+        "o_faadde33ef"
+      ],
+      "answerKey": [
+        "o_2760fb5254"
+      ]
+    },
+    {
+      "questionId": "q_71648701c6dd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "single",
+      "optionKeys": [
+        "o_79e3820a07",
+        "o_4927d565dd",
+        "o_cb220aec7c",
+        "o_bbcc60fad5"
+      ],
+      "answerKey": [
+        "o_4927d565dd"
+      ]
+    },
+    {
+      "questionId": "q_2285de771cab",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_5add8d33c5",
+        "o_2055763e00",
+        "o_3ab5858d14",
+        "o_8ae6f2ebcf"
+      ],
+      "answerKey": [
+        "o_2055763e00"
+      ]
+    },
+    {
+      "questionId": "q_c71d1d22b3d4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_01513e217b",
+        "o_d05b97f15b",
+        "o_27c88548d0",
+        "o_baaf691e0a"
+      ],
+      "answerKey": [
+        "o_27c88548d0"
+      ]
+    },
+    {
+      "questionId": "q_e732929be6d0",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "single",
+      "optionKeys": [
+        "o_e079724baf",
+        "o_b0d7502aef",
+        "o_2c47e5311b",
+        "o_82e5939f5d"
+      ],
+      "answerKey": [
+        "o_2c47e5311b"
+      ]
+    },
+    {
+      "questionId": "q_23ffa9c87d81",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "single",
+      "optionKeys": [
+        "o_82e5939f5d",
+        "o_2c47e5311b",
+        "o_b0d7502aef",
+        "o_e079724baf"
+      ],
+      "answerKey": [
+        "o_2c47e5311b"
+      ]
+    },
+    {
+      "questionId": "q_d2f763858084",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7b078cdd96",
+      "type": "single",
+      "optionKeys": [
+        "o_b90d88ba8e",
+        "o_4271d15730",
+        "o_f76c0564b0",
+        "o_69c67cdced"
+      ],
+      "answerKey": [
+        "o_4271d15730"
+      ]
+    },
+    {
+      "questionId": "q_1ef5176ad871",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7b078cdd96",
+      "type": "single",
+      "optionKeys": [
+        "o_9deccf7e6d",
+        "o_fa1b266b38",
+        "o_e4c056283d",
+        "o_2969b8ec30"
+      ],
+      "answerKey": [
+        "o_e4c056283d"
+      ]
+    },
+    {
+      "questionId": "q_ce2c56069451",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_0f55aeb95d",
+      "type": "single",
+      "optionKeys": [
+        "o_842543af29",
+        "o_7e0783095c",
+        "o_b46da6ec37",
+        "o_1971b5043d"
+      ],
+      "answerKey": [
+        "o_b46da6ec37"
+      ]
+    },
+    {
+      "questionId": "q_9f41db30d008",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5752c21b63",
+      "type": "single",
+      "optionKeys": [
+        "o_6c57e180b4",
+        "o_f1d6f0936e",
+        "o_63b7aecd90",
+        "o_df632fcccd"
+      ],
+      "answerKey": [
+        "o_63b7aecd90"
+      ]
+    },
+    {
+      "questionId": "q_7b9de0440349",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_8d0f2e7226",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_07a1863af958",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_6f2d05aff999",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a93e889099b3",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_fd27dcde3bb2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_d020b3694a65",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_542fbec7b3b7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6708e1bf9f",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_638548ec8799",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_635d37d1251c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b020816bfb9c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_79fc04ccf851",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4286dbcf5e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e94cb0824c0d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_54f8215184",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_8da356abbb15",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_44ea41b153",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_37f674c8e384",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b3baffa7b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_184b3339fcdf",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b3baffa7b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_8d9ffb090efa",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9a759b2dcd",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_15839257928b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_717555390d",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_0f964387279f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_b93c1e27f2",
+        "o_730bb34208",
+        "o_93f8229629",
+        "o_178a0944b3"
+      ],
+      "answerKey": [
+        "o_93f8229629"
+      ]
+    },
+    {
+      "questionId": "q_e67ed701bb47",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_7dd68eaebd",
+        "o_93e0b478ef",
+        "o_def14bfdc9",
+        "o_f09ae872fd"
+      ],
+      "answerKey": [
+        "o_93e0b478ef"
+      ]
+    },
+    {
+      "questionId": "q_357e5b6e2784",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_7d43ce52bf",
+        "o_e12c0d7d0a",
+        "o_1565ed3a36",
+        "o_7fe138ddba"
+      ],
+      "answerKey": [
+        "o_1565ed3a36"
+      ]
+    },
+    {
+      "questionId": "q_c79441831657",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_2c8107db1e",
+        "o_6ecfd62bb1",
+        "o_ecc0b9af16",
+        "o_157926ce5e"
+      ],
+      "answerKey": [
+        "o_6ecfd62bb1"
+      ]
+    },
+    {
+      "questionId": "q_febe67bb3730",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "type": "single",
+      "optionKeys": [
+        "o_a203f973f0",
+        "o_da40153afd",
+        "o_e4e5101036",
+        "o_09468b8e96"
+      ],
+      "answerKey": [
+        "o_da40153afd"
+      ]
+    },
+    {
+      "questionId": "q_4d506200b566",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e9538c0220",
+      "type": "single",
+      "optionKeys": [
+        "o_3b3caf833b",
+        "o_7f08e18316",
+        "o_a943d60dc8",
+        "o_09ad9fd5e9"
+      ],
+      "answerKey": [
+        "o_7f08e18316"
+      ]
+    },
+    {
+      "questionId": "q_62ea4738db27",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e9538c0220",
+      "type": "single",
+      "optionKeys": [
+        "o_26d5a2aafc",
+        "o_92fa00fe0f",
+        "o_aa176f3341",
+        "o_c7c83e4999"
+      ],
+      "answerKey": [
+        "o_aa176f3341"
+      ]
+    },
+    {
+      "questionId": "q_5d5e54741191",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e9538c0220",
+      "type": "single",
+      "optionKeys": [
+        "o_366adddcce",
+        "o_9d2c3d1616",
+        "o_3e61f36792",
+        "o_69c67cdced"
+      ],
+      "answerKey": [
+        "o_9d2c3d1616"
+      ]
+    },
+    {
+      "questionId": "q_0b38cb30591b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_c9e72455c7",
+        "o_4f82c59755",
+        "o_98f69813c9",
+        "o_65b687622e"
+      ],
+      "answerKey": [
+        "o_4f82c59755"
+      ]
+    },
+    {
+      "questionId": "q_51c932718cdc",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_01513e217b",
+        "o_d05b97f15b",
+        "o_27c88548d0",
+        "o_baaf691e0a"
+      ],
+      "answerKey": [
+        "o_d05b97f15b"
+      ]
+    },
+    {
+      "questionId": "q_116cf8ddd4e6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "single",
+      "optionKeys": [
+        "o_8cc54a2e0e",
+        "o_d253448424",
+        "o_57dc5a5220",
+        "o_d718e0e624"
+      ],
+      "answerKey": [
+        "o_d253448424"
+      ]
+    },
+    {
+      "questionId": "q_c4b7948c40f8",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_261c1f6af9",
+        "o_96cf4d081d",
+        "o_82c2de4bf3",
+        "o_58891343a0"
+      ],
+      "answerKey": [
+        "o_96cf4d081d"
+      ]
+    },
+    {
+      "questionId": "q_7524c971cceb",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_842543af29",
+        "o_3bb1546694",
+        "o_7e0783095c",
+        "o_fae31ecec0"
+      ],
+      "answerKey": [
+        "o_842543af29"
+      ]
+    },
+    {
+      "questionId": "q_93babfac5ee7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_64ca8589ab",
+        "o_92d178ae52",
+        "o_674bbc3e95",
+        "o_5521e368d8"
+      ],
+      "answerKey": [
+        "o_674bbc3e95"
+      ]
+    },
+    {
+      "questionId": "q_256f048fb953",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_5521e368d8",
+        "o_99550d60ab",
+        "o_64ca8589ab",
+        "o_92d178ae52"
+      ],
+      "answerKey": [
+        "o_92d178ae52"
+      ]
+    },
+    {
+      "questionId": "q_fb1166cd6a5d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_a54b6a0fcf63",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_710bd72fbfb0",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_e23b1f0f28",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_29e01cf45d7b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_86abda260dac",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_27d0cf42a6",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_f16d41f1c803",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_3da9c08dbd9f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ef0a8e9943ad",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_1323aaa792",
+        "o_0d7a215bbb",
+        "o_0a97a26cae",
+        "o_8f84fd346b"
+      ],
+      "answerKey": [
+        "o_0d7a215bbb"
+      ]
+    },
+    {
+      "questionId": "q_999119ff6a5b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_8eed2eebfd",
+        "o_8c2a59db0d",
+        "o_a510b90833",
+        "o_d032ded87c"
+      ],
+      "answerKey": [
+        "o_a510b90833"
+      ]
+    },
+    {
+      "questionId": "q_b182543e86db",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_9e280f0c35",
+        "o_79d535549e",
+        "o_7d8c80e23a",
+        "o_df346b65c2"
+      ],
+      "answerKey": [
+        "o_79d535549e"
+      ]
+    },
+    {
+      "questionId": "q_2d2d98fc71d9",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4966fbfc62",
+      "type": "single",
+      "optionKeys": [
+        "o_ef542877bd",
+        "o_e5290cdc0d",
+        "o_3767b25a94",
+        "o_7258118a9b"
+      ],
+      "answerKey": [
+        "o_ef542877bd"
+      ]
+    },
+    {
+      "questionId": "q_f0e4ec9bc9a1",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_94143c9cdc",
+        "o_ea64718d84",
+        "o_507967a59d",
+        "o_ccbbab6dd2"
+      ],
+      "answerKey": [
+        "o_94143c9cdc"
+      ]
+    },
+    {
+      "questionId": "q_91031e5ab3cf",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9b17f2de62",
+      "type": "single",
+      "optionKeys": [
+        "o_d9506327d4",
+        "o_b4cacabd18",
+        "o_1ebf296645",
+        "o_5b743b815f"
+      ],
+      "answerKey": [
+        "o_b4cacabd18"
+      ]
+    },
+    {
+      "questionId": "q_45258fbf46a8",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9b17f2de62",
+      "type": "single",
+      "optionKeys": [
+        "o_373db447d5",
+        "o_1bc2602bb3",
+        "o_eb660f0a6e",
+        "o_d7ad072e08"
+      ],
+      "answerKey": [
+        "o_1bc2602bb3"
+      ]
+    },
+    {
+      "questionId": "q_766c6f5c9532",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_92d178ae52",
+        "o_674bbc3e95",
+        "o_64ca8589ab",
+        "o_99550d60ab"
+      ],
+      "answerKey": [
+        "o_674bbc3e95"
+      ]
+    },
+    {
+      "questionId": "q_e556fbb945cd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_355278347d",
+      "type": "single",
+      "optionKeys": [
+        "o_004fc101b8",
+        "o_f053fb2422",
+        "o_6e0895edf9",
+        "o_bf9541694c"
+      ],
+      "answerKey": [
+        "o_6e0895edf9"
+      ]
+    },
+    {
+      "questionId": "q_75bf55112498",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5752c21b63",
+      "type": "single",
+      "optionKeys": [
+        "o_df632fcccd",
+        "o_43e12373e1",
+        "o_fed2ae45a1",
+        "o_f0e284f968"
+      ],
+      "answerKey": [
+        "o_43e12373e1"
+      ]
+    },
+    {
+      "questionId": "q_d056e25c59d4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_da5073e58b7d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c7127b5117ea",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6708e1bf9f",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_249867933c6e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_5eb178caca5b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e6926db32383",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_f2eccdcdcfd2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b48a960ee656",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_542f05e912ea",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5752c21b63",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ebc443f90e66",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_a2d92a8803",
+        "o_7a5db5a1f2",
+        "o_d069055740",
+        "o_a6bf5b1374"
+      ],
+      "answerKey": [
+        "o_7a5db5a1f2"
+      ]
+    },
+    {
+      "questionId": "q_c57e8fda005a",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_a996a057da",
+        "o_29825822ca",
+        "o_1fc56387c6",
+        "o_43a8839bf9"
+      ],
+      "answerKey": [
+        "o_1fc56387c6"
+      ]
+    },
+    {
+      "questionId": "q_1dcb9b73e592",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_78b84465f9",
+        "o_5fbfaae7aa",
+        "o_3ae20cf441",
+        "o_a4611d0558"
+      ],
+      "answerKey": [
+        "o_5fbfaae7aa"
+      ]
+    },
+    {
+      "questionId": "q_76ca6ebcae84",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "single",
+      "optionKeys": [
+        "o_33d5b9b046",
+        "o_1db99d2423",
+        "o_fed50f4597",
+        "o_dd7b3e7be4"
+      ],
+      "answerKey": [
+        "o_1db99d2423"
+      ]
+    },
+    {
+      "questionId": "q_9be78ce8bedd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_ea7ba4661a",
+        "o_b46da6ec37",
+        "o_fae31ecec0",
+        "o_2274df6e34"
+      ],
+      "answerKey": [
+        "o_b46da6ec37"
+      ]
+    },
+    {
+      "questionId": "q_503d3c704fbd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_fcb577bf2a",
+        "o_0ce873d68a",
+        "o_1a97c3a4ec",
+        "o_f9dc0bd8da"
+      ],
+      "answerKey": [
+        "o_f9dc0bd8da"
+      ]
+    },
+    {
+      "questionId": "q_f66a0bf6796c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_95d2398336",
+        "o_9b87f09b61",
+        "o_d639b8195c",
+        "o_0ab330605b"
+      ],
+      "answerKey": [
+        "o_0ab330605b"
+      ]
+    },
+    {
+      "questionId": "q_323862fa3487",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b3baffa7b",
+      "type": "single",
+      "optionKeys": [
+        "o_2429fe4dc5",
+        "o_c51edf507c",
+        "o_722f830769",
+        "o_d05642f420"
+      ],
+      "answerKey": [
+        "o_c51edf507c"
+      ]
+    },
+    {
+      "questionId": "q_034333a85006",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_fbb68eba3783",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e86fe256a3b4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ac4aaa9a5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_34b57f9f30dd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4286dbcf5e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_be17cd4f943d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_0f55aeb95d",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_2b1d1628c437",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_2848677429",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7cf959e0cbba",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_99bac80540",
+        "o_a996a057da",
+        "o_29825822ca",
+        "o_1fc56387c6"
+      ],
+      "answerKey": [
+        "o_a996a057da"
+      ]
+    },
+    {
+      "questionId": "q_8e63471594c4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "single",
+      "optionKeys": [
+        "o_eae0a694ea",
+        "o_a337ebf17f",
+        "o_dd55b0342b",
+        "o_67deb909d5"
+      ],
+      "answerKey": [
+        "o_a337ebf17f"
+      ]
+    },
+    {
+      "questionId": "q_8746dd6087a8",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "single",
+      "optionKeys": [
+        "o_1f61f2d86a",
+        "o_2e11f48466",
+        "o_1df30ffd07",
+        "o_2b01c5b342"
+      ],
+      "answerKey": [
+        "o_2e11f48466"
+      ]
+    },
+    {
+      "questionId": "q_a42e654cfdc2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6708e1bf9f",
+      "type": "single",
+      "optionKeys": [
+        "o_f1ffe4166e",
+        "o_ffa8b6b6fd",
+        "o_07f5eee6c1",
+        "o_707c9c7844"
+      ],
+      "answerKey": [
+        "o_07f5eee6c1"
+      ]
+    },
+    {
+      "questionId": "q_e8992dee87ed",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_0ab330605b",
+        "o_9c564d9792",
+        "o_0847709906",
+        "o_50737b67f1"
+      ],
+      "answerKey": [
+        "o_0847709906"
+      ]
+    },
+    {
+      "questionId": "q_2f7133ef481c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_54f8215184",
+      "type": "single",
+      "optionKeys": [
+        "o_85a2c53896",
+        "o_2e11f48466",
+        "o_554145fe55",
+        "o_1df30ffd07"
+      ],
+      "answerKey": [
+        "o_85a2c53896"
+      ]
+    },
+    {
+      "questionId": "q_0ec415e45c73",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_2608c652f1fc",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7b078cdd96",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_035179023932",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f1b8702ec45d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4286dbcf5e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_73957a011933",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_bf9232319f4d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_4a82e5789c",
+        "o_a25b20f9b6",
+        "o_a510b90833",
+        "o_d032ded87c"
+      ],
+      "answerKey": [
+        "o_4a82e5789c"
+      ]
+    },
+    {
+      "questionId": "q_c4f087192c1e",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_7c83c6d994",
+        "o_dddf85e618",
+        "o_daf8b92927",
+        "o_83bc564132"
+      ],
+      "answerKey": [
+        "o_dddf85e618"
+      ]
+    },
+    {
+      "questionId": "q_b67f53d6bc57",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_fcd29f107a",
+        "o_0b3c881f88",
+        "o_f80deeb047",
+        "o_5e04c0c641"
+      ],
+      "answerKey": [
+        "o_0b3c881f88"
+      ]
+    },
+    {
+      "questionId": "q_561198993939",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "type": "single",
+      "optionKeys": [
+        "o_aa8f289ebe",
+        "o_70142f6647",
+        "o_555a5c5c92",
+        "o_bdc1408a91"
+      ],
+      "answerKey": [
+        "o_70142f6647"
+      ]
+    },
+    {
+      "questionId": "q_e11ec962079c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_d3a59738d5",
+        "o_ebd5dc8543",
+        "o_18f48914d0",
+        "o_2887359a14"
+      ],
+      "answerKey": [
+        "o_ebd5dc8543"
+      ]
+    },
+    {
+      "questionId": "q_82ce2f18f7ce",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_ebe3f78d36",
+        "o_c9580f1f7f",
+        "o_458d5754bd",
+        "o_94410d305b"
+      ],
+      "answerKey": [
+        "o_c9580f1f7f"
+      ]
+    },
+    {
+      "questionId": "q_5f7a868bac6c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_44ea41b153",
+      "type": "single",
+      "optionKeys": [
+        "o_2b01c5b342",
+        "o_5e1164e36f",
+        "o_3bb1546694",
+        "o_b46da6ec37"
+      ],
+      "answerKey": [
+        "o_5e1164e36f"
+      ]
+    },
+    {
+      "questionId": "q_af68babebc88",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_355278347d",
+      "type": "single",
+      "optionKeys": [
+        "o_b50adf9f47",
+        "o_e176f9164b",
+        "o_80a2a253c9",
+        "o_aa441b44ad"
+      ],
+      "answerKey": [
+        "o_b50adf9f47"
+      ]
+    },
+    {
+      "questionId": "q_1e0e5f6710f9",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_d8a09d954d",
+      "type": "single",
+      "optionKeys": [
+        "o_57937ccefc",
+        "o_ba998b61c1",
+        "o_3339c65ecc",
+        "o_293a341e88"
+      ],
+      "answerKey": [
+        "o_ba998b61c1"
+      ]
+    },
+    {
+      "questionId": "q_0b7abde2527d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7b45aae02cbd",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a3427d028b85",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_69f3e587bc",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_6f24329cf51b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4a8e8fd6cb",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b183b867c398",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_7a5db5a1f2",
+        "o_d069055740",
+        "o_a7abdb17ec",
+        "o_a6bf5b1374"
+      ],
+      "answerKey": [
+        "o_d069055740"
+      ]
+    },
+    {
+      "questionId": "q_643dc5e9dba8",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_342774b5c8",
+        "o_8d20914aa1",
+        "o_f783ce9a74",
+        "o_8e85cfcad8"
+      ],
+      "answerKey": [
+        "o_8d20914aa1"
+      ]
+    },
+    {
+      "questionId": "q_19401baeb9ba",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "type": "single",
+      "optionKeys": [
+        "o_df175cb36b",
+        "o_bc5f9ec6e4",
+        "o_95df5b189a",
+        "o_8a5d41d12f"
+      ],
+      "answerKey": [
+        "o_bc5f9ec6e4"
+      ]
+    },
+    {
+      "questionId": "q_476327b0a7f6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4966fbfc62",
+      "type": "single",
+      "optionKeys": [
+        "o_638ca9f4a3",
+        "o_b2403d758d",
+        "o_b98078d026",
+        "o_7cc92751a7"
+      ],
+      "answerKey": [
+        "o_b2403d758d"
+      ]
+    },
+    {
+      "questionId": "q_7cb6eb11dea3",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_7153981fb3",
+        "o_4d635fd4ce",
+        "o_92dadb5dbd",
+        "o_d0d2d7c13f"
+      ],
+      "answerKey": [
+        "o_7153981fb3"
+      ]
+    },
+    {
+      "questionId": "q_c804ba740f8b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_3fec8a8f06",
+        "o_fd95c29c92",
+        "o_dabd9cc0a3",
+        "o_389bb2a2d6"
+      ],
+      "answerKey": [
+        "o_fd95c29c92"
+      ]
+    },
+    {
+      "questionId": "q_44875ca04e74",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_70142f6647",
+        "o_555a5c5c92",
+        "o_bdc1408a91",
+        "o_fba172d89f"
+      ],
+      "answerKey": [
+        "o_555a5c5c92"
+      ]
+    },
+    {
+      "questionId": "q_e6b04ac4bdaa",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b5babef8afb6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ce09d8198c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_3750f350a991",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_2ad6b791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_57fb601ae6df",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_5cb328790465",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f2fd310554",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c1e765e79921",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7808e45b43",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e026f4fc90b9",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_d8a09d954d",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_43d45b5ff540",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_08a5c2c36bae",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_8d0f2e7226",
+      "type": "single",
+      "optionKeys": [
+        "o_eac130e5ee",
+        "o_e32c53de74",
+        "o_2241a80de9",
+        "o_624007eedb"
+      ],
+      "answerKey": [
+        "o_eac130e5ee"
+      ]
+    },
+    {
+      "questionId": "q_b3e1a3c2a9ff",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_0956983d0f",
+        "o_78b84465f9",
+        "o_2432c5e368",
+        "o_5fbfaae7aa"
+      ],
+      "answerKey": [
+        "o_78b84465f9"
+      ]
+    },
+    {
+      "questionId": "q_fd32ce84f356",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_dd62b40be0",
+      "type": "single",
+      "optionKeys": [
+        "o_9c260335d8",
+        "o_d4999cb063",
+        "o_b487f24442",
+        "o_a568a0e84a"
+      ],
+      "answerKey": [
+        "o_d4999cb063"
+      ]
+    },
+    {
+      "questionId": "q_33a28c7f415a",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_fa28591cde75",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_fa280941e5e3",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_990188954168",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4966fbfc62",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b570a7a759df",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ce09d8198c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_5a5e82e99745",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_1cda483b1651",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_8d0f2e7226",
+      "type": "single",
+      "optionKeys": [
+        "o_2241a80de9",
+        "o_e32c53de74",
+        "o_624007eedb",
+        "o_af5a8fa97c"
+      ],
+      "answerKey": [
+        "o_e32c53de74"
+      ]
+    },
+    {
+      "questionId": "q_06d0c0404b98",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_f0fda35043",
+      "type": "single",
+      "optionKeys": [
+        "o_455b6a0d04",
+        "o_c555b68edd",
+        "o_affe7840fa",
+        "o_e2343bbe59"
+      ],
+      "answerKey": [
+        "o_c555b68edd"
+      ]
+    },
+    {
+      "questionId": "q_e4f2d32edc2f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6ca906477e",
+      "type": "single",
+      "optionKeys": [
+        "o_01513e217b",
+        "o_d05b97f15b",
+        "o_27c88548d0",
+        "o_baaf691e0a"
+      ],
+      "answerKey": [
+        "o_d05b97f15b"
+      ]
+    },
+    {
+      "questionId": "q_3decbf3d2a3a",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "single",
+      "optionKeys": [
+        "o_9bd0dc843f",
+        "o_40e8dfdd11",
+        "o_819d266307",
+        "o_ebe3f78d36"
+      ],
+      "answerKey": [
+        "o_40e8dfdd11"
+      ]
+    },
+    {
+      "questionId": "q_bb225e1d384d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b8c44ab07039",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_ce09d8198c",
+      "type": "single",
+      "optionKeys": [
+        "o_a3d206990e",
+        "o_82f99e66cd",
+        "o_e1e588804c",
+        "o_b40aa9e013"
+      ],
+      "answerKey": [
+        "o_82f99e66cd"
+      ]
+    },
+    {
+      "questionId": "q_5287af508577",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ba9c4f5e8e14",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b8a0c36e74a2",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_8aff80063021",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b5de21cbb080",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_355278347d",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_3eefbca39b50",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_61b6169f00",
+      "type": "single",
+      "optionKeys": [
+        "o_d50e9b815e",
+        "o_4334772617",
+        "o_e5278651d8",
+        "o_9453d7646e"
+      ],
+      "answerKey": [
+        "o_4334772617"
+      ]
+    },
+    {
+      "questionId": "q_1516b4c8dff6",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_8bbfcda64877",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_a3b02228f9",
+      "type": "single",
+      "optionKeys": [
+        "o_38ed8fba66",
+        "o_d8a2091fa1",
+        "o_71b977e8dc",
+        "o_9230f3aaeb"
+      ],
+      "answerKey": [
+        "o_38ed8fba66"
+      ]
+    },
+    {
+      "questionId": "q_0e3812c79eb7",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_ea7ba4661a",
+        "o_ea3a2c23f3",
+        "o_2e11f48466",
+        "o_1df30ffd07"
+      ],
+      "answerKey": [
+        "o_ea3a2c23f3"
+      ]
+    },
+    {
+      "questionId": "q_da374527969f",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "single",
+      "optionKeys": [
+        "o_0847709906",
+        "o_75430c297b",
+        "o_a44f76bdba",
+        "o_9c564d9792"
+      ],
+      "answerKey": [
+        "o_75430c297b"
+      ]
+    },
+    {
+      "questionId": "q_a4f2031abf77",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "single",
+      "optionKeys": [
+        "o_773be0c567",
+        "o_65a44938b2",
+        "o_02b4ed58a3",
+        "o_d2e033847e"
+      ],
+      "answerKey": [
+        "o_65a44938b2"
+      ]
+    },
+    {
+      "questionId": "q_de8221587ce3",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_02cf0f0f0fbb",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "single",
+      "optionKeys": [
+        "o_6a7cd2d935",
+        "o_7675e7c645",
+        "o_db29bcf6e6",
+        "o_e650af212e"
+      ],
+      "answerKey": [
+        "o_7675e7c645"
+      ]
+    },
+    {
+      "questionId": "q_37d037041e62",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4966fbfc62",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_60eb642c1d69",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5b9356f33b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_8d9d152ca05c",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_93306782eb57",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4286dbcf5e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_8f2ac8ba9436",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_66ac1913bc",
+      "type": "single",
+      "optionKeys": [
+        "o_b68e08a742",
+        "o_8bd83bb6b7",
+        "o_6fd1677107",
+        "o_bc2e3494fe"
+      ],
+      "answerKey": [
+        "o_b68e08a742"
+      ]
+    },
+    {
+      "questionId": "q_d5f310e54adb",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_5752c21b63",
+      "type": "single",
+      "optionKeys": [
+        "o_fed2ae45a1",
+        "o_f0e284f968",
+        "o_43e12373e1",
+        "o_63b7aecd90"
+      ],
+      "answerKey": [
+        "o_f0e284f968"
+      ]
+    },
+    {
+      "questionId": "q_823e84cff461",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "single",
+      "optionKeys": [
+        "o_773be0c567",
+        "o_65a44938b2",
+        "o_02b4ed58a3",
+        "o_d2e033847e"
+      ],
+      "answerKey": [
+        "o_02b4ed58a3"
+      ]
+    },
+    {
+      "questionId": "q_45d629f36af0",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6708e1bf9f",
+      "type": "single",
+      "optionKeys": [
+        "o_0830481e70",
+        "o_2fd46277e3",
+        "o_24df81fb2e",
+        "o_dec8f40c3c"
+      ],
+      "answerKey": [
+        "o_2fd46277e3"
+      ]
+    },
+    {
+      "questionId": "q_fbe164057235",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_be8fc791c3",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_1fe6b13731d4",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_9c4c19674b",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_08b41b4873e0",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_c1d23b836e",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_19dd42f4e084",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_7f8e10bfdf",
+      "type": "single",
+      "optionKeys": [
+        "o_a88d7f0158",
+        "o_07be56ab58",
+        "o_5dea83fce1",
+        "o_33d5b9b046"
+      ],
+      "answerKey": [
+        "o_07be56ab58"
+      ]
+    },
+    {
+      "questionId": "q_ccbfff77ad4b",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_4286dbcf5e",
+      "type": "single",
+      "optionKeys": [
+        "o_daee3f2bb5",
+        "o_364c94234b",
+        "o_67b676644d",
+        "o_b4a45b5540"
+      ],
+      "answerKey": [
+        "o_b4a45b5540"
+      ]
+    },
+    {
+      "questionId": "q_90d9a7d5efd1",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_bb7ca229c2",
+      "type": "single",
+      "optionKeys": [
+        "o_ebe3f78d36",
+        "o_6a396a7637",
+        "o_d9fde0e17f",
+        "o_3579ba6641"
+      ],
+      "answerKey": [
+        "o_6a396a7637"
+      ]
+    },
+    {
+      "questionId": "q_da6b5da1dd1d",
+      "bankId": "bank_yooc_610277",
+      "chapterId": "ch_6a8c2eee5c",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    }
+  ]
+}

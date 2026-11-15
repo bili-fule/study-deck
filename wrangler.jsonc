@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "study-deck",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-15",
+
+  // Static SPA build output. The Worker only runs for /api/*; everything else is
+  // served from the assets layer (with SPA fallback for client-side routes).
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 0.05 }
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "study-deck",
+      // No database_id is committed. Before remote deployment, create the
+      // database with `npx wrangler d1 create study-deck` and paste the real
+      // returned id here (see docs/BACKEND.md). Local development and
+      // `migrations apply --local` use Miniflare storage and need no id.
+      "migrations_dir": "migrations"
+    }
+  ]
+}

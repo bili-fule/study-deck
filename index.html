@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7f7f7" />
+    <meta name="description" content="砺知 StudyDeck：肇庆学院学生手册题库、智能练习、错题复习与知识卡。" />
+    <title>砺知 StudyDeck · 校规校纪学习台</title>
+    <script>
+      try {
+        const stored = localStorage.getItem('boardui:theme')
+        if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark')
+        }
+      } catch {}
+    </script>
+  </head>
+  <body class="min-h-full bg-background-full text-text-primary antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
