@@ -202,6 +202,7 @@ function buildBank(entry) {
     const chapter = chapterMap.get(chapterId);
     chapter.questionCount += 1;
 
+    const explanation = typeof raw.explanation === "string" ? raw.explanation.trim() : "";
     questions.push({
       questionId,
       bankId: entry.bankId,
@@ -213,6 +214,7 @@ function buildBank(entry) {
       optionKeys,
       answerKey,
       answerText,
+      ...(explanation ? { explanation } : {}),
       sourceTitle,
       score: raw.score ?? null,
       rounds: raw.rounds ?? [],

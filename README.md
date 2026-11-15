@@ -1,6 +1,6 @@
 # 砺知 StudyDeck
 
-肇庆学院学生手册题库的本地优先学习台。React 19 + TypeScript + Vite + Tailwind CSS v4 + BoardUI 免费组件，中文界面，桌面/手机响应式，明暗主题。
+学生手册、实验室安全与军事理论题库的本地优先学习台。React 19 + TypeScript + Vite + Tailwind CSS v4 + BoardUI 免费组件，中文界面，桌面/手机响应式，明暗主题。
 
 ## 快速开始
 
@@ -34,9 +34,11 @@ npm run preview
 
 题库快照在 `data/sources/question-bank.json`（296 / 官方 297 题；未采集题不补造），CSV 快照在 `data/sources/question-bank.csv`。
 
+军事理论题库在 `data/sources/military-theory.json`：通过安卓学习通已提交模拟考试的“考试详情”采集两套快照，页面分别显示 380 题和 156 题，合并为独立题库，共 536 道唯一题（263 单选 / 117 多选 / 156 判断），按题型分为三个章节。所有题目保留官方答案和解析原文，解析即使与题干重复也不擅自改写；练习作答后、模考交卷后的复盘、题库搜索及错题/收藏列表均可查看官方解析。未获取具体考试网页链接，来源链接仅指向学习通平台首页。原始截图、XML 与个人作答记录不打包进网站；不影响原有题库或学习事件。
+
 实验室安全题库快照在 `data/sources/lab-bank.json`：2026-11-15 经 BSK 浏览器实例访问官方 `labmgmt.zqu.edu.cn` 题库页采集（`gosjLookPage2?sjmenu=15&classid=202309000001...`）。当前页面第 1–322 题全部有官方答案：106 单选 / 186 判断 / 30 多选，0 未作答、0 题图。分类为 `通识类`（`classid=202309000001`）；官方页面未显示题库总数，因此 `expectedTotal` 留空，不把 322 宣称为官方总量。首页另外五个标签属于“在线学习”文章列表，不是本题库，未合并。本库暂不生成知识卡。编译产物：
 
-- `data/bank.bundle.json`：浏览器完整题库（题干、选项、来源、稳定 ID）。
+- `data/bank.bundle.json`：浏览器完整题库（题干、选项、来源、稳定 ID，以及来源提供的可选 `explanation` 官方解析）。
 - `data/catalog.json`：服务端校验用最小目录 `{bankId,questionId,chapterId,type,optionKeys,answerKey}`。
 - `data/cards.json`：人工整理的知识卡与关联题目 ID。
 

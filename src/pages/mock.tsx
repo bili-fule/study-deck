@@ -473,6 +473,11 @@ export function ResultPage() {
                           <p>你的答案：{entry.selected.length ? entry.selected.map((id) => entry.question.options.find((option) => option.id === id)?.text ?? id).join(" / ") : "未作答"}</p>
                           <p>官方答案：{entry.question.answerText.join(" / ")}</p>
                         </div>
+                        {entry.question.explanation ? (
+                          <p className="mt-2 whitespace-pre-line text-caption-1-medium text-text-secondary">
+                            <strong>官方解析：</strong>{entry.question.explanation}
+                          </p>
+                        ) : null}
                       </div>
                     </div>
                   </div>

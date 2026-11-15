@@ -27,6 +27,7 @@ export interface BankQuestion {
   optionKeys: string[];
   answerKey: string[];
   answerText: string[];
+  explanation?: string;
   sourceTitle: string;
   score: string | null;
   rounds: number[];

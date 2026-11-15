@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T13:38:41.655Z",
+  "generatedAt": "2026-11-15T15:38:00.635Z",
   "banks": [
     {
       "bankId": "bank_yooc_610277",
@@ -11,6 +11,11 @@
       "bankId": "bank_labmgmt_tykspt2_202309000001",
       "title": "肇庆学院实验室安全教育与考试平台 · 通识类",
       "questionCount": 322
+    },
+    {
+      "bankId": "bank_chaoxing_military_theory",
+      "title": "军事理论 · 学习通模拟题库",
+      "questionCount": 536
     }
   ],
   "chapters": [
@@ -265,6 +270,24 @@
       "chapterId": "lab_tykspt2_classid_202309000001",
       "title": "通识类",
       "category": "通识类"
+    },
+    {
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "title": "军事理论 · 单选题",
+      "category": "军事理论"
+    },
+    {
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "title": "军事理论 · 多选题",
+      "category": "军事理论"
+    },
+    {
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "title": "军事理论 · 判断题",
+      "category": "军事理论"
     }
   ],
   "questions": [
@@ -8912,6 +8935,8013 @@
         "o_2600c87550",
         "o_4e402e9217",
         "o_f5f906c20b"
+      ]
+    },
+    {
+      "questionId": "q_b3f661b88ad0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6bb831a323",
+        "o_f75d9a3941",
+        "o_096155d43d",
+        "o_8dd8079661"
+      ],
+      "answerKey": [
+        "o_f75d9a3941"
+      ]
+    },
+    {
+      "questionId": "q_28def171d2c7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_a59338968c",
+        "o_d879c54ee1",
+        "o_624d01a36a",
+        "o_6454319777"
+      ],
+      "answerKey": [
+        "o_d879c54ee1"
+      ]
+    },
+    {
+      "questionId": "q_712a9b04b6fe",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d835e8d07a",
+        "o_453e9ba65f",
+        "o_9951a5f5b8",
+        "o_1b89abb9be"
+      ],
+      "answerKey": [
+        "o_1b89abb9be"
+      ]
+    },
+    {
+      "questionId": "q_35e77e88e821",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0b8ccabbb5",
+        "o_2ea8b177a2",
+        "o_e0ae9becf2",
+        "o_a695358497"
+      ],
+      "answerKey": [
+        "o_2ea8b177a2"
+      ]
+    },
+    {
+      "questionId": "q_bf08bece4719",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_db1354d69b",
+        "o_fbde4e0013",
+        "o_dae6176584",
+        "o_7d17631247"
+      ],
+      "answerKey": [
+        "o_fbde4e0013"
+      ]
+    },
+    {
+      "questionId": "q_5ec92527e84b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0e199b20d4",
+        "o_514dc05441",
+        "o_b14c048335",
+        "o_1089d51f07"
+      ],
+      "answerKey": [
+        "o_b14c048335"
+      ]
+    },
+    {
+      "questionId": "q_be07d0142989",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_313d691830",
+        "o_69b61745d4",
+        "o_8d469b3adf",
+        "o_cca1d40a0e"
+      ],
+      "answerKey": [
+        "o_cca1d40a0e"
+      ]
+    },
+    {
+      "questionId": "q_bc60786578e8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3cffc50589",
+        "o_35ab6a174b",
+        "o_ea6a660308",
+        "o_1c539bacbd"
+      ],
+      "answerKey": [
+        "o_3cffc50589"
+      ]
+    },
+    {
+      "questionId": "q_c9d82c7b0f18",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_84da0fd726",
+        "o_9dd89dbbcb",
+        "o_85f417e2ba",
+        "o_7ba19d6e37"
+      ],
+      "answerKey": [
+        "o_84da0fd726"
+      ]
+    },
+    {
+      "questionId": "q_01629517dcb3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_625089efdf",
+        "o_a0c02dd556",
+        "o_12fbb690f6",
+        "o_e662129123"
+      ],
+      "answerKey": [
+        "o_a0c02dd556"
+      ]
+    },
+    {
+      "questionId": "q_e4c370bb754d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0b15be24af",
+        "o_b7192327eb",
+        "o_ebc2fcbb82",
+        "o_c1947765a5"
+      ],
+      "answerKey": [
+        "o_c1947765a5"
+      ]
+    },
+    {
+      "questionId": "q_d5adff2f78ff",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6568aadfef",
+        "o_1783797978",
+        "o_249a1f37a4",
+        "o_3e901e7e79"
+      ],
+      "answerKey": [
+        "o_6568aadfef"
+      ]
+    },
+    {
+      "questionId": "q_6276e349ddb8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7b52009b64",
+        "o_0ade7c2cf9",
+        "o_1574bddb75",
+        "o_9e6a55b6b4"
+      ],
+      "answerKey": [
+        "o_7b52009b64"
+      ]
+    },
+    {
+      "questionId": "q_8762f0e47c8f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_643fec50e7",
+        "o_9195f873d1",
+        "o_ab165cb90d",
+        "o_fbc7843acd"
+      ],
+      "answerKey": [
+        "o_9195f873d1"
+      ]
+    },
+    {
+      "questionId": "q_263682853fa4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_96b7b6bdf2",
+        "o_2da40f4073",
+        "o_aeb2a002ae",
+        "o_86864be9bb"
+      ],
+      "answerKey": [
+        "o_2da40f4073"
+      ]
+    },
+    {
+      "questionId": "q_a8c22542c08c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2bcf5624dd",
+        "o_fde2cdf304",
+        "o_adc07b4f01",
+        "o_304927380f"
+      ],
+      "answerKey": [
+        "o_2bcf5624dd"
+      ]
+    },
+    {
+      "questionId": "q_265f1b03521f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_49ddb069d5",
+        "o_4f88740b34",
+        "o_8f07f53d63",
+        "o_3d72c724e0"
+      ],
+      "answerKey": [
+        "o_8f07f53d63"
+      ]
+    },
+    {
+      "questionId": "q_44deba992c92",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_bc08032e6a",
+        "o_3106be6c09",
+        "o_51825b2def",
+        "o_388ca2c99d"
+      ],
+      "answerKey": [
+        "o_3106be6c09"
+      ]
+    },
+    {
+      "questionId": "q_b08c8e3716a4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8a12a31508",
+        "o_f8237d8959",
+        "o_2de49ac0fc",
+        "o_39f4ba3929"
+      ],
+      "answerKey": [
+        "o_2de49ac0fc"
+      ]
+    },
+    {
+      "questionId": "q_78be513c1eaf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e5c59c0bba",
+        "o_294e316100",
+        "o_5d35077839",
+        "o_e214e7945a"
+      ],
+      "answerKey": [
+        "o_294e316100"
+      ]
+    },
+    {
+      "questionId": "q_d5d4cb4ca3c7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0294cd8976",
+        "o_cd0bf6887d",
+        "o_b28ddc8030",
+        "o_745c0fb47b"
+      ],
+      "answerKey": [
+        "o_b28ddc8030"
+      ]
+    },
+    {
+      "questionId": "q_63de46b35b97",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3a0556995d",
+        "o_b5592cedb1",
+        "o_b5b73523cd",
+        "o_5c86e812ba"
+      ],
+      "answerKey": [
+        "o_3a0556995d"
+      ]
+    },
+    {
+      "questionId": "q_262aa0cb92b6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_9e6a55b6b4",
+        "o_91032ad7bb",
+        "o_b3f0c7f6bb",
+        "o_f1abd67035"
+      ],
+      "answerKey": [
+        "o_9e6a55b6b4"
+      ]
+    },
+    {
+      "questionId": "q_85666bb96dd7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3a6bed48f0",
+        "o_25c74e3a86",
+        "o_868d1345b9",
+        "o_43d2ae03af"
+      ],
+      "answerKey": [
+        "o_25c74e3a86"
+      ]
+    },
+    {
+      "questionId": "q_355d023682e4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_463fcdd4a5",
+        "o_0be9c46245",
+        "o_ec9ed1fe4b",
+        "o_dd3fe68e8e"
+      ],
+      "answerKey": [
+        "o_463fcdd4a5"
+      ]
+    },
+    {
+      "questionId": "q_aa40927d206b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_44bec40645",
+        "o_5615512920",
+        "o_b4bf8b6393",
+        "o_55d13bf33d"
+      ],
+      "answerKey": [
+        "o_5615512920"
+      ]
+    },
+    {
+      "questionId": "q_3adb7022ec6d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_aaa470993a",
+        "o_13b4641234",
+        "o_fdb7e5233b",
+        "o_dd3fe68e8e"
+      ],
+      "answerKey": [
+        "o_13b4641234"
+      ]
+    },
+    {
+      "questionId": "q_5aa1d00f12f7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_18e173a3a8",
+        "o_e85422f0cf",
+        "o_049e9825e1",
+        "o_dfbfc886d8"
+      ],
+      "answerKey": [
+        "o_dfbfc886d8"
+      ]
+    },
+    {
+      "questionId": "q_6167c0667dae",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_cd4d8bed5e",
+        "o_ebc2fcbb82",
+        "o_94c73664b5",
+        "o_4ffb057548"
+      ],
+      "answerKey": [
+        "o_4ffb057548"
+      ]
+    },
+    {
+      "questionId": "q_1ffa3552cc14",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_47668cf3c7",
+        "o_59d61becbd",
+        "o_7c5df5f01c",
+        "o_3d5a0c7bdf"
+      ],
+      "answerKey": [
+        "o_7c5df5f01c"
+      ]
+    },
+    {
+      "questionId": "q_eedaece2f769",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2e3a456d08",
+        "o_e6568ee68c",
+        "o_5d751494df",
+        "o_baba011527"
+      ],
+      "answerKey": [
+        "o_e6568ee68c"
+      ]
+    },
+    {
+      "questionId": "q_d8d660e38c1c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_49fffab92c",
+        "o_c5e4875ee9",
+        "o_19d7969b68",
+        "o_667f826e72"
+      ],
+      "answerKey": [
+        "o_19d7969b68"
+      ]
+    },
+    {
+      "questionId": "q_3766c1f4def4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_28ed59fc09",
+        "o_0b0094545f",
+        "o_7ba3b04c41",
+        "o_a0395a0802"
+      ],
+      "answerKey": [
+        "o_a0395a0802"
+      ]
+    },
+    {
+      "questionId": "q_f1e1082d9144",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5bdcf826f2",
+        "o_2d10935506",
+        "o_ec90e84c8f",
+        "o_4866e189d5"
+      ],
+      "answerKey": [
+        "o_2d10935506"
+      ]
+    },
+    {
+      "questionId": "q_e5e1e1cd3246",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5d28e736ae",
+        "o_2412c8254b",
+        "o_1b4b14c42d",
+        "o_eb73c3bea8"
+      ],
+      "answerKey": [
+        "o_1b4b14c42d"
+      ]
+    },
+    {
+      "questionId": "q_93a08997a2f1",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_1828f7d7b1",
+        "o_51825b2def",
+        "o_2213933724",
+        "o_dc83a9700c"
+      ],
+      "answerKey": [
+        "o_1828f7d7b1"
+      ]
+    },
+    {
+      "questionId": "q_f7cc5c552414",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_17ba079149",
+        "o_fe2ef495a1",
+        "o_22d200f867",
+        "o_4d89d294cd"
+      ],
+      "answerKey": [
+        "o_fe2ef495a1"
+      ]
+    },
+    {
+      "questionId": "q_2c4a3d64f30e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_531e39969a",
+        "o_05d467824e",
+        "o_4f2f2de955",
+        "o_b52ea12311"
+      ],
+      "answerKey": [
+        "o_b52ea12311"
+      ]
+    },
+    {
+      "questionId": "q_9ae1c6e50059",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_41d50b0d24",
+        "o_492b7ebef5",
+        "o_ced95f7fdf",
+        "o_3f95aa4bd6"
+      ],
+      "answerKey": [
+        "o_3f95aa4bd6"
+      ]
+    },
+    {
+      "questionId": "q_709d0edc52be",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b446b9e552",
+        "o_90bb2bb203",
+        "o_514dc05441",
+        "o_d9bd678e9c"
+      ],
+      "answerKey": [
+        "o_d9bd678e9c"
+      ]
+    },
+    {
+      "questionId": "q_f2ec6e35a2a8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8672661af6",
+        "o_6e01538b7f",
+        "o_aeb2a002ae",
+        "o_2da40f4073"
+      ],
+      "answerKey": [
+        "o_2da40f4073"
+      ]
+    },
+    {
+      "questionId": "q_53989408aa14",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f2d13bf812",
+        "o_b42999a9dd",
+        "o_d56bd293b5",
+        "o_001f14e861"
+      ],
+      "answerKey": [
+        "o_001f14e861"
+      ]
+    },
+    {
+      "questionId": "q_190a2aa08012",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5bf927fd79",
+        "o_45ee489e05",
+        "o_6ae5d5c196",
+        "o_ad719cbd52"
+      ],
+      "answerKey": [
+        "o_6ae5d5c196"
+      ]
+    },
+    {
+      "questionId": "q_db6c6f0807f0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_77a17c09c1",
+        "o_6770ae41b0",
+        "o_ac09f54119",
+        "o_763594c752"
+      ],
+      "answerKey": [
+        "o_6770ae41b0"
+      ]
+    },
+    {
+      "questionId": "q_04114cac16f0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f5303ca4a9",
+        "o_1eaaf84033",
+        "o_62d84ef1d3",
+        "o_359eaf7800"
+      ],
+      "answerKey": [
+        "o_f5303ca4a9"
+      ]
+    },
+    {
+      "questionId": "q_b2f9cbd497a7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_59b6f9eda3",
+        "o_da503003c9",
+        "o_0c278c7913",
+        "o_1d1e50de44"
+      ],
+      "answerKey": [
+        "o_da503003c9"
+      ]
+    },
+    {
+      "questionId": "q_10d5d0afae85",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fc0f06d36d",
+        "o_c3f3f7e73f",
+        "o_c54919fc73",
+        "o_fbb0977f94"
+      ],
+      "answerKey": [
+        "o_fc0f06d36d"
+      ]
+    },
+    {
+      "questionId": "q_4bc47313a0b9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f2d13bf812",
+        "o_e616fd5c9b",
+        "o_b42999a9dd",
+        "o_d56bd293b5"
+      ],
+      "answerKey": [
+        "o_f2d13bf812"
+      ]
+    },
+    {
+      "questionId": "q_a71e45dd40cb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f21b90e273",
+        "o_f1484fa78b",
+        "o_be4a17fcc5",
+        "o_c080fc1aac"
+      ],
+      "answerKey": [
+        "o_f1484fa78b"
+      ]
+    },
+    {
+      "questionId": "q_a0deeedce1d7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0210b435aa",
+        "o_d95862d904",
+        "o_a0bf096309",
+        "o_d6ecbeb586"
+      ],
+      "answerKey": [
+        "o_a0bf096309"
+      ]
+    },
+    {
+      "questionId": "q_7674c05eb512",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_94f06273af",
+        "o_2eb44a23ff",
+        "o_1f4b70e71a",
+        "o_217a0e0661"
+      ],
+      "answerKey": [
+        "o_2eb44a23ff"
+      ]
+    },
+    {
+      "questionId": "q_7184ff63834a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ac52cf0690",
+        "o_e616fd5c9b",
+        "o_001f14e861",
+        "o_b42999a9dd"
+      ],
+      "answerKey": [
+        "o_e616fd5c9b"
+      ]
+    },
+    {
+      "questionId": "q_980d05af2fdf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_35605a72cb",
+        "o_02eb1f1986",
+        "o_00916c510e",
+        "o_1ee260991c"
+      ],
+      "answerKey": [
+        "o_1ee260991c"
+      ]
+    },
+    {
+      "questionId": "q_384aba21a860",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_514dc05441",
+        "o_b446b9e552",
+        "o_eb25764145",
+        "o_62745166c8"
+      ],
+      "answerKey": [
+        "o_eb25764145"
+      ]
+    },
+    {
+      "questionId": "q_c9fedc45b57c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ab3696c784",
+        "o_fbb096fdf5",
+        "o_b4859b1661",
+        "o_50b764484f"
+      ],
+      "answerKey": [
+        "o_fbb096fdf5"
+      ]
+    },
+    {
+      "questionId": "q_af21dc443fdf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2dec2c7384",
+        "o_2029e612c9",
+        "o_f75d9a3941",
+        "o_6bb831a323"
+      ],
+      "answerKey": [
+        "o_f75d9a3941"
+      ]
+    },
+    {
+      "questionId": "q_0cf11c944845",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ffe108da73",
+        "o_38fd6b9fbe",
+        "o_b9e632385d",
+        "o_05a8db0261"
+      ],
+      "answerKey": [
+        "o_b9e632385d"
+      ]
+    },
+    {
+      "questionId": "q_f7e9cac5eae5",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8bb16b8ad4",
+        "o_63a37c4838",
+        "o_2041cf9b00",
+        "o_96309be76b"
+      ],
+      "answerKey": [
+        "o_8bb16b8ad4"
+      ]
+    },
+    {
+      "questionId": "q_7c2e2478e638",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3bbf580c42",
+        "o_55f8b1cdd1",
+        "o_ac6fb2f2fe",
+        "o_2d5ddffe51"
+      ],
+      "answerKey": [
+        "o_3bbf580c42"
+      ]
+    },
+    {
+      "questionId": "q_cad41f8006b5",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_03219c11a1",
+        "o_5df07c0bd4",
+        "o_cff420626f",
+        "o_1964504422"
+      ],
+      "answerKey": [
+        "o_1964504422"
+      ]
+    },
+    {
+      "questionId": "q_e2b413b74c00",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fdf031fd2a",
+        "o_917f9500da",
+        "o_55ea16a919",
+        "o_944e0e2f64"
+      ],
+      "answerKey": [
+        "o_55ea16a919"
+      ]
+    },
+    {
+      "questionId": "q_5877119523fd",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0034429fc6",
+        "o_7f492a8a09",
+        "o_d4318977e5",
+        "o_6af2f55008"
+      ],
+      "answerKey": [
+        "o_6af2f55008"
+      ]
+    },
+    {
+      "questionId": "q_9a070a3414ac",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_66efd9eefe",
+        "o_527dc687fa",
+        "o_85568b20c3",
+        "o_7263d678ab"
+      ],
+      "answerKey": [
+        "o_527dc687fa"
+      ]
+    },
+    {
+      "questionId": "q_e1aab815760d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5af8ec20d4",
+        "o_e26973e6ee",
+        "o_98f59d0c79",
+        "o_e3cbba8883"
+      ],
+      "answerKey": [
+        "o_98f59d0c79"
+      ]
+    },
+    {
+      "questionId": "q_9ce9bf469901",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_97bf6d9c28",
+        "o_afdf5b786a",
+        "o_d14ab39290",
+        "o_ce7b37822f"
+      ],
+      "answerKey": [
+        "o_afdf5b786a"
+      ]
+    },
+    {
+      "questionId": "q_e021816fa8c7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e3876021ed",
+        "o_9fd32cc3ae",
+        "o_7354ec58f7",
+        "o_7abfb9c1cc"
+      ],
+      "answerKey": [
+        "o_7abfb9c1cc"
+      ]
+    },
+    {
+      "questionId": "q_8adccab1e81e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_de6d95afd3",
+        "o_951500b4e2",
+        "o_f9d8176076",
+        "o_e286f12066"
+      ],
+      "answerKey": [
+        "o_f9d8176076"
+      ]
+    },
+    {
+      "questionId": "q_74fd44ac097b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6c468695bd",
+        "o_1e768ece1f",
+        "o_5c9a9e01bc",
+        "o_1918650461"
+      ],
+      "answerKey": [
+        "o_5c9a9e01bc"
+      ]
+    },
+    {
+      "questionId": "q_2c54d32c692d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e616fd5c9b",
+        "o_001f14e861",
+        "o_b42999a9dd",
+        "o_f2d13bf812"
+      ],
+      "answerKey": [
+        "o_b42999a9dd"
+      ]
+    },
+    {
+      "questionId": "q_1ba28d61912d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_36a218e2cd",
+        "o_fd7202d55b",
+        "o_c636b07b4e",
+        "o_170d2219b3"
+      ],
+      "answerKey": [
+        "o_c636b07b4e"
+      ]
+    },
+    {
+      "questionId": "q_11ec8939cc2d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_cd0bf6887d",
+        "o_b28ddc8030",
+        "o_745c0fb47b",
+        "o_0294cd8976"
+      ],
+      "answerKey": [
+        "o_b28ddc8030"
+      ]
+    },
+    {
+      "questionId": "q_4f0da31347a0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8c472c8c38",
+        "o_7eaaf07a6c",
+        "o_19d7767b04",
+        "o_749163839a"
+      ],
+      "answerKey": [
+        "o_8c472c8c38"
+      ]
+    },
+    {
+      "questionId": "q_0374cf0f5df3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0237677e57",
+        "o_3f482cec8a",
+        "o_f1b79092dc",
+        "o_4bd5ccd8e5"
+      ],
+      "answerKey": [
+        "o_4bd5ccd8e5"
+      ]
+    },
+    {
+      "questionId": "q_3365c8014c1f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7d17631247",
+        "o_db1354d69b",
+        "o_dae6176584",
+        "o_fbde4e0013"
+      ],
+      "answerKey": [
+        "o_dae6176584"
+      ]
+    },
+    {
+      "questionId": "q_0bfa111303db",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_9fce0caf04",
+        "o_93507b84f0",
+        "o_d4ed6cdcc5",
+        "o_0de62067bc"
+      ],
+      "answerKey": [
+        "o_0de62067bc"
+      ]
+    },
+    {
+      "questionId": "q_f980d4f4f3a9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e075ccf1d4",
+        "o_6e0ba280eb",
+        "o_5cae0ad17a",
+        "o_9cc240bf97"
+      ],
+      "answerKey": [
+        "o_6e0ba280eb"
+      ]
+    },
+    {
+      "questionId": "q_c5899298d251",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2a34af9248",
+        "o_e26c8ebc54",
+        "o_3bf82fd33e",
+        "o_0d88904bfb"
+      ],
+      "answerKey": [
+        "o_2a34af9248"
+      ]
+    },
+    {
+      "questionId": "q_e016dfec08a6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5941f012ed",
+        "o_e9637eca6c",
+        "o_27c175aef9",
+        "o_8be382e344"
+      ],
+      "answerKey": [
+        "o_5941f012ed"
+      ]
+    },
+    {
+      "questionId": "q_449c1666a610",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_cd84c61a3f",
+        "o_94dd164adb",
+        "o_3827fd957e",
+        "o_6e0fb56d3d"
+      ],
+      "answerKey": [
+        "o_94dd164adb"
+      ]
+    },
+    {
+      "questionId": "q_ed82961e808f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ec99b3b271",
+        "o_ee67238203",
+        "o_46812ab83e",
+        "o_2b10990fa2"
+      ],
+      "answerKey": [
+        "o_ec99b3b271"
+      ]
+    },
+    {
+      "questionId": "q_54fe2a842bf2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8686ed99e8",
+        "o_f3d902ac0f",
+        "o_bb3f9b27be",
+        "o_c9d526961c"
+      ],
+      "answerKey": [
+        "o_bb3f9b27be"
+      ]
+    },
+    {
+      "questionId": "q_7ec6dc434b30",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_001f14e861",
+        "o_b42999a9dd",
+        "o_d56bd293b5",
+        "o_e616fd5c9b"
+      ],
+      "answerKey": [
+        "o_d56bd293b5"
+      ]
+    },
+    {
+      "questionId": "q_423a73dbf2f8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3d72c724e0",
+        "o_4f88740b34",
+        "o_8f07f53d63",
+        "o_49ddb069d5"
+      ],
+      "answerKey": [
+        "o_8f07f53d63"
+      ]
+    },
+    {
+      "questionId": "q_7726ddd277ca",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_4e1ff3eb77",
+        "o_953c96d7dd",
+        "o_a3540e824b",
+        "o_46bb7a6088"
+      ],
+      "answerKey": [
+        "o_4e1ff3eb77"
+      ]
+    },
+    {
+      "questionId": "q_a1c26cbfe14b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_874a782f93",
+        "o_cd0bf6887d",
+        "o_624d01a36a",
+        "o_6747c881f5"
+      ],
+      "answerKey": [
+        "o_874a782f93"
+      ]
+    },
+    {
+      "questionId": "q_16f3c37bcaa6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_082d5e5b93",
+        "o_0261d8f624",
+        "o_6ff6e58fa5",
+        "o_d1be4dba3c"
+      ],
+      "answerKey": [
+        "o_0261d8f624"
+      ]
+    },
+    {
+      "questionId": "q_337e07752756",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e182c21727",
+        "o_fbc7843acd",
+        "o_a4ac914c09",
+        "o_87e8db4f23"
+      ],
+      "answerKey": [
+        "o_87e8db4f23"
+      ]
+    },
+    {
+      "questionId": "q_6374d985286f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7b52009b64",
+        "o_bd307a3ec3",
+        "o_17ba079149",
+        "o_fa35e19212"
+      ],
+      "answerKey": [
+        "o_bd307a3ec3"
+      ]
+    },
+    {
+      "questionId": "q_29d5b8513d20",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_555ccb3ede",
+        "o_aaddbedd31",
+        "o_7b0edad59f",
+        "o_2d50f437f9"
+      ],
+      "answerKey": [
+        "o_555ccb3ede"
+      ]
+    },
+    {
+      "questionId": "q_9d49d9e46cca",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_cbf8545985",
+        "o_9e3911b4f3",
+        "o_1089d51f07",
+        "o_d17d9f99be"
+      ],
+      "answerKey": [
+        "o_1089d51f07"
+      ]
+    },
+    {
+      "questionId": "q_7010f7bb824d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e08d6bb944",
+        "o_abca764375",
+        "o_dd45ee9c80",
+        "o_c2e65c5e24"
+      ],
+      "answerKey": [
+        "o_dd45ee9c80"
+      ]
+    },
+    {
+      "questionId": "q_783c0a036935",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_46f13d7035",
+        "o_7c4de95453",
+        "o_8e8122eb4d",
+        "o_0a41d860df"
+      ],
+      "answerKey": [
+        "o_46f13d7035"
+      ]
+    },
+    {
+      "questionId": "q_50bb270293a4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d372fe5a61",
+        "o_0afacee8ce",
+        "o_3d030060ff",
+        "o_9e3911b4f3"
+      ],
+      "answerKey": [
+        "o_d372fe5a61"
+      ]
+    },
+    {
+      "questionId": "q_d60585b24825",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_472b07b9fc",
+        "o_0ade7c2cf9",
+        "o_fa35e19212",
+        "o_7b52009b64"
+      ],
+      "answerKey": [
+        "o_472b07b9fc"
+      ]
+    },
+    {
+      "questionId": "q_51f68ddf23ea",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_35d72a78fa",
+        "o_76dc87236f",
+        "o_749be81139",
+        "o_41ffc2d9aa"
+      ],
+      "answerKey": [
+        "o_76dc87236f"
+      ]
+    },
+    {
+      "questionId": "q_f02f21de4697",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d879c54ee1",
+        "o_d5cfd99877",
+        "o_6e0712deb4",
+        "o_4c4da0877f"
+      ],
+      "answerKey": [
+        "o_4c4da0877f"
+      ]
+    },
+    {
+      "questionId": "q_e00587074718",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_17463b7327",
+        "o_6a1f279c99",
+        "o_e806637fe9",
+        "o_308c6d1593"
+      ],
+      "answerKey": [
+        "o_17463b7327"
+      ]
+    },
+    {
+      "questionId": "q_1498b3358fbb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e9bbdd94d4",
+        "o_2de49ac0fc",
+        "o_c4372fef99",
+        "o_b458908146"
+      ],
+      "answerKey": [
+        "o_b458908146"
+      ]
+    },
+    {
+      "questionId": "q_3647353d347d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0237677e57",
+        "o_4346e18f08",
+        "o_2bd394ae22",
+        "o_3f482cec8a"
+      ],
+      "answerKey": [
+        "o_4346e18f08"
+      ]
+    },
+    {
+      "questionId": "q_f8578649b195",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fbc7843acd",
+        "o_9195f873d1",
+        "o_ab165cb90d",
+        "o_643fec50e7"
+      ],
+      "answerKey": [
+        "o_fbc7843acd"
+      ]
+    },
+    {
+      "questionId": "q_adb154f7cca6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fc59dd7a6a",
+        "o_26c0aee555",
+        "o_98c4a57272",
+        "o_cfa807a9ba"
+      ],
+      "answerKey": [
+        "o_26c0aee555"
+      ]
+    },
+    {
+      "questionId": "q_f9031faeed3c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_19e705549d",
+        "o_cf781c28c8",
+        "o_4cb54122ea",
+        "o_26c98141b5"
+      ],
+      "answerKey": [
+        "o_4cb54122ea"
+      ]
+    },
+    {
+      "questionId": "q_c87cacda02b6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_084b3af47a",
+        "o_d08b10a326",
+        "o_ab39c54239",
+        "o_85568b20c3"
+      ],
+      "answerKey": [
+        "o_ab39c54239"
+      ]
+    },
+    {
+      "questionId": "q_873dc1bd17cc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0c33b85c40",
+        "o_3cfefaebbc",
+        "o_00e8140112",
+        "o_5d29302611"
+      ],
+      "answerKey": [
+        "o_5d29302611"
+      ]
+    },
+    {
+      "questionId": "q_0f1c76330ae0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b1be35c417",
+        "o_294a622d2e",
+        "o_ef8a555cfc",
+        "o_22ba6bcd3b"
+      ],
+      "answerKey": [
+        "o_22ba6bcd3b"
+      ]
+    },
+    {
+      "questionId": "q_0858b4643c7c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_340adc4728",
+        "o_808964399b",
+        "o_2850b909b8",
+        "o_0159eda73a"
+      ],
+      "answerKey": [
+        "o_808964399b"
+      ]
+    },
+    {
+      "questionId": "q_7c4cd99b5b5b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fde2cdf304",
+        "o_2bcf5624dd",
+        "o_c346c05d6b",
+        "o_1f33ca1d51"
+      ],
+      "answerKey": [
+        "o_fde2cdf304"
+      ]
+    },
+    {
+      "questionId": "q_be9a83023899",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_21baa7f4b5",
+        "o_1066e7e25f",
+        "o_01923b26a4",
+        "o_a411631cf6"
+      ],
+      "answerKey": [
+        "o_21baa7f4b5"
+      ]
+    },
+    {
+      "questionId": "q_1177efde6230",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2378f60aa2",
+        "o_ae1e73bfe8",
+        "o_3b67fd4145",
+        "o_fd51784bfc"
+      ],
+      "answerKey": [
+        "o_ae1e73bfe8"
+      ]
+    },
+    {
+      "questionId": "q_a850ef86ebba",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_838ce80f0e",
+        "o_84f5e9e2a7",
+        "o_81005899eb",
+        "o_f68707788d"
+      ],
+      "answerKey": [
+        "o_81005899eb"
+      ]
+    },
+    {
+      "questionId": "q_690e21876fff",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8f07f53d63",
+        "o_3d72c724e0",
+        "o_4f88740b34",
+        "o_49ddb069d5"
+      ],
+      "answerKey": [
+        "o_8f07f53d63"
+      ]
+    },
+    {
+      "questionId": "q_76a7c41d16be",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_73f105326f",
+        "o_daaca4ec9e",
+        "o_9ebc22e6f1",
+        "o_565a95958d"
+      ],
+      "answerKey": [
+        "o_daaca4ec9e"
+      ]
+    },
+    {
+      "questionId": "q_99f94c6a94c0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0cbda6b524",
+        "o_2273cdb3af",
+        "o_c02a8a2d6e",
+        "o_67d34e424d"
+      ],
+      "answerKey": [
+        "o_67d34e424d"
+      ]
+    },
+    {
+      "questionId": "q_48b18e68bd06",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ff1bedda54",
+        "o_801947aa9a",
+        "o_3953e5060b",
+        "o_cedda37d5e"
+      ],
+      "answerKey": [
+        "o_801947aa9a"
+      ]
+    },
+    {
+      "questionId": "q_39eec4d81ca1",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2e949e3a4d",
+        "o_e70f5a3ee7",
+        "o_1c5c49ff3f",
+        "o_a43ecca32e"
+      ],
+      "answerKey": [
+        "o_1c5c49ff3f"
+      ]
+    },
+    {
+      "questionId": "q_673708fd940b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2d10935506",
+        "o_44da6bbcf2",
+        "o_5bdcf826f2",
+        "o_101806f57c"
+      ],
+      "answerKey": [
+        "o_5bdcf826f2"
+      ]
+    },
+    {
+      "questionId": "q_bf26df299077",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_96b7b6bdf2",
+        "o_2da40f4073",
+        "o_8672661af6",
+        "o_aeb2a002ae"
+      ],
+      "answerKey": [
+        "o_2da40f4073"
+      ]
+    },
+    {
+      "questionId": "q_364d4426a606",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2e3a456d08",
+        "o_e6568ee68c",
+        "o_baba011527",
+        "o_74f142f38e"
+      ],
+      "answerKey": [
+        "o_2e3a456d08"
+      ]
+    },
+    {
+      "questionId": "q_c11bada82cad",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_67cb970b6f",
+        "o_63d11c0486",
+        "o_ccd8e9d45f",
+        "o_77f3cde99a"
+      ],
+      "answerKey": [
+        "o_77f3cde99a"
+      ]
+    },
+    {
+      "questionId": "q_36875f405392",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_cf68ea68c1",
+        "o_92086a4234",
+        "o_f644f80dbf",
+        "o_1a34e6f6fc"
+      ],
+      "answerKey": [
+        "o_cf68ea68c1"
+      ]
+    },
+    {
+      "questionId": "q_e57ef02dc7a3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_62745166c8",
+        "o_b446b9e552",
+        "o_eb25764145",
+        "o_514dc05441"
+      ],
+      "answerKey": [
+        "o_b446b9e552"
+      ]
+    },
+    {
+      "questionId": "q_5d53d543f297",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_bb3f9b27be",
+        "o_c9d526961c",
+        "o_5c566545e5",
+        "o_06eca8f486"
+      ],
+      "answerKey": [
+        "o_bb3f9b27be"
+      ]
+    },
+    {
+      "questionId": "q_52e8916a51ce",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_906d222394",
+        "o_62e64ae03c",
+        "o_71a4598a87",
+        "o_1e0d4a0392"
+      ],
+      "answerKey": [
+        "o_62e64ae03c"
+      ]
+    },
+    {
+      "questionId": "q_5469857bf24e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_85f4656788",
+        "o_880d3f34fa",
+        "o_4781872c15",
+        "o_6ab0d0b0af"
+      ],
+      "answerKey": [
+        "o_4781872c15"
+      ]
+    },
+    {
+      "questionId": "q_02c33a856b34",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_101806f57c",
+        "o_44da6bbcf2",
+        "o_4866e189d5",
+        "o_d07c176571"
+      ],
+      "answerKey": [
+        "o_101806f57c"
+      ]
+    },
+    {
+      "questionId": "q_2d443282428c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2884cecc20",
+        "o_51825b2def",
+        "o_2213933724",
+        "o_dc83a9700c"
+      ],
+      "answerKey": [
+        "o_2213933724"
+      ]
+    },
+    {
+      "questionId": "q_0465e8c3aa2e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f5c1e64e84",
+        "o_830fe0f6ee",
+        "o_0aa08d3c1b",
+        "o_a209ee5477"
+      ],
+      "answerKey": [
+        "o_0aa08d3c1b"
+      ]
+    },
+    {
+      "questionId": "q_ba127a3de57e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fbde4e0013",
+        "o_db1354d69b",
+        "o_7d17631247",
+        "o_dae6176584"
+      ],
+      "answerKey": [
+        "o_7d17631247"
+      ]
+    },
+    {
+      "questionId": "q_71aca9fd33f3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fc90df66bb",
+        "o_f68707788d",
+        "o_b7f4670752",
+        "o_649c8d4fca"
+      ],
+      "answerKey": [
+        "o_649c8d4fca"
+      ]
+    },
+    {
+      "questionId": "q_c20047caa1db",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ab58d3c10c",
+        "o_65f40c3595",
+        "o_4fe7a90daa",
+        "o_fe6339fdc0"
+      ],
+      "answerKey": [
+        "o_ab58d3c10c"
+      ]
+    },
+    {
+      "questionId": "q_fe01dae07a46",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_da4b9237ba",
+        "o_bd307a3ec3",
+        "o_0716d9708d",
+        "o_17ba079149"
+      ],
+      "answerKey": [
+        "o_bd307a3ec3"
+      ]
+    },
+    {
+      "questionId": "q_b7678df72262",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_63f9838083",
+        "o_06fac22214",
+        "o_b6ad1d041c",
+        "o_12dfeac49d"
+      ],
+      "answerKey": [
+        "o_12dfeac49d"
+      ]
+    },
+    {
+      "questionId": "q_5668b55baa04",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fa35e19212",
+        "o_0ade7c2cf9",
+        "o_7b52009b64",
+        "o_902ba3cda1"
+      ],
+      "answerKey": [
+        "o_0ade7c2cf9"
+      ]
+    },
+    {
+      "questionId": "q_3774b82186dc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6c3fc1ccf1",
+        "o_d0ad3b0f93",
+        "o_351b9f6da4",
+        "o_c13822bab6"
+      ],
+      "answerKey": [
+        "o_6c3fc1ccf1"
+      ]
+    },
+    {
+      "questionId": "q_f7ce15daefd6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_51825b2def",
+        "o_dc9ea7b3b6",
+        "o_5f58787e6a",
+        "o_2213933724"
+      ],
+      "answerKey": [
+        "o_dc9ea7b3b6"
+      ]
+    },
+    {
+      "questionId": "q_3a0763289db1",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_abaacf5c0a",
+        "o_206e118ac0",
+        "o_2641ce5915",
+        "o_91d8e57e04"
+      ],
+      "answerKey": [
+        "o_91d8e57e04"
+      ]
+    },
+    {
+      "questionId": "q_da2628cd7296",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6948f9fe55",
+        "o_a5223749e4",
+        "o_e0379963b8",
+        "o_35ca017bf1"
+      ],
+      "answerKey": [
+        "o_6948f9fe55"
+      ]
+    },
+    {
+      "questionId": "q_bb49ccc9110e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_a4ac914c09",
+        "o_85568b20c3",
+        "o_084b3af47a",
+        "o_0c422ba644"
+      ],
+      "answerKey": [
+        "o_85568b20c3"
+      ]
+    },
+    {
+      "questionId": "q_11b3f1b54047",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_dec9aafaf1",
+        "o_5a478022f3",
+        "o_e182c21727",
+        "o_bb3acf149d"
+      ],
+      "answerKey": [
+        "o_e182c21727"
+      ]
+    },
+    {
+      "questionId": "q_c73efd2d4bac",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8bb16b8ad4",
+        "o_2041cf9b00",
+        "o_96309be76b",
+        "o_63a37c4838"
+      ],
+      "answerKey": [
+        "o_96309be76b"
+      ]
+    },
+    {
+      "questionId": "q_b693573343d6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e92e977b69",
+        "o_0af7ba5beb",
+        "o_9e79f154ab",
+        "o_ffd4d3b2d8"
+      ],
+      "answerKey": [
+        "o_e92e977b69"
+      ]
+    },
+    {
+      "questionId": "q_b17776538371",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ea69df2b95",
+        "o_9706c80659",
+        "o_5162f6ea4b",
+        "o_f06b496b3b"
+      ],
+      "answerKey": [
+        "o_f06b496b3b"
+      ]
+    },
+    {
+      "questionId": "q_95e9d612b016",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2884cecc20",
+        "o_43a12186d0",
+        "o_dc9ea7b3b6",
+        "o_1828f7d7b1"
+      ],
+      "answerKey": [
+        "o_1828f7d7b1"
+      ]
+    },
+    {
+      "questionId": "q_bdd630f50b04",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_13d4f703a8",
+        "o_feada698e3",
+        "o_f8db389238",
+        "o_757106f17c"
+      ],
+      "answerKey": [
+        "o_feada698e3"
+      ]
+    },
+    {
+      "questionId": "q_b337b44a5fc7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_de6d95afd3",
+        "o_e286f12066",
+        "o_951500b4e2",
+        "o_f9d8176076"
+      ],
+      "answerKey": [
+        "o_e286f12066"
+      ]
+    },
+    {
+      "questionId": "q_40ffcfbbf16b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8bb16b8ad4",
+        "o_63a37c4838",
+        "o_96309be76b",
+        "o_2041cf9b00"
+      ],
+      "answerKey": [
+        "o_2041cf9b00"
+      ]
+    },
+    {
+      "questionId": "q_339954c8c2a4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7150fcfe67",
+        "o_f0830b3fe8",
+        "o_d5eee91a59",
+        "o_1efcee131b"
+      ],
+      "answerKey": [
+        "o_1efcee131b"
+      ]
+    },
+    {
+      "questionId": "q_eba8fcf1f069",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_adfb4f0898",
+        "o_101806f57c",
+        "o_44da6bbcf2",
+        "o_24f7c13ece"
+      ],
+      "answerKey": [
+        "o_24f7c13ece"
+      ]
+    },
+    {
+      "questionId": "q_837be74e763a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_69b61745d4",
+        "o_1256015561",
+        "o_cca1d40a0e",
+        "o_b1d5472cf6"
+      ],
+      "answerKey": [
+        "o_cca1d40a0e"
+      ]
+    },
+    {
+      "questionId": "q_4855f0f7bdfa",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7e8356f45e",
+        "o_20494a8dea",
+        "o_290d9eca54",
+        "o_a3e57bb6e8"
+      ],
+      "answerKey": [
+        "o_290d9eca54"
+      ]
+    },
+    {
+      "questionId": "q_a652ba079d86",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_da25f57ebe",
+        "o_c1a1694ba7",
+        "o_c5d43bf97b",
+        "o_fcfc0f3ea5"
+      ],
+      "answerKey": [
+        "o_c1a1694ba7"
+      ]
+    },
+    {
+      "questionId": "q_7ef91915f5c3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_fa35e19212",
+        "o_f1abd67035",
+        "o_1574bddb75",
+        "o_0716d9708d"
+      ],
+      "answerKey": [
+        "o_0716d9708d"
+      ]
+    },
+    {
+      "questionId": "q_7d0f9d0e6766",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_9dd5e1d0ed",
+        "o_9b6e5f2970",
+        "o_43fe4a8bae",
+        "o_4777374af9"
+      ],
+      "answerKey": [
+        "o_9b6e5f2970"
+      ]
+    },
+    {
+      "questionId": "q_42e1a5753099",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8f07f53d63",
+        "o_4f88740b34",
+        "o_49ddb069d5",
+        "o_1d5639f716"
+      ],
+      "answerKey": [
+        "o_8f07f53d63"
+      ]
+    },
+    {
+      "questionId": "q_d54577181baf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e26c8ebc54",
+        "o_3bf82fd33e",
+        "o_2a34af9248",
+        "o_8f93b3a2c5"
+      ],
+      "answerKey": [
+        "o_2a34af9248"
+      ]
+    },
+    {
+      "questionId": "q_980da958f378",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b08c88f67f",
+        "o_38c84c8015",
+        "o_bb1042b9d4",
+        "o_0d9adf9632"
+      ],
+      "answerKey": [
+        "o_bb1042b9d4"
+      ]
+    },
+    {
+      "questionId": "q_6d71d9d0d5b7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_cf9942df10",
+        "o_260d177c7b",
+        "o_8dcff1ebe3",
+        "o_2037aedb30"
+      ],
+      "answerKey": [
+        "o_8dcff1ebe3"
+      ]
+    },
+    {
+      "questionId": "q_529b2d3136a9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2f52184411",
+        "o_8ef2e08fe6",
+        "o_845050a337",
+        "o_e45f2db6ab"
+      ],
+      "answerKey": [
+        "o_2f52184411"
+      ]
+    },
+    {
+      "questionId": "q_b953018e4b09",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_cc16af5fb7",
+        "o_75144e6c28",
+        "o_2a38c8228e",
+        "o_3d0d41fc86"
+      ],
+      "answerKey": [
+        "o_cc16af5fb7"
+      ]
+    },
+    {
+      "questionId": "q_43c9da206f0e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e887f64646",
+        "o_002a980839",
+        "o_ce6586178f",
+        "o_5dd6ff58ff"
+      ],
+      "answerKey": [
+        "o_ce6586178f"
+      ]
+    },
+    {
+      "questionId": "q_e3186a84fb93",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ef8a555cfc",
+        "o_294a622d2e",
+        "o_22ba6bcd3b",
+        "o_8f16ea65c7"
+      ],
+      "answerKey": [
+        "o_ef8a555cfc"
+      ]
+    },
+    {
+      "questionId": "q_3ac56ec619db",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5c024b369b",
+        "o_0c4216c447",
+        "o_ade7d0be28",
+        "o_72ddeb6f7c"
+      ],
+      "answerKey": [
+        "o_5c024b369b"
+      ]
+    },
+    {
+      "questionId": "q_50348c74585e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_69b61745d4",
+        "o_8d469b3adf",
+        "o_cca1d40a0e",
+        "o_1256015561"
+      ],
+      "answerKey": [
+        "o_69b61745d4"
+      ]
+    },
+    {
+      "questionId": "q_34f16c0115ad",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_101806f57c",
+        "o_44da6bbcf2",
+        "o_adfb4f0898",
+        "o_2d5ddffe51"
+      ],
+      "answerKey": [
+        "o_adfb4f0898"
+      ]
+    },
+    {
+      "questionId": "q_833c06fda18f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3d7b4f23b8",
+        "o_643fec50e7",
+        "o_9195f873d1",
+        "o_ab165cb90d"
+      ],
+      "answerKey": [
+        "o_643fec50e7"
+      ]
+    },
+    {
+      "questionId": "q_0944f34f051e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_868d1345b9",
+        "o_25c74e3a86",
+        "o_3a6bed48f0",
+        "o_6c3dc45ebb"
+      ],
+      "answerKey": [
+        "o_868d1345b9"
+      ]
+    },
+    {
+      "questionId": "q_d96040d7d00b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_317d45eb50",
+        "o_078adda00f",
+        "o_1129c4fdce",
+        "o_d014120916"
+      ],
+      "answerKey": [
+        "o_1129c4fdce"
+      ]
+    },
+    {
+      "questionId": "q_a1f881b7d69d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_9eae8de1c3",
+        "o_3815f4e1db",
+        "o_61338d6f56",
+        "o_3ab4306b62"
+      ],
+      "answerKey": [
+        "o_9eae8de1c3"
+      ]
+    },
+    {
+      "questionId": "q_5a094fc4c843",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_9b8f2adbb3",
+        "o_967d55583d",
+        "o_078480b128",
+        "o_bdb23196c1"
+      ],
+      "answerKey": [
+        "o_078480b128"
+      ]
+    },
+    {
+      "questionId": "q_66714e4abb91",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7144f1a14e",
+        "o_2884cecc20",
+        "o_494b7c1d1b",
+        "o_e26406a87b"
+      ],
+      "answerKey": [
+        "o_7144f1a14e"
+      ]
+    },
+    {
+      "questionId": "q_307a182dc8f4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_03a6fda1f1",
+        "o_fe6b27bac2",
+        "o_7ec18066cf",
+        "o_4280c05a54"
+      ],
+      "answerKey": [
+        "o_fe6b27bac2"
+      ]
+    },
+    {
+      "questionId": "q_8c6df1154fbc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_dff92f8d11",
+        "o_294e316100",
+        "o_3c21c6a459",
+        "o_b2f6014a6d"
+      ],
+      "answerKey": [
+        "o_294e316100"
+      ]
+    },
+    {
+      "questionId": "q_bd3024c2803a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_c636b07b4e",
+        "o_6bb831a323",
+        "o_f75d9a3941",
+        "o_36a218e2cd"
+      ],
+      "answerKey": [
+        "o_f75d9a3941"
+      ]
+    },
+    {
+      "questionId": "q_63ee97390ff9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_643fec50e7",
+        "o_fbc7843acd",
+        "o_9195f873d1",
+        "o_ab165cb90d"
+      ],
+      "answerKey": [
+        "o_ab165cb90d"
+      ]
+    },
+    {
+      "questionId": "q_823dc23299bf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_99947f121b",
+        "o_23a9103f26",
+        "o_c13822bab6",
+        "o_376535f2b4"
+      ],
+      "answerKey": [
+        "o_376535f2b4"
+      ]
+    },
+    {
+      "questionId": "q_907ccb6f7d1d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_4a5ebfcef4",
+        "o_51e0606d52",
+        "o_acb77532af",
+        "o_a676eee99e"
+      ],
+      "answerKey": [
+        "o_acb77532af"
+      ]
+    },
+    {
+      "questionId": "q_e5005a17c82e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7d17631247",
+        "o_fbde4e0013",
+        "o_db1354d69b",
+        "o_dae6176584"
+      ],
+      "answerKey": [
+        "o_db1354d69b"
+      ]
+    },
+    {
+      "questionId": "q_b2708871f8ac",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_1089d51f07",
+        "o_62745166c8",
+        "o_b446b9e552",
+        "o_eb25764145"
+      ],
+      "answerKey": [
+        "o_eb25764145"
+      ]
+    },
+    {
+      "questionId": "q_94bbb1a77c61",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0aa08d3c1b",
+        "o_830fe0f6ee",
+        "o_aee1bfacae",
+        "o_780b8e8124"
+      ],
+      "answerKey": [
+        "o_aee1bfacae"
+      ]
+    },
+    {
+      "questionId": "q_5201ef3a3bde",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_9f9af02958",
+        "o_7b52009b64",
+        "o_4d134bc072",
+        "o_a1773d62a6"
+      ],
+      "answerKey": [
+        "o_9f9af02958"
+      ]
+    },
+    {
+      "questionId": "q_df1c672dd7e1",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_514dc05441",
+        "o_eb25764145",
+        "o_1089d51f07",
+        "o_62745166c8"
+      ],
+      "answerKey": [
+        "o_1089d51f07"
+      ]
+    },
+    {
+      "questionId": "q_b856b7bb0f92",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2683321d1e",
+        "o_5f83e7f6a1",
+        "o_894a044898",
+        "o_10d95f2cd2"
+      ],
+      "answerKey": [
+        "o_10d95f2cd2"
+      ]
+    },
+    {
+      "questionId": "q_807c54e10c31",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5af8ec20d4",
+        "o_98f59d0c79",
+        "o_264c3f3470",
+        "o_e26973e6ee"
+      ],
+      "answerKey": [
+        "o_e26973e6ee"
+      ]
+    },
+    {
+      "questionId": "q_44f7a87cd6c4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d17f5231f5",
+        "o_6eb53b7db3",
+        "o_ec99b3b271",
+        "o_2b10990fa2"
+      ],
+      "answerKey": [
+        "o_2b10990fa2"
+      ]
+    },
+    {
+      "questionId": "q_1a5a76f6a560",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3827fd957e",
+        "o_6e0fb56d3d",
+        "o_94dd164adb",
+        "o_bf5c9c23c2"
+      ],
+      "answerKey": [
+        "o_3827fd957e"
+      ]
+    },
+    {
+      "questionId": "q_92cab80e5821",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6e5069308c",
+        "o_ad55cb0044",
+        "o_dde97d8a8d",
+        "o_b0572fb002"
+      ],
+      "answerKey": [
+        "o_dde97d8a8d"
+      ]
+    },
+    {
+      "questionId": "q_d9c670c69aeb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b6004f307b",
+        "o_59de688f87",
+        "o_7040a699f3",
+        "o_49bb8cf6c8"
+      ],
+      "answerKey": [
+        "o_b6004f307b"
+      ]
+    },
+    {
+      "questionId": "q_7b4eb9237ba4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5b803dc4f7",
+        "o_2998b26840",
+        "o_7980c0d734",
+        "o_b679fd2206"
+      ],
+      "answerKey": [
+        "o_2998b26840"
+      ]
+    },
+    {
+      "questionId": "q_62279695f4e7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_a483bd678e",
+        "o_b7eefc15d8",
+        "o_303b635f3b",
+        "o_17bfb67593"
+      ],
+      "answerKey": [
+        "o_b7eefc15d8"
+      ]
+    },
+    {
+      "questionId": "q_2e6816a2213c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_8b0df15f9a",
+        "o_5699759500",
+        "o_9ec700e6e4",
+        "o_d821d1258e"
+      ],
+      "answerKey": [
+        "o_d821d1258e"
+      ]
+    },
+    {
+      "questionId": "q_1d84213cdde0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_43415ac42f",
+        "o_dfed8118d4",
+        "o_553cb1ea5b",
+        "o_38c355c60b"
+      ],
+      "answerKey": [
+        "o_43415ac42f"
+      ]
+    },
+    {
+      "questionId": "q_d708f3dd9705",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_290a52e4dd",
+        "o_f8237d8959",
+        "o_a4ac914c09",
+        "o_e3cbba8883"
+      ],
+      "answerKey": [
+        "o_e3cbba8883"
+      ]
+    },
+    {
+      "questionId": "q_9c4a011fa75a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7033c0e20c",
+        "o_72ef8888ca",
+        "o_f66fff5c8c",
+        "o_670073cb75"
+      ],
+      "answerKey": [
+        "o_670073cb75"
+      ]
+    },
+    {
+      "questionId": "q_94b406c342e3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6c3dc45ebb",
+        "o_3a6bed48f0",
+        "o_d7b25e01b5",
+        "o_ce374cd1d5"
+      ],
+      "answerKey": [
+        "o_d7b25e01b5"
+      ]
+    },
+    {
+      "questionId": "q_250d1b0d3b06",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ff1bedda54",
+        "o_0368afa60e",
+        "o_a913b0b740",
+        "o_4a6913b20c"
+      ],
+      "answerKey": [
+        "o_0368afa60e"
+      ]
+    },
+    {
+      "questionId": "q_e766f459119f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_dd4e9c2ee8",
+        "o_932fc7c0f8",
+        "o_8d996a31e6",
+        "o_182c80bb54"
+      ],
+      "answerKey": [
+        "o_932fc7c0f8"
+      ]
+    },
+    {
+      "questionId": "q_e8c9d47995cd",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_c1947765a5",
+        "o_b7192327eb",
+        "o_0b15be24af",
+        "o_ebc2fcbb82"
+      ],
+      "answerKey": [
+        "o_0b15be24af"
+      ]
+    },
+    {
+      "questionId": "q_0c6d07fd9cfa",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ed84e94d5e",
+        "o_3653635d96",
+        "o_a0395a0802",
+        "o_3c088b4bec"
+      ],
+      "answerKey": [
+        "o_3c088b4bec"
+      ]
+    },
+    {
+      "questionId": "q_15e47c752df1",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_72da592037",
+        "o_7150fcfe67",
+        "o_d5eee91a59",
+        "o_f0830b3fe8"
+      ],
+      "answerKey": [
+        "o_f0830b3fe8"
+      ]
+    },
+    {
+      "questionId": "q_a68dea6a5a7c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_902ba3cda1",
+        "o_ac3478d69a",
+        "o_f1abd67035",
+        "o_b1d5781111"
+      ],
+      "answerKey": [
+        "o_f1abd67035"
+      ]
+    },
+    {
+      "questionId": "q_e51d9aadfeec",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_018ac8958d",
+        "o_69b61745d4",
+        "o_b1d5472cf6",
+        "o_d986132c79"
+      ],
+      "answerKey": [
+        "o_b1d5472cf6"
+      ]
+    },
+    {
+      "questionId": "q_835dce527877",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6165768525",
+        "o_41d5f34ebd",
+        "o_e9a4572f7a",
+        "o_9d8bf68215"
+      ],
+      "answerKey": [
+        "o_e9a4572f7a"
+      ]
+    },
+    {
+      "questionId": "q_c75868d241ba",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6f7e388cea",
+        "o_1715bca0da",
+        "o_60f01b94a6",
+        "o_86f0d2cb37"
+      ],
+      "answerKey": [
+        "o_1715bca0da"
+      ]
+    },
+    {
+      "questionId": "q_a74afaf51dff",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_28ed59fc09",
+        "o_73f105326f",
+        "o_d41f58985d",
+        "o_5759930b68"
+      ],
+      "answerKey": [
+        "o_d41f58985d"
+      ]
+    },
+    {
+      "questionId": "q_9521a607d6e0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7be7d14478",
+        "o_c26280a1af",
+        "o_763594c752",
+        "o_08ab49b6ba"
+      ],
+      "answerKey": [
+        "o_c26280a1af"
+      ]
+    },
+    {
+      "questionId": "q_2a4e1a6a7440",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_787eac1cf0",
+        "o_33a5b01f75",
+        "o_2ca1da8192",
+        "o_5f06dd9582"
+      ],
+      "answerKey": [
+        "o_33a5b01f75"
+      ]
+    },
+    {
+      "questionId": "q_4703fd0c4cb0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ac3b8ccaf0",
+        "o_2cbd9748ca",
+        "o_f5c1e64e84",
+        "o_59d1bb8e56"
+      ],
+      "answerKey": [
+        "o_59d1bb8e56"
+      ]
+    },
+    {
+      "questionId": "q_fb329da83bfe",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b9b49c703c",
+        "o_c78690f752",
+        "o_6c5d48e38b",
+        "o_2474b5ac33"
+      ],
+      "answerKey": [
+        "o_2474b5ac33"
+      ]
+    },
+    {
+      "questionId": "q_cae7a4ea7b42",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_4226adebf8",
+        "o_d0bedd6037",
+        "o_aaf542b9df",
+        "o_16d32c607b"
+      ],
+      "answerKey": [
+        "o_4226adebf8"
+      ]
+    },
+    {
+      "questionId": "q_8391797c32f9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f5c1e64e84",
+        "o_0aa08d3c1b",
+        "o_a209ee5477",
+        "o_830fe0f6ee"
+      ],
+      "answerKey": [
+        "o_830fe0f6ee"
+      ]
+    },
+    {
+      "questionId": "q_a3c9be3e9777",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b03f5692f9",
+        "o_c56ed33afc",
+        "o_12f83587f4",
+        "o_d616974a68"
+      ],
+      "answerKey": [
+        "o_12f83587f4"
+      ]
+    },
+    {
+      "questionId": "q_21a2935f1a04",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d5816f98e1",
+        "o_50d8b80d70",
+        "o_d006960884",
+        "o_ac3a74378e"
+      ],
+      "answerKey": [
+        "o_d5816f98e1"
+      ]
+    },
+    {
+      "questionId": "q_8419510b16e8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_1976830891",
+        "o_004be89dd9",
+        "o_e4e36b42fb",
+        "o_d1c382ecf7"
+      ],
+      "answerKey": [
+        "o_1976830891"
+      ]
+    },
+    {
+      "questionId": "q_0b5a4b89fec8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_6cd8b83d06",
+        "o_4ac22524fd",
+        "o_02bbea2f11",
+        "o_eba4298cba"
+      ],
+      "answerKey": [
+        "o_02bbea2f11"
+      ]
+    },
+    {
+      "questionId": "q_8b0c4f48bb9e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7150fcfe67",
+        "o_f0830b3fe8",
+        "o_d5eee91a59",
+        "o_72da592037"
+      ],
+      "answerKey": [
+        "o_72da592037"
+      ]
+    },
+    {
+      "questionId": "q_34bd25e6eb31",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_910345f349",
+        "o_954e02a787",
+        "o_0eca66063e",
+        "o_fdbe0ef869"
+      ],
+      "answerKey": [
+        "o_910345f349"
+      ]
+    },
+    {
+      "questionId": "q_f367a9720230",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3f6ea78497",
+        "o_75fff30c69",
+        "o_f31585939a",
+        "o_719121d100"
+      ],
+      "answerKey": [
+        "o_3f6ea78497"
+      ]
+    },
+    {
+      "questionId": "q_268d4568b6de",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7d17631247",
+        "o_dae6176584",
+        "o_fbde4e0013",
+        "o_db1354d69b"
+      ],
+      "answerKey": [
+        "o_db1354d69b"
+      ]
+    },
+    {
+      "questionId": "q_2d9c259c3ddc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_1db24ab023",
+        "o_0b15be24af",
+        "o_c1947765a5",
+        "o_ebc2fcbb82"
+      ],
+      "answerKey": [
+        "o_1db24ab023"
+      ]
+    },
+    {
+      "questionId": "q_0ae794bc263d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_74b8903031",
+        "o_70ef548828",
+        "o_21b2366bf1",
+        "o_6dd1f4df2b"
+      ],
+      "answerKey": [
+        "o_6dd1f4df2b"
+      ]
+    },
+    {
+      "questionId": "q_6fa61ddc8c33",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_0064ce503f",
+        "o_ee99ee67db",
+        "o_189b24422b",
+        "o_2de49ac0fc"
+      ],
+      "answerKey": [
+        "o_0064ce503f"
+      ]
+    },
+    {
+      "questionId": "q_a0c4d15d4d0d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_174103c6e0",
+        "o_c080fc1aac",
+        "o_cab906e7e2",
+        "o_daaca4ec9e"
+      ],
+      "answerKey": [
+        "o_174103c6e0"
+      ]
+    },
+    {
+      "questionId": "q_b9274a0b10e0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3ecef16b20",
+        "o_26c0aee555",
+        "o_b7eefc15d8",
+        "o_01d1bd8ad0"
+      ],
+      "answerKey": [
+        "o_01d1bd8ad0"
+      ]
+    },
+    {
+      "questionId": "q_fe831fc02f9b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_011381e94f",
+        "o_f87dd6cfa7",
+        "o_8fb54fdd23",
+        "o_940f649b6d"
+      ],
+      "answerKey": [
+        "o_940f649b6d"
+      ]
+    },
+    {
+      "questionId": "q_ad4c4f8e0537",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_a69d9b2096",
+        "o_b848391ea8",
+        "o_e10a782077",
+        "o_5d8432e168"
+      ],
+      "answerKey": [
+        "o_b848391ea8"
+      ]
+    },
+    {
+      "questionId": "q_9a2707f3ad95",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d4ed6cdcc5",
+        "o_93507b84f0",
+        "o_5995b53174",
+        "o_4cf152cdc3"
+      ],
+      "answerKey": [
+        "o_d4ed6cdcc5"
+      ]
+    },
+    {
+      "questionId": "q_e7a751036301",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5d751494df",
+        "o_d271b4c132",
+        "o_f5ab860030",
+        "o_baba011527"
+      ],
+      "answerKey": [
+        "o_baba011527"
+      ]
+    },
+    {
+      "questionId": "q_75b454666eda",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_181f2171cb",
+        "o_387dfd6b1a",
+        "o_d521f7f053",
+        "o_3894fe6090"
+      ],
+      "answerKey": [
+        "o_3894fe6090"
+      ]
+    },
+    {
+      "questionId": "q_bb3a9ac519f7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7182a79813",
+        "o_d4ac60484d",
+        "o_44da6bbcf2",
+        "o_2d10935506"
+      ],
+      "answerKey": [
+        "o_2d10935506"
+      ]
+    },
+    {
+      "questionId": "q_159038c26f5d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_c9d526961c",
+        "o_bb3f9b27be",
+        "o_a3fac5beb7",
+        "o_272130d66e"
+      ],
+      "answerKey": [
+        "o_bb3f9b27be"
+      ]
+    },
+    {
+      "questionId": "q_b195aebbd463",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_c9fbc4e607",
+        "o_a7bc5b7822",
+        "o_7cf4b9e8dd",
+        "o_e206926b1e"
+      ],
+      "answerKey": [
+        "o_7cf4b9e8dd"
+      ]
+    },
+    {
+      "questionId": "q_6c7babc7dc2f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_9af3c21d29",
+        "o_0c5d550c54",
+        "o_12cbc8dcb7",
+        "o_19173c6db0"
+      ],
+      "answerKey": [
+        "o_12cbc8dcb7"
+      ]
+    },
+    {
+      "questionId": "q_5d94d9a8653b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_3c832885f4",
+        "o_0e04d0497b",
+        "o_6726313583",
+        "o_2015063dcd"
+      ],
+      "answerKey": [
+        "o_2015063dcd"
+      ]
+    },
+    {
+      "questionId": "q_6e6a0f4d31e2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_1917573fde",
+        "o_388ca2c99d",
+        "o_fa6f40cdce",
+        "o_1d80396941"
+      ],
+      "answerKey": [
+        "o_fa6f40cdce"
+      ]
+    },
+    {
+      "questionId": "q_088492fc999c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ac3a74378e",
+        "o_a12b17a9e9",
+        "o_d5816f98e1",
+        "o_dfdefeebf8"
+      ],
+      "answerKey": [
+        "o_a12b17a9e9"
+      ]
+    },
+    {
+      "questionId": "q_c63d16e9f088",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d034da2794",
+        "o_141f11d9ca",
+        "o_72a2e700f4",
+        "o_6bfd74f594"
+      ],
+      "answerKey": [
+        "o_72a2e700f4"
+      ]
+    },
+    {
+      "questionId": "q_d2f9967a3092",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f643dfc4f7",
+        "o_9fc0d2acaf",
+        "o_582a6d4697",
+        "o_9f232f7d26"
+      ],
+      "answerKey": [
+        "o_582a6d4697"
+      ]
+    },
+    {
+      "questionId": "q_c41f72a208d0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f55729feb7",
+        "o_832378553e",
+        "o_2828332c64",
+        "o_1874dbca3b"
+      ],
+      "answerKey": [
+        "o_1874dbca3b"
+      ]
+    },
+    {
+      "questionId": "q_571e4e9515fe",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_c1947765a5",
+        "o_ebc2fcbb82",
+        "o_b7192327eb",
+        "o_0b15be24af"
+      ],
+      "answerKey": [
+        "o_ebc2fcbb82"
+      ]
+    },
+    {
+      "questionId": "q_9ea6923d1f43",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_80e28a51cb",
+        "o_64e095fe76",
+        "o_54ceb91256",
+        "o_8effee409c"
+      ],
+      "answerKey": [
+        "o_8effee409c"
+      ]
+    },
+    {
+      "questionId": "q_933e83beee67",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_750bbdf3d8",
+        "o_19fcaf8fc5",
+        "o_76c6c26373",
+        "o_7bb12e2873"
+      ],
+      "answerKey": [
+        "o_19fcaf8fc5"
+      ]
+    },
+    {
+      "questionId": "q_439253b55817",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_44da6bbcf2",
+        "o_7182a79813",
+        "o_2d10935506",
+        "o_503a462f0c"
+      ],
+      "answerKey": [
+        "o_2d10935506"
+      ]
+    },
+    {
+      "questionId": "q_1238694ba4e7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f5c1e64e84",
+        "o_830fe0f6ee",
+        "o_0aa08d3c1b",
+        "o_a209ee5477"
+      ],
+      "answerKey": [
+        "o_f5c1e64e84"
+      ]
+    },
+    {
+      "questionId": "q_07dbdd01c53b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_aa37f6cdea",
+        "o_fbfccbb248",
+        "o_af35f3d033",
+        "o_ace30dfa7f"
+      ],
+      "answerKey": [
+        "o_ace30dfa7f"
+      ]
+    },
+    {
+      "questionId": "q_17b445262546",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_dec9aafaf1",
+        "o_e182c21727",
+        "o_5a478022f3",
+        "o_87e8db4f23"
+      ],
+      "answerKey": [
+        "o_dec9aafaf1"
+      ]
+    },
+    {
+      "questionId": "q_74262fb51534",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_eee9d43a5c",
+        "o_cd84c61a3f",
+        "o_3827fd957e",
+        "o_6e0fb56d3d"
+      ],
+      "answerKey": [
+        "o_eee9d43a5c"
+      ]
+    },
+    {
+      "questionId": "q_0c5fb68e7b37",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_7ce9dc0277",
+        "o_95dd9a7e3d",
+        "o_3123b32a5e",
+        "o_950b7ca4b1"
+      ],
+      "answerKey": [
+        "o_950b7ca4b1"
+      ]
+    },
+    {
+      "questionId": "q_e42960efe5b0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_99f1e46974",
+        "o_dc57e58c27",
+        "o_77347ce1f7",
+        "o_32e8902fae"
+      ],
+      "answerKey": [
+        "o_dc57e58c27"
+      ]
+    },
+    {
+      "questionId": "q_9515b993224c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b3018077c5",
+        "o_44c640e188",
+        "o_90b04428a1",
+        "o_c936993cb6"
+      ],
+      "answerKey": [
+        "o_b3018077c5"
+      ]
+    },
+    {
+      "questionId": "q_04d0e1c661d8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_74f142f38e",
+        "o_39dc590b3d",
+        "o_c9f57a92d8",
+        "o_e306f6cfcc"
+      ],
+      "answerKey": [
+        "o_74f142f38e"
+      ]
+    },
+    {
+      "questionId": "q_8d8b8abd989a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_63c6c0fbf0",
+        "o_ccbbaab2e7",
+        "o_0d65bbfbf4",
+        "o_a3b22ff284"
+      ],
+      "answerKey": [
+        "o_ccbbaab2e7"
+      ]
+    },
+    {
+      "questionId": "q_e2c19ad58c83",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_456cf57ff5",
+        "o_6682e9ec73",
+        "o_fe3ac9331c",
+        "o_7298721d10"
+      ],
+      "answerKey": [
+        "o_fe3ac9331c"
+      ]
+    },
+    {
+      "questionId": "q_497d228f2207",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2a34af9248",
+        "o_b82505d461",
+        "o_12d8be0ebc",
+        "o_e26c8ebc54"
+      ],
+      "answerKey": [
+        "o_2a34af9248"
+      ]
+    },
+    {
+      "questionId": "q_ce8293437d88",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_5bdcf826f2",
+        "o_a92429f584",
+        "o_7a20478c03",
+        "o_4866e189d5"
+      ],
+      "answerKey": [
+        "o_5bdcf826f2"
+      ]
+    },
+    {
+      "questionId": "q_e36d0056fb32",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_ff48781d90",
+        "o_58b865310f",
+        "o_4e2d1b9aa2",
+        "o_b2c8797a7c"
+      ],
+      "answerKey": [
+        "o_ff48781d90"
+      ]
+    },
+    {
+      "questionId": "q_865333f8efe1",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_82c464ed0f",
+        "o_1ee158c7d0",
+        "o_dd740aa337",
+        "o_39c005ce47"
+      ],
+      "answerKey": [
+        "o_1ee158c7d0"
+      ]
+    },
+    {
+      "questionId": "q_41daa0c2bf1c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_52ed25728f",
+        "o_119f9563fb",
+        "o_fb977fcb71",
+        "o_3c21c6a459"
+      ],
+      "answerKey": [
+        "o_fb977fcb71"
+      ]
+    },
+    {
+      "questionId": "q_889bb381f4cc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_063dfb54ba",
+        "o_fa7ea65a3f",
+        "o_0b0094545f",
+        "o_37f757b1ba"
+      ],
+      "answerKey": [
+        "o_0b0094545f"
+      ]
+    },
+    {
+      "questionId": "q_813f8741a289",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_2f75f23af2",
+        "o_f5303ca4a9",
+        "o_1eaaf84033",
+        "o_5a82289f9d"
+      ],
+      "answerKey": [
+        "o_1eaaf84033"
+      ]
+    },
+    {
+      "questionId": "q_a0d98c9b9b10",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_e9aa8ffa79",
+        "o_853fddd11b",
+        "o_0c4d7700f3",
+        "o_d77d882282"
+      ],
+      "answerKey": [
+        "o_e9aa8ffa79"
+      ]
+    },
+    {
+      "questionId": "q_68ddf4218fdd",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_b8e62fcfab",
+        "o_62aa64ac75",
+        "o_8c42d37013",
+        "o_39782cf5a5"
+      ],
+      "answerKey": [
+        "o_8c42d37013"
+      ]
+    },
+    {
+      "questionId": "q_566aaffd3920",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_d41f58985d",
+        "o_28ed59fc09",
+        "o_73f105326f",
+        "o_5759930b68"
+      ],
+      "answerKey": [
+        "o_28ed59fc09"
+      ]
+    },
+    {
+      "questionId": "q_112e0d2ef50d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-single",
+      "type": "single",
+      "optionKeys": [
+        "o_f3d902ac0f",
+        "o_8686ed99e8",
+        "o_c9d526961c",
+        "o_bb3f9b27be"
+      ],
+      "answerKey": [
+        "o_8686ed99e8"
+      ]
+    },
+    {
+      "questionId": "q_a229ace9d418",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_72fbb0595a",
+        "o_89f5432f8f",
+        "o_bd7af36ec5",
+        "o_d66aaea1d8"
+      ],
+      "answerKey": [
+        "o_89f5432f8f",
+        "o_bd7af36ec5",
+        "o_d66aaea1d8"
+      ]
+    },
+    {
+      "questionId": "q_e33fb7a93234",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3eb5a43494",
+        "o_6bb831a323",
+        "o_95050aabdc",
+        "o_4bccccbdd0"
+      ],
+      "answerKey": [
+        "o_95050aabdc",
+        "o_4bccccbdd0"
+      ]
+    },
+    {
+      "questionId": "q_fed7f5209abf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1089d51f07",
+        "o_3d4f48f5a5",
+        "o_83b0b9537e",
+        "o_02dc0d9ad4"
+      ],
+      "answerKey": [
+        "o_1089d51f07",
+        "o_3d4f48f5a5",
+        "o_83b0b9537e",
+        "o_02dc0d9ad4"
+      ]
+    },
+    {
+      "questionId": "q_7777eec83387",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_2a34af9248",
+        "o_12d8be0ebc",
+        "o_b82505d461",
+        "o_e26c8ebc54"
+      ],
+      "answerKey": [
+        "o_2a34af9248",
+        "o_12d8be0ebc",
+        "o_b82505d461",
+        "o_e26c8ebc54"
+      ]
+    },
+    {
+      "questionId": "q_b8c6d3678b34",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1ee47403a4",
+        "o_6e01538b7f",
+        "o_2da40f4073",
+        "o_8ffbf19293"
+      ],
+      "answerKey": [
+        "o_6e01538b7f",
+        "o_2da40f4073"
+      ]
+    },
+    {
+      "questionId": "q_331172305d0e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_8d77ed2935",
+        "o_f333ff9538",
+        "o_e3c01595f6",
+        "o_a4a20978dd"
+      ],
+      "answerKey": [
+        "o_8d77ed2935",
+        "o_f333ff9538"
+      ]
+    },
+    {
+      "questionId": "q_8893a4efc590",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ae159e89c1",
+        "o_2b3cd080bc",
+        "o_e717b78a9f",
+        "o_0f477e493a"
+      ],
+      "answerKey": [
+        "o_ae159e89c1",
+        "o_2b3cd080bc",
+        "o_e717b78a9f",
+        "o_0f477e493a"
+      ]
+    },
+    {
+      "questionId": "q_53722b8a6478",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ccd8e9d45f",
+        "o_503bad64e5",
+        "o_63d11c0486",
+        "o_3eb5a43494"
+      ],
+      "answerKey": [
+        "o_ccd8e9d45f",
+        "o_503bad64e5",
+        "o_63d11c0486",
+        "o_3eb5a43494"
+      ]
+    },
+    {
+      "questionId": "q_2a9afa725acf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_514dc05441",
+        "o_554eca60ee",
+        "o_0e199b20d4",
+        "o_6e4b4a52a2"
+      ],
+      "answerKey": [
+        "o_514dc05441",
+        "o_554eca60ee",
+        "o_0e199b20d4",
+        "o_6e4b4a52a2"
+      ]
+    },
+    {
+      "questionId": "q_dc7435215380",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_5fafb32f84",
+        "o_84375f49d8",
+        "o_baf96f41c6",
+        "o_95aff0548c"
+      ],
+      "answerKey": [
+        "o_5fafb32f84",
+        "o_84375f49d8",
+        "o_baf96f41c6",
+        "o_95aff0548c"
+      ]
+    },
+    {
+      "questionId": "q_284476bb4de2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_56ca73c9c7",
+        "o_7a20478c03",
+        "o_e0e6d37ab4",
+        "o_13d4f703a8"
+      ],
+      "answerKey": [
+        "o_7a20478c03",
+        "o_13d4f703a8"
+      ]
+    },
+    {
+      "questionId": "q_e7ca99669066",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1b4ca521b1",
+        "o_df0da0e561",
+        "o_65bfefb156",
+        "o_05479b4288"
+      ],
+      "answerKey": [
+        "o_1b4ca521b1",
+        "o_df0da0e561",
+        "o_65bfefb156",
+        "o_05479b4288"
+      ]
+    },
+    {
+      "questionId": "q_6ea3eb5b4d1c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_cf5508bf6d",
+        "o_f838c47f6d",
+        "o_d63c83350b",
+        "o_3f71cd10e4"
+      ],
+      "answerKey": [
+        "o_cf5508bf6d",
+        "o_f838c47f6d",
+        "o_d63c83350b",
+        "o_3f71cd10e4"
+      ]
+    },
+    {
+      "questionId": "q_4b03e8dda091",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_583cd38f84",
+        "o_704ab691e7",
+        "o_caaf993b46",
+        "o_f2424d624a"
+      ],
+      "answerKey": [
+        "o_583cd38f84",
+        "o_704ab691e7",
+        "o_caaf993b46"
+      ]
+    },
+    {
+      "questionId": "q_4e63df75692b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_15ff8004ed",
+        "o_797f314626",
+        "o_9028368f0b",
+        "o_da13c859e5"
+      ],
+      "answerKey": [
+        "o_15ff8004ed",
+        "o_797f314626",
+        "o_9028368f0b",
+        "o_da13c859e5"
+      ]
+    },
+    {
+      "questionId": "q_834d8b63c07f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_324d966490",
+        "o_fb7827e46b",
+        "o_1744fb9d4f",
+        "o_b75fb0f0c2"
+      ],
+      "answerKey": [
+        "o_324d966490",
+        "o_1744fb9d4f",
+        "o_b75fb0f0c2"
+      ]
+    },
+    {
+      "questionId": "q_79bd5546fa59",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_397b6ccdc1",
+        "o_3be8dee9f0",
+        "o_eb4c9d8466",
+        "o_bded4a38db"
+      ],
+      "answerKey": [
+        "o_397b6ccdc1",
+        "o_3be8dee9f0",
+        "o_eb4c9d8466",
+        "o_bded4a38db"
+      ]
+    },
+    {
+      "questionId": "q_86b975341480",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1f5fe85c62",
+        "o_f54e07c9f3",
+        "o_5ee3b91f6e",
+        "o_59a9530938"
+      ],
+      "answerKey": [
+        "o_1f5fe85c62",
+        "o_f54e07c9f3",
+        "o_5ee3b91f6e"
+      ]
+    },
+    {
+      "questionId": "q_5b74b6d4f5e0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_0922e7455c",
+        "o_c214262469",
+        "o_77eebabcc0",
+        "o_b3f876bcfa"
+      ],
+      "answerKey": [
+        "o_0922e7455c",
+        "o_c214262469",
+        "o_77eebabcc0",
+        "o_b3f876bcfa"
+      ]
+    },
+    {
+      "questionId": "q_45d5e9f9731e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_f02de6b167",
+        "o_c3b4e05081",
+        "o_4a5ebfcef4",
+        "o_51e0606d52"
+      ],
+      "answerKey": [
+        "o_f02de6b167",
+        "o_c3b4e05081",
+        "o_4a5ebfcef4",
+        "o_51e0606d52"
+      ]
+    },
+    {
+      "questionId": "q_0dfe0636561a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_6346f1e52a",
+        "o_273f4fff5a",
+        "o_d396151cfa",
+        "o_18d5a9a5e3"
+      ],
+      "answerKey": [
+        "o_6346f1e52a",
+        "o_273f4fff5a",
+        "o_d396151cfa",
+        "o_18d5a9a5e3"
+      ]
+    },
+    {
+      "questionId": "q_4667d6c15c70",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_745574772b",
+        "o_b192abd8ba",
+        "o_2b555371a1",
+        "o_7291e124ab"
+      ],
+      "answerKey": [
+        "o_745574772b",
+        "o_b192abd8ba",
+        "o_2b555371a1",
+        "o_7291e124ab"
+      ]
+    },
+    {
+      "questionId": "q_64bf82caace2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_9f1e398b53",
+        "o_6cd8b83d06",
+        "o_df43916dd0",
+        "o_260f118920"
+      ],
+      "answerKey": [
+        "o_9f1e398b53",
+        "o_df43916dd0",
+        "o_260f118920"
+      ]
+    },
+    {
+      "questionId": "q_d1f32ec8881b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ff87f27e75",
+        "o_ec05db0180",
+        "o_97c130d2ff",
+        "o_7c0678826e"
+      ],
+      "answerKey": [
+        "o_ec05db0180",
+        "o_97c130d2ff",
+        "o_7c0678826e"
+      ]
+    },
+    {
+      "questionId": "q_7db0f99bae9b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_7967656b65",
+        "o_f4ea681d28",
+        "o_4930ded57b",
+        "o_2385891b5f"
+      ],
+      "answerKey": [
+        "o_4930ded57b",
+        "o_2385891b5f"
+      ]
+    },
+    {
+      "questionId": "q_14e022115b4b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_b332b9e393",
+        "o_2d10935506",
+        "o_9969b6e70f",
+        "o_ec90e84c8f"
+      ],
+      "answerKey": [
+        "o_b332b9e393",
+        "o_9969b6e70f",
+        "o_ec90e84c8f"
+      ]
+    },
+    {
+      "questionId": "q_b0ed837a0fe0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_a915265e91",
+        "o_00c07bacf7",
+        "o_9aba397ba6",
+        "o_a631c33a51"
+      ],
+      "answerKey": [
+        "o_00c07bacf7",
+        "o_9aba397ba6",
+        "o_a631c33a51"
+      ]
+    },
+    {
+      "questionId": "q_de04189d58a7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_b44d8d2fa5",
+        "o_d54831d3dd",
+        "o_a1f1e3a6f6",
+        "o_d012012fb4"
+      ],
+      "answerKey": [
+        "o_b44d8d2fa5",
+        "o_d54831d3dd",
+        "o_a1f1e3a6f6",
+        "o_d012012fb4"
+      ]
+    },
+    {
+      "questionId": "q_2ca623f4fb42",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_503a462f0c",
+        "o_44da6bbcf2",
+        "o_d07c176571",
+        "o_56ca73c9c7"
+      ],
+      "answerKey": [
+        "o_503a462f0c",
+        "o_44da6bbcf2",
+        "o_56ca73c9c7"
+      ]
+    },
+    {
+      "questionId": "q_484c1b384a6f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_eb25764145",
+        "o_b446b9e552",
+        "o_62745166c8",
+        "o_514dc05441"
+      ],
+      "answerKey": [
+        "o_eb25764145",
+        "o_b446b9e552",
+        "o_62745166c8",
+        "o_514dc05441"
+      ]
+    },
+    {
+      "questionId": "q_ed30d2be2739",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_0f75d54056",
+        "o_46cf7f22bc",
+        "o_bb1042b9d4",
+        "o_cbab32fe90"
+      ],
+      "answerKey": [
+        "o_0f75d54056",
+        "o_46cf7f22bc",
+        "o_bb1042b9d4",
+        "o_cbab32fe90"
+      ]
+    },
+    {
+      "questionId": "q_dc4a7df8cb86",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_0294cd8976",
+        "o_0ad4aaac01",
+        "o_a59338968c",
+        "o_6544dc9c93"
+      ],
+      "answerKey": [
+        "o_0ad4aaac01",
+        "o_a59338968c",
+        "o_6544dc9c93"
+      ]
+    },
+    {
+      "questionId": "q_cf7fe740e6fb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_57b75ce9f7",
+        "o_6c7b3cfb39",
+        "o_1e695eedef",
+        "o_3edc229c61"
+      ],
+      "answerKey": [
+        "o_57b75ce9f7",
+        "o_6c7b3cfb39",
+        "o_1e695eedef",
+        "o_3edc229c61"
+      ]
+    },
+    {
+      "questionId": "q_f0105ca06566",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3d269d3418",
+        "o_6304aaa548",
+        "o_4445579703",
+        "o_81f79abbe5"
+      ],
+      "answerKey": [
+        "o_3d269d3418",
+        "o_6304aaa548",
+        "o_4445579703",
+        "o_81f79abbe5"
+      ]
+    },
+    {
+      "questionId": "q_289da58641da",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_7cb8dd9bab",
+        "o_fc712f2161",
+        "o_30bdbc9c3c",
+        "o_1f432c605f"
+      ],
+      "answerKey": [
+        "o_fc712f2161",
+        "o_30bdbc9c3c",
+        "o_1f432c605f"
+      ]
+    },
+    {
+      "questionId": "q_bf784ee8a408",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1b89abb9be",
+        "o_3bd7989937",
+        "o_d835e8d07a",
+        "o_9951a5f5b8"
+      ],
+      "answerKey": [
+        "o_1b89abb9be",
+        "o_3bd7989937",
+        "o_d835e8d07a",
+        "o_9951a5f5b8"
+      ]
+    },
+    {
+      "questionId": "q_c7630c46d740",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_745c0fb47b",
+        "o_cd0bf6887d",
+        "o_0294cd8976",
+        "o_c00da5c4ce"
+      ],
+      "answerKey": [
+        "o_745c0fb47b",
+        "o_cd0bf6887d",
+        "o_0294cd8976",
+        "o_c00da5c4ce"
+      ]
+    },
+    {
+      "questionId": "q_5f04c325a70d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_8ac0ed2d33",
+        "o_94c1328989",
+        "o_bd9e9785d6",
+        "o_7cf4b9e8dd"
+      ],
+      "answerKey": [
+        "o_8ac0ed2d33",
+        "o_94c1328989",
+        "o_bd9e9785d6",
+        "o_7cf4b9e8dd"
+      ]
+    },
+    {
+      "questionId": "q_9eda75196430",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_89c9bf4954",
+        "o_e6849f22a3",
+        "o_433a7ce7a9",
+        "o_cad01d61c9"
+      ],
+      "answerKey": [
+        "o_89c9bf4954",
+        "o_e6849f22a3",
+        "o_433a7ce7a9",
+        "o_cad01d61c9"
+      ]
+    },
+    {
+      "questionId": "q_474cc04b3363",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_aae6883042",
+        "o_ed4e6f68cd",
+        "o_82172aa2bf",
+        "o_baaec979e5"
+      ],
+      "answerKey": [
+        "o_ed4e6f68cd",
+        "o_82172aa2bf"
+      ]
+    },
+    {
+      "questionId": "q_ec825229680e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_302a72fa9b",
+        "o_b511b766a0",
+        "o_1691c4cf13",
+        "o_0c9d48096a"
+      ],
+      "answerKey": [
+        "o_302a72fa9b",
+        "o_b511b766a0",
+        "o_1691c4cf13",
+        "o_0c9d48096a"
+      ]
+    },
+    {
+      "questionId": "q_dea609a1401b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_fc227e1bb1",
+        "o_280cf2a526",
+        "o_514dc05441",
+        "o_554eca60ee"
+      ],
+      "answerKey": [
+        "o_fc227e1bb1",
+        "o_280cf2a526"
+      ]
+    },
+    {
+      "questionId": "q_40f823cec92d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_49a4ce0e5d",
+        "o_01fab336a2",
+        "o_7a12c3b558",
+        "o_2e2e7310ac"
+      ],
+      "answerKey": [
+        "o_49a4ce0e5d",
+        "o_01fab336a2",
+        "o_7a12c3b558",
+        "o_2e2e7310ac"
+      ]
+    },
+    {
+      "questionId": "q_c72ecb9f0e7e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_77d64ae4db",
+        "o_4ef1440d37",
+        "o_8da201a08d",
+        "o_af49115ef3"
+      ],
+      "answerKey": [
+        "o_77d64ae4db",
+        "o_8da201a08d",
+        "o_af49115ef3"
+      ]
+    },
+    {
+      "questionId": "q_b2c6bfb1dd3d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_de6d95afd3",
+        "o_e286f12066",
+        "o_951500b4e2",
+        "o_f9d8176076"
+      ],
+      "answerKey": [
+        "o_de6d95afd3",
+        "o_e286f12066",
+        "o_951500b4e2",
+        "o_f9d8176076"
+      ]
+    },
+    {
+      "questionId": "q_021ce5c137c5",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_0c33b85c40",
+        "o_00e8140112",
+        "o_3cfefaebbc",
+        "o_5d29302611"
+      ],
+      "answerKey": [
+        "o_0c33b85c40",
+        "o_00e8140112",
+        "o_3cfefaebbc",
+        "o_5d29302611"
+      ]
+    },
+    {
+      "questionId": "q_35d3cb65f385",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_428b31b1e7",
+        "o_9b5d5fd014",
+        "o_7466ba8fd7",
+        "o_b8e979cb7d"
+      ],
+      "answerKey": [
+        "o_9b5d5fd014",
+        "o_7466ba8fd7"
+      ]
+    },
+    {
+      "questionId": "q_4b9c379cef11",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_fe3ac9331c",
+        "o_6a62940b3b",
+        "o_7298721d10",
+        "o_456cf57ff5"
+      ],
+      "answerKey": [
+        "o_fe3ac9331c",
+        "o_6a62940b3b",
+        "o_7298721d10",
+        "o_456cf57ff5"
+      ]
+    },
+    {
+      "questionId": "q_1bbc0fa8cd36",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1bc6ee8335",
+        "o_c647832b67",
+        "o_16c89b9c71",
+        "o_1e23a27f03"
+      ],
+      "answerKey": [
+        "o_c647832b67",
+        "o_16c89b9c71",
+        "o_1e23a27f03"
+      ]
+    },
+    {
+      "questionId": "q_ae6cb39193ee",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_8686ed99e8",
+        "o_f3d902ac0f",
+        "o_c9d526961c",
+        "o_bb3f9b27be"
+      ],
+      "answerKey": [
+        "o_8686ed99e8",
+        "o_f3d902ac0f",
+        "o_c9d526961c",
+        "o_bb3f9b27be"
+      ]
+    },
+    {
+      "questionId": "q_8d5aa2df5aea",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3d9ebee4a2",
+        "o_90e4e9bd1a",
+        "o_6a9958651e",
+        "o_6fd74c8306"
+      ],
+      "answerKey": [
+        "o_90e4e9bd1a",
+        "o_6a9958651e",
+        "o_6fd74c8306"
+      ]
+    },
+    {
+      "questionId": "q_15aef68efb81",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_2d10935506",
+        "o_44da6bbcf2",
+        "o_4866e189d5",
+        "o_d07c176571"
+      ],
+      "answerKey": [
+        "o_2d10935506",
+        "o_44da6bbcf2",
+        "o_4866e189d5",
+        "o_d07c176571"
+      ]
+    },
+    {
+      "questionId": "q_6a54ea92bc98",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_4866e189d5",
+        "o_5bdcf826f2",
+        "o_2d10935506",
+        "o_326207e6d1"
+      ],
+      "answerKey": [
+        "o_4866e189d5",
+        "o_5bdcf826f2",
+        "o_326207e6d1"
+      ]
+    },
+    {
+      "questionId": "q_708add23d184",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_0afacee8ce",
+        "o_e2088530fc",
+        "o_bc2adfa043",
+        "o_d526ee0470"
+      ],
+      "answerKey": [
+        "o_e2088530fc",
+        "o_bc2adfa043",
+        "o_d526ee0470"
+      ]
+    },
+    {
+      "questionId": "q_e7884b1e13d0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3fb62c6b30",
+        "o_854f8de22f",
+        "o_f6632e715d",
+        "o_6c3fc1ccf1"
+      ],
+      "answerKey": [
+        "o_3fb62c6b30",
+        "o_854f8de22f",
+        "o_f6632e715d"
+      ]
+    },
+    {
+      "questionId": "q_a824268515dc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_f8fd11fd17",
+        "o_8f93b3a2c5",
+        "o_85a7bedc3e",
+        "o_2a34af9248"
+      ],
+      "answerKey": [
+        "o_8f93b3a2c5",
+        "o_85a7bedc3e"
+      ]
+    },
+    {
+      "questionId": "q_5a925c065028",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_6a2d01401b",
+        "o_d8267319e0",
+        "o_61d0cf3d77",
+        "o_4405b62f5b"
+      ],
+      "answerKey": [
+        "o_6a2d01401b",
+        "o_d8267319e0",
+        "o_61d0cf3d77",
+        "o_4405b62f5b"
+      ]
+    },
+    {
+      "questionId": "q_985b4a9575c4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_7ea135c742",
+        "o_573b097271",
+        "o_eb63bbad8d",
+        "o_20be378fd4"
+      ],
+      "answerKey": [
+        "o_7ea135c742",
+        "o_573b097271",
+        "o_eb63bbad8d",
+        "o_20be378fd4"
+      ]
+    },
+    {
+      "questionId": "q_7bbb6d8fd054",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3856514df3",
+        "o_ea3535981c",
+        "o_2bcac16dd9",
+        "o_5629065d27"
+      ],
+      "answerKey": [
+        "o_3856514df3",
+        "o_2bcac16dd9",
+        "o_5629065d27"
+      ]
+    },
+    {
+      "questionId": "q_fd7c114ec99a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_d53d336e3c",
+        "o_59437f61e1",
+        "o_58bddacc63",
+        "o_3e0c0839ed"
+      ],
+      "answerKey": [
+        "o_d53d336e3c",
+        "o_59437f61e1",
+        "o_58bddacc63",
+        "o_3e0c0839ed"
+      ]
+    },
+    {
+      "questionId": "q_9f5e2051fc4a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_0d9adf9632",
+        "o_9a809995bb",
+        "o_711f7650ee",
+        "o_398e4a963d"
+      ],
+      "answerKey": [
+        "o_0d9adf9632",
+        "o_9a809995bb",
+        "o_711f7650ee",
+        "o_398e4a963d"
+      ]
+    },
+    {
+      "questionId": "q_d00350d19e3c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_8820291128",
+        "o_300cd9972d",
+        "o_9713d54d77",
+        "o_1958f49d7e"
+      ],
+      "answerKey": [
+        "o_8820291128",
+        "o_300cd9972d",
+        "o_9713d54d77"
+      ]
+    },
+    {
+      "questionId": "q_f7ca7af43fac",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_cc16af5fb7",
+        "o_72e1161fc7",
+        "o_dbecfab725",
+        "o_334a68c4a3"
+      ],
+      "answerKey": [
+        "o_cc16af5fb7",
+        "o_72e1161fc7",
+        "o_dbecfab725",
+        "o_334a68c4a3"
+      ]
+    },
+    {
+      "questionId": "q_17f8af4e9217",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_067629aea2",
+        "o_8be35a93ec",
+        "o_0abd466109",
+        "o_dc7be64e07"
+      ],
+      "answerKey": [
+        "o_067629aea2",
+        "o_0abd466109"
+      ]
+    },
+    {
+      "questionId": "q_123c89587278",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_7a4ad205a6",
+        "o_038c6f61fa",
+        "o_edaf08daef",
+        "o_b9de3f4e15"
+      ],
+      "answerKey": [
+        "o_7a4ad205a6",
+        "o_038c6f61fa",
+        "o_edaf08daef",
+        "o_b9de3f4e15"
+      ]
+    },
+    {
+      "questionId": "q_62e6a115e3e0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_accca5c6f5",
+        "o_1b0ccaccd2",
+        "o_dd9f9fbde3",
+        "o_a1b2abde6a"
+      ],
+      "answerKey": [
+        "o_accca5c6f5",
+        "o_1b0ccaccd2",
+        "o_dd9f9fbde3",
+        "o_a1b2abde6a"
+      ]
+    },
+    {
+      "questionId": "q_a65d633c6520",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_6b644dfcea",
+        "o_01eebd3734",
+        "o_653af95604",
+        "o_7bdd31d8cd"
+      ],
+      "answerKey": [
+        "o_6b644dfcea",
+        "o_01eebd3734",
+        "o_653af95604",
+        "o_7bdd31d8cd"
+      ]
+    },
+    {
+      "questionId": "q_6f73ae294b6f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ffc6de1632",
+        "o_116dc4947c",
+        "o_cbe31a1161",
+        "o_56f48a26b8"
+      ],
+      "answerKey": [
+        "o_ffc6de1632",
+        "o_116dc4947c",
+        "o_cbe31a1161",
+        "o_56f48a26b8"
+      ]
+    },
+    {
+      "questionId": "q_f9d61bc585f0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_2b3cd080bc",
+        "o_c392e67488",
+        "o_e717b78a9f",
+        "o_04a0431631"
+      ],
+      "answerKey": [
+        "o_c392e67488",
+        "o_04a0431631"
+      ]
+    },
+    {
+      "questionId": "q_b4610fe2ecc2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_dce4098989",
+        "o_f43dbc6ab9",
+        "o_5c480518ff",
+        "o_f863c98103"
+      ],
+      "answerKey": [
+        "o_dce4098989",
+        "o_f43dbc6ab9",
+        "o_5c480518ff",
+        "o_f863c98103"
+      ]
+    },
+    {
+      "questionId": "q_dc82984e7b25",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_4774207282",
+        "o_1a94806c04",
+        "o_0f5f366e22",
+        "o_2384d66998"
+      ],
+      "answerKey": [
+        "o_1a94806c04",
+        "o_0f5f366e22",
+        "o_2384d66998"
+      ]
+    },
+    {
+      "questionId": "q_f8568edf88d6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_eeb9af3780",
+        "o_58d71db560",
+        "o_031790165b",
+        "o_d8b3ce10ee"
+      ],
+      "answerKey": [
+        "o_eeb9af3780",
+        "o_58d71db560",
+        "o_031790165b",
+        "o_d8b3ce10ee"
+      ]
+    },
+    {
+      "questionId": "q_4cc1b1abaf38",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_95ebedd6ea",
+        "o_1695748975",
+        "o_32d779ec0e",
+        "o_9635748a2f"
+      ],
+      "answerKey": [
+        "o_95ebedd6ea",
+        "o_1695748975",
+        "o_32d779ec0e",
+        "o_9635748a2f"
+      ]
+    },
+    {
+      "questionId": "q_becad2f4d0e6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3bf82fd33e",
+        "o_60179651a7",
+        "o_2d2f58b540",
+        "o_1739c84849"
+      ],
+      "answerKey": [
+        "o_3bf82fd33e",
+        "o_60179651a7",
+        "o_2d2f58b540",
+        "o_1739c84849"
+      ]
+    },
+    {
+      "questionId": "q_7eefde8de345",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_292480203b",
+        "o_2b9f1f4479",
+        "o_e717b78a9f",
+        "o_c014b1c284"
+      ],
+      "answerKey": [
+        "o_292480203b",
+        "o_2b9f1f4479",
+        "o_c014b1c284"
+      ]
+    },
+    {
+      "questionId": "q_86f5767bc5e9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_a548fba5fc",
+        "o_bb36c2e7b4",
+        "o_a8a1468ba4",
+        "o_9bd96acac1"
+      ],
+      "answerKey": [
+        "o_a548fba5fc",
+        "o_bb36c2e7b4",
+        "o_a8a1468ba4",
+        "o_9bd96acac1"
+      ]
+    },
+    {
+      "questionId": "q_a4610b98eee3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_dae6176584",
+        "o_1593435f37",
+        "o_7d17631247",
+        "o_93a0f5964f"
+      ],
+      "answerKey": [
+        "o_1593435f37",
+        "o_93a0f5964f"
+      ]
+    },
+    {
+      "questionId": "q_4e2950672fbf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_4e19c3be1a",
+        "o_b76beab035",
+        "o_9be3bda20d",
+        "o_1684eb073f"
+      ],
+      "answerKey": [
+        "o_4e19c3be1a",
+        "o_1684eb073f"
+      ]
+    },
+    {
+      "questionId": "q_36001721e89c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_d9473ec298",
+        "o_abaacf5c0a",
+        "o_2641ce5915",
+        "o_91d8e57e04"
+      ],
+      "answerKey": [
+        "o_d9473ec298",
+        "o_abaacf5c0a",
+        "o_2641ce5915",
+        "o_91d8e57e04"
+      ]
+    },
+    {
+      "questionId": "q_b79a5de5d0c0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_9263e46a01",
+        "o_22382630ef",
+        "o_f19af820a1",
+        "o_071e142313"
+      ],
+      "answerKey": [
+        "o_9263e46a01",
+        "o_22382630ef",
+        "o_f19af820a1",
+        "o_071e142313"
+      ]
+    },
+    {
+      "questionId": "q_9b6fde128a39",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_bbdf6f963f",
+        "o_b66ff16d85",
+        "o_f702e73fb4",
+        "o_552ea903ca"
+      ],
+      "answerKey": [
+        "o_b66ff16d85",
+        "o_f702e73fb4",
+        "o_552ea903ca"
+      ]
+    },
+    {
+      "questionId": "q_14ac0d7eebf9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_02bbea2f11",
+        "o_9895b64449",
+        "o_57b75ce9f7",
+        "o_8e662a5618"
+      ],
+      "answerKey": [
+        "o_02bbea2f11",
+        "o_9895b64449",
+        "o_57b75ce9f7",
+        "o_8e662a5618"
+      ]
+    },
+    {
+      "questionId": "q_855ecc247eec",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_b13205f825",
+        "o_0fff3600c5",
+        "o_272130d66e",
+        "o_084208172b"
+      ],
+      "answerKey": [
+        "o_0fff3600c5",
+        "o_272130d66e",
+        "o_084208172b"
+      ]
+    },
+    {
+      "questionId": "q_e19e282c6ddd",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3f233dac8e",
+        "o_e1e40cbc45",
+        "o_0ddee3fafd",
+        "o_24fb2d44a3"
+      ],
+      "answerKey": [
+        "o_3f233dac8e",
+        "o_e1e40cbc45",
+        "o_0ddee3fafd",
+        "o_24fb2d44a3"
+      ]
+    },
+    {
+      "questionId": "q_a189865e2031",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_6618fdecad",
+        "o_11a65c089b",
+        "o_65b9f5a235",
+        "o_492a7ee7c0"
+      ],
+      "answerKey": [
+        "o_11a65c089b",
+        "o_65b9f5a235"
+      ]
+    },
+    {
+      "questionId": "q_70abb37a64a8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_b604d3a0d4",
+        "o_b44d8d2fa5",
+        "o_65cef5ca50",
+        "o_a1f1e3a6f6"
+      ],
+      "answerKey": [
+        "o_b604d3a0d4",
+        "o_b44d8d2fa5",
+        "o_65cef5ca50",
+        "o_a1f1e3a6f6"
+      ]
+    },
+    {
+      "questionId": "q_a303d9a07628",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ea323c0223",
+        "o_541923090c",
+        "o_4e702ae8e4",
+        "o_739280780e"
+      ],
+      "answerKey": [
+        "o_ea323c0223",
+        "o_541923090c",
+        "o_739280780e"
+      ]
+    },
+    {
+      "questionId": "q_41aba2871a54",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_b5e5e42535",
+        "o_f9f9aa7e3f",
+        "o_8664f2d534",
+        "o_dae00f831a"
+      ],
+      "answerKey": [
+        "o_b5e5e42535",
+        "o_f9f9aa7e3f",
+        "o_8664f2d534",
+        "o_dae00f831a"
+      ]
+    },
+    {
+      "questionId": "q_cb8ca58b47ea",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_a4b142af9c",
+        "o_81e0901a8b",
+        "o_3c8bc9322a",
+        "o_68f2d8d6b1"
+      ],
+      "answerKey": [
+        "o_a4b142af9c",
+        "o_81e0901a8b",
+        "o_3c8bc9322a",
+        "o_68f2d8d6b1"
+      ]
+    },
+    {
+      "questionId": "q_1545ab901b65",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_463ae776ac",
+        "o_2e604ce4ab",
+        "o_41a0e40210",
+        "o_8d02ad1d46"
+      ],
+      "answerKey": [
+        "o_463ae776ac",
+        "o_2e604ce4ab",
+        "o_41a0e40210",
+        "o_8d02ad1d46"
+      ]
+    },
+    {
+      "questionId": "q_6a8d210de017",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_78556f535a",
+        "o_984aab4545",
+        "o_d51f004a1f",
+        "o_40db2c9e1c"
+      ],
+      "answerKey": [
+        "o_78556f535a",
+        "o_984aab4545",
+        "o_d51f004a1f",
+        "o_40db2c9e1c"
+      ]
+    },
+    {
+      "questionId": "q_3f4a5cbc358c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_2d10935506",
+        "o_5bdcf826f2",
+        "o_4866e189d5",
+        "o_7a20478c03"
+      ],
+      "answerKey": [
+        "o_2d10935506",
+        "o_5bdcf826f2",
+        "o_4866e189d5",
+        "o_7a20478c03"
+      ]
+    },
+    {
+      "questionId": "q_f8e61c2da52e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_53087d7ca0",
+        "o_4c44280780",
+        "o_3439bbd6e1",
+        "o_9a9a766b96"
+      ],
+      "answerKey": [
+        "o_4c44280780",
+        "o_9a9a766b96"
+      ]
+    },
+    {
+      "questionId": "q_ed383c5ca170",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_e8e321bf14",
+        "o_2c5b966eba",
+        "o_038c6f61fa",
+        "o_b9de3f4e15"
+      ],
+      "answerKey": [
+        "o_e8e321bf14",
+        "o_2c5b966eba",
+        "o_038c6f61fa",
+        "o_b9de3f4e15"
+      ]
+    },
+    {
+      "questionId": "q_8a0eb14b52bb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_83669fb21c",
+        "o_0ff13e6f50",
+        "o_26f06228cd",
+        "o_b74be0edd7"
+      ],
+      "answerKey": [
+        "o_83669fb21c",
+        "o_0ff13e6f50",
+        "o_26f06228cd",
+        "o_b74be0edd7"
+      ]
+    },
+    {
+      "questionId": "q_422837319704",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_75dc3be659",
+        "o_db9a31981f",
+        "o_7e384b73cd",
+        "o_d4de4d5dcc"
+      ],
+      "answerKey": [
+        "o_75dc3be659",
+        "o_db9a31981f",
+        "o_7e384b73cd",
+        "o_d4de4d5dcc"
+      ]
+    },
+    {
+      "questionId": "q_5baaeb133eca",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_f004f06337",
+        "o_d39d22da66",
+        "o_d57decb88b",
+        "o_bb1b17ead2"
+      ],
+      "answerKey": [
+        "o_f004f06337",
+        "o_d39d22da66",
+        "o_d57decb88b",
+        "o_bb1b17ead2"
+      ]
+    },
+    {
+      "questionId": "q_0635452f4704",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1c1b0a0f37",
+        "o_52ed25728f",
+        "o_8bf5185d98",
+        "o_3c21c6a459"
+      ],
+      "answerKey": [
+        "o_1c1b0a0f37",
+        "o_52ed25728f",
+        "o_8bf5185d98"
+      ]
+    },
+    {
+      "questionId": "q_162aa70eeb61",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_46f13d7035",
+        "o_8e8122eb4d",
+        "o_7c4de95453",
+        "o_8af2b31d23"
+      ],
+      "answerKey": [
+        "o_46f13d7035",
+        "o_7c4de95453"
+      ]
+    },
+    {
+      "questionId": "q_50a6973b3823",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_a7da41cd51",
+        "o_c4ac6c9792",
+        "o_fc7047fe15",
+        "o_2e3ebe5058"
+      ],
+      "answerKey": [
+        "o_a7da41cd51",
+        "o_c4ac6c9792"
+      ]
+    },
+    {
+      "questionId": "q_886e26a4adf9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_dffa919332",
+        "o_7af8be9310",
+        "o_7131afe3d0",
+        "o_bcc17129bf"
+      ],
+      "answerKey": [
+        "o_dffa919332",
+        "o_7af8be9310",
+        "o_7131afe3d0",
+        "o_bcc17129bf"
+      ]
+    },
+    {
+      "questionId": "q_d15f54fbb6b2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_4866e189d5",
+        "o_326207e6d1",
+        "o_7a20478c03",
+        "o_5bdcf826f2"
+      ],
+      "answerKey": [
+        "o_4866e189d5",
+        "o_326207e6d1",
+        "o_7a20478c03",
+        "o_5bdcf826f2"
+      ]
+    },
+    {
+      "questionId": "q_ea55f7d620f8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_38c355c60b",
+        "o_7d4fe76ecf",
+        "o_13fdab2247",
+        "o_58138520d9"
+      ],
+      "answerKey": [
+        "o_13fdab2247",
+        "o_58138520d9"
+      ]
+    },
+    {
+      "questionId": "q_c48a9f8414d3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1efcee131b",
+        "o_f0830b3fe8",
+        "o_72da592037",
+        "o_7150fcfe67"
+      ],
+      "answerKey": [
+        "o_1efcee131b",
+        "o_f0830b3fe8",
+        "o_72da592037",
+        "o_7150fcfe67"
+      ]
+    },
+    {
+      "questionId": "q_8358895fdbcf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_9047d9f966",
+        "o_ab965b5e94",
+        "o_1ea16df063",
+        "o_668ea3dfe2"
+      ],
+      "answerKey": [
+        "o_9047d9f966",
+        "o_ab965b5e94",
+        "o_1ea16df063",
+        "o_668ea3dfe2"
+      ]
+    },
+    {
+      "questionId": "q_b8b611bcb80c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_e5ace98eec",
+        "o_581f500a19",
+        "o_241c163eb1",
+        "o_d105d769d0"
+      ],
+      "answerKey": [
+        "o_e5ace98eec",
+        "o_581f500a19",
+        "o_241c163eb1",
+        "o_d105d769d0"
+      ]
+    },
+    {
+      "questionId": "q_03170d1b36df",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_d53c2c723c",
+        "o_ff81a1a92e",
+        "o_129a450e01",
+        "o_d968a2f098"
+      ],
+      "answerKey": [
+        "o_d53c2c723c",
+        "o_ff81a1a92e",
+        "o_129a450e01",
+        "o_d968a2f098"
+      ]
+    },
+    {
+      "questionId": "q_43cf6be3bff2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_d2e6c4d21b",
+        "o_02587f9162",
+        "o_24d08a79db",
+        "o_65e52d3425"
+      ],
+      "answerKey": [
+        "o_24d08a79db",
+        "o_65e52d3425"
+      ]
+    },
+    {
+      "questionId": "q_aae61be0b8b2",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_af09b73222",
+        "o_2d51c3ce48",
+        "o_41a855aabb",
+        "o_8691c77501"
+      ],
+      "answerKey": [
+        "o_af09b73222",
+        "o_41a855aabb"
+      ]
+    },
+    {
+      "questionId": "q_84e60762bf40",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_079543d302",
+        "o_d22c9d62cf",
+        "o_a2c61f3117",
+        "o_7d2bd97210"
+      ],
+      "answerKey": [
+        "o_a2c61f3117",
+        "o_7d2bd97210"
+      ]
+    },
+    {
+      "questionId": "q_2ebf4e971a61",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1bac24282e",
+        "o_dd196ba731",
+        "o_2a3a013389",
+        "o_e206926b1e"
+      ],
+      "answerKey": [
+        "o_2a3a013389",
+        "o_e206926b1e"
+      ]
+    },
+    {
+      "questionId": "q_00c4cbc5e846",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_7877141aee",
+        "o_405e46a292",
+        "o_4e5abf960c",
+        "o_f089a272c8"
+      ],
+      "answerKey": [
+        "o_7877141aee",
+        "o_405e46a292",
+        "o_4e5abf960c",
+        "o_f089a272c8"
+      ]
+    },
+    {
+      "questionId": "q_8b3480287bcc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_749163839a",
+        "o_19d7767b04",
+        "o_7eaaf07a6c",
+        "o_8c472c8c38"
+      ],
+      "answerKey": [
+        "o_749163839a",
+        "o_19d7767b04",
+        "o_7eaaf07a6c",
+        "o_8c472c8c38"
+      ]
+    },
+    {
+      "questionId": "q_fb3009ad568e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_bb3f9b27be",
+        "o_6fd74c8306",
+        "o_3d188a98e7",
+        "o_45ee64a15f"
+      ],
+      "answerKey": [
+        "o_bb3f9b27be",
+        "o_6fd74c8306",
+        "o_3d188a98e7"
+      ]
+    },
+    {
+      "questionId": "q_e5c360dfe940",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_cca2bdf95f",
+        "o_d71f50680d",
+        "o_ecc6daccbe",
+        "o_1b866405e7"
+      ],
+      "answerKey": [
+        "o_cca2bdf95f",
+        "o_d71f50680d",
+        "o_ecc6daccbe",
+        "o_1b866405e7"
+      ]
+    },
+    {
+      "questionId": "q_f45f0bba0d14",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_02c2fb28a7",
+        "o_d48700f622",
+        "o_3f103c44ce",
+        "o_71fb1fa751"
+      ],
+      "answerKey": [
+        "o_d48700f622",
+        "o_3f103c44ce",
+        "o_71fb1fa751"
+      ]
+    },
+    {
+      "questionId": "q_a42b7353d1de",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-multiple",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ebd9eed006",
+        "o_f6452a6f3f",
+        "o_1e396606e2",
+        "o_22813a35c5"
+      ],
+      "answerKey": [
+        "o_f6452a6f3f",
+        "o_1e396606e2",
+        "o_22813a35c5"
+      ]
+    },
+    {
+      "questionId": "q_e2083f71d203",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_05cc4d710612",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_c432057c4b9c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_8fb04f5f3620",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_5a82999704b3",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_c92415443e4d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c148018303fe",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b179a363d873",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b13f16beecf9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_584f24df2a06",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_79e13da8af84",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_43cc9e217ae1",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_1bc486fcacc4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_8bc7e574344c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_364e1e628f8e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_995342ebec3b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_6684a1596a50",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_631d99556469",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_bb1a0b310b4a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_fd494e37bd0e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_9e4c2d96c7dd",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_663ac2e5a006",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_49a1a300c459",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_94e79a23631e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_63c038252e1c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_2866d1bddce8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_e5d4e7729d0d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_2a08ac6d7a96",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ff14731ae911",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e3c5ab011c61",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_85017fc19e9a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_15dd6bef4915",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_3f9e73bcdb03",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_02f1ba70b10b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b9692d926154",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_2157667fc592",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b7386e060406",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_67a6321de3b8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_be1152f6ae15",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7db8b234baff",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_778b0e39841e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_4901e398575f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e74ca3887b22",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_8a5f49ca1e29",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_24b532c4c694",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_e3671d56d38a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_8b8f5c3e956d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7d539f298c2a",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b27bec0a5a75",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_37e3b39ec390",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_40df7a480fd0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f30ce99a2fb0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_1f13b72ed4ca",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ae121fee4012",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_1ff85dc7ab2c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_3ca77b5f5906",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_178716e17128",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ed9a0f00a891",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ee2660da5d97",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_31a38b8b2d39",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7cf4c175d839",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_b10d1248d826",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b162ed8ddeb6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_8fdfa2768dc6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a3101ecc5f24",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_799ef3e89cdc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_3581266eb2a6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_59a5d4a6e257",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c2ff8b363516",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ca31199895cf",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_0df378e55989",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b9b6b6a61e64",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_52dd7beb1e70",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e55cb4921026",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_0d8adfb7ecd9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_67030ae1f6fa",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f2c18d426aba",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_3b54f3bc25dc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_285af3c8bbda",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_be7c840a4a31",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_1bdb2defdc67",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_068e734fcf03",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_bad4674f623c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f000b9089a18",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ec479b7af7bc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_61c4479db55e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e793b9906183",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_3b356c923395",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_7e2bb60d10ab",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ef729a90c374",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_1197a227f308",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_71e87b31c323",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_38ca95752da6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_41b8677b0efb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_6f4ac5a1de2f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e92bea7d59f4",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b185f214fd8b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_3998fd1a8197",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_87652d68ebf9",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_c085e50f9202",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b4fdfb89aa48",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_7a9c0eff1413",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ac450bb1ec16",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_dfb0d659d8ce",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_5bb72fd9dff5",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a1b378535031",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_7be172eff68f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_c69a04faafeb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_dea40cd1e050",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_4ed3fa6df53e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_794e769942c6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_d4efff273593",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_2a8ba31c993f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_2dd0cf1dedd7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_80cb33365efd",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_2d9944be6980",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_d40f3ac1c4ce",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_f6304dd67afe",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_ea89013898ed",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_2792dc63aa3b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_34a0b744f8da",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_852f255d42e8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_d847af63e0dc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_34c5d649f248",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ce7a36206035",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b4e38a535489",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a6b42b5ed705",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_392c9207e3d8",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_b9fcad94f0da",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_aeae2bfde09c",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_56d02f8575d0",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_871fa941e354",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a0b7d491ac0d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f9999ef9720f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_fe41e70c7749",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_06e37ef5288f",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_5b8dbf4e0349",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_3701ec526a7d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_6648283e58a5",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_01e1cb783883",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_3bcf1a0eb46b",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_9b52c4563932",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_f8ded521dd79",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_80b122694a69",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_395b6d6e058d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_51811cf71c2e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_1415ba20c429",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_1928e0f0fe52",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_fb825f2869de",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_a3778949329d",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_ddbd301607e7",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_fc44d9f205d6",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_906c385dd0fb",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_3432ab43fd26",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
+      ]
+    },
+    {
+      "questionId": "q_9666d168c70e",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_09de3c3ccbbc",
+      "bankId": "bank_chaoxing_military_theory",
+      "chapterId": "military-theory-judgment",
+      "type": "judgment",
+      "optionKeys": [
+        "o_02b83ec7cc",
+        "o_cc73bb0b7e"
+      ],
+      "answerKey": [
+        "o_cc73bb0b7e"
       ]
     }
   ]

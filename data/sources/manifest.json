@@ -18,6 +18,16 @@
       "description": "实验室安全教育与考试平台（Tykspt2）官方题库快照；当前为通识类题库。",
       "sourceUrl": "https://labmgmt.zqu.edu.cn/Tykspt2/default/gosjLookPage2?sjmenu=15&classid=202309000001&fwcs=&classtype=aqzstk",
       "coverageNote": "当前题库页面列出第 1–322 题，共采集 322 题；页面未显示官方题库总数。"
+    },
+    {
+      "file": "military-theory.json",
+      "bankId": "bank_chaoxing_military_theory",
+      "title": "军事理论 · 学习通模拟题库",
+      "shortTitle": "军事理论",
+      "description": "学习通已提交模拟考试快照，包含单选、多选和判断题，保留官方答案与解析。",
+      "sourceUrl": "https://www.chaoxing.com/",
+      "expectedTotal": 536,
+      "coverageNote": "两套已提交模拟考试分别显示 380 题和 156 题，合计 536 题，已全部采集；来源为学习通安卓客户端，链接指向平台首页。"
     }
   ]
 }

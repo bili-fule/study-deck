@@ -122,6 +122,11 @@ export function BankPage() {
                   </div>
                   <p className="mt-1.5 text-body-2-medium text-text-primary">{question.stem}</p>
                   <p className="mt-1 text-caption-1-medium text-text-secondary">官方答案：{question.answerText.join(" / ")}</p>
+                  {question.explanation ? (
+                    <p className="mt-2 whitespace-pre-line text-caption-1-medium text-text-secondary">
+                      <strong>官方解析：</strong>{question.explanation}
+                    </p>
+                  ) : null}
                 </div>
               ))}
             </div>

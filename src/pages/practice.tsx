@@ -519,6 +519,11 @@ export function PracticeSessionPage() {
                 <p className="mt-2 text-body-2-regular text-text-primary">
                   官方答案：<strong>{question.answerText.join(" / ")}</strong>
                 </p>
+                {question.explanation ? (
+                  <p className="mt-3 whitespace-pre-line text-body-2-regular text-text-primary">
+                    <strong>官方解析：</strong>{question.explanation}
+                  </p>
+                ) : null}
                 <p className="mt-1 text-caption-1-medium text-text-secondary">来源：{question.sourceTitle}</p>
               </div>
             ) : null}
@@ -776,6 +781,11 @@ export function QuestionListPage({ kind }: { kind: "mistakes" | "favorites" }) {
                         {formatSelectedAnswer(question, stat?.lastSelected ?? []) ?? "暂无作答记录"}
                       </span>
                     </div>
+                    {question.explanation ? (
+                      <p className="mt-2 whitespace-pre-line text-caption-1-medium text-text-secondary">
+                        <strong>官方解析：</strong>{question.explanation}
+                      </p>
+                    ) : null}
                   </div>
                   <div className="flex shrink-0 items-center gap-1">
                     <Button

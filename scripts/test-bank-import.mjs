@@ -45,6 +45,7 @@ const baseQuestion = {
   options: ["A.16学时", "B.32学时"],
   answer: "A",
   answerText: ["16学时"],
+  explanation: "  第一段：官方解析。\n\n第二段：保留原文换行。  ",
 };
 
 const direct = compile({ manifest: baseManifest, file: "bank.json", source: { questions: [baseQuestion] } });
@@ -68,6 +69,9 @@ if (reordered.status !== 0) throw new Error(`reordered fixture failed: ${reorder
 
 const original = direct.bundle.banks[0].questions[0];
 const changed = reordered.bundle.banks[0].questions[0];
+if (original.explanation !== "第一段：官方解析。\n\n第二段：保留原文换行。") {
+  throw new Error("official explanation content or paragraph breaks were lost during import");
+}
 if (original.questionId !== changed.questionId) {
   throw new Error(`questionId changed after option reorder: ${original.questionId} -> ${changed.questionId}`);
 }
