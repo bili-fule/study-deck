@@ -1,11 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T08:21:03.623Z",
+  "generatedAt": "2026-11-15T13:38:41.655Z",
   "banks": [
     {
       "bankId": "bank_yooc_610277",
       "title": "肇庆学院 · 学生手册题库",
       "questionCount": 296
+    },
+    {
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "title": "肇庆学院实验室安全教育与考试平台 · 通识类",
+      "questionCount": 322
     }
   ],
   "chapters": [
@@ -254,6 +259,12 @@
       "chapterId": "ch_bb7ca229c2",
       "title": "肇庆学院全日制在校生学籍信息变更管理办法（肇学院〔2021〕71号）",
       "category": "学籍管理"
+    },
+    {
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "title": "通识类",
+      "category": "通识类"
     }
   ],
   "questions": [
@@ -4413,6 +4424,4494 @@
       ],
       "answerKey": [
         "o_02b83ec7cc"
+      ]
+    },
+    {
+      "questionId": "q_e5b0777092f4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_2a8b015d3fa5",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_36f33322977e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_de17e6f80978",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_045220e0e6ad",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_d0f49c408f9d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_1080aba87244",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_e6c3ad81ab49",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_061c738cae3b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_dc7f229241f4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_9a7e3dfe9012",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_5f883cc11821",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ad1a09fad244",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_59734dd32f18",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_ae8f1ad34bdb",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8e2de97e4efb",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_76507292b9ea",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d0d7eec0492f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_d55aaf4b1447",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_92c57035e674",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_12d48e2cb452",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_6e5b5d6df45d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_b081249e782c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_3215adb600ab",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_3e20302a1cac",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_97fa50b5d985",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_b026e04dc083",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ba2c3ee4610a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_c93e91e201b1",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_a680e52ff3a6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_495c5992a4fe",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_4ca5cae293aa",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ac3d005279f3",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ac4d025a6b03",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d106cb3ac7d9",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_f2e276ae277e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_228fdebd2f68",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_fd8fc78ad95c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_006b9b0472e7",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_6b582898b0d4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_300a25032dfe",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d3acfe59f281",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_720d997e9799",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_99c9b2d8a6ee",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_379328e83c5d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_244a92b8b62a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_edd4c143d07e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_7abb02ee4ff6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_5ef2bf2ef7ce",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_e816a8dc56cf",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_659221b3dd7b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_34655b22bc8b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_f7d355a05d66",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8819b9192e63",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_45eabd686bab",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_94fca566fa32",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_b97c71c75c5d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_cacb3282a48b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_cf2270ba7db1",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_a9d9180b42b2",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_f54fc63892",
+        "o_f79cd7eaaf",
+        "o_178d6b5992"
+      ],
+      "answerKey": [
+        "o_f54fc63892"
+      ]
+    },
+    {
+      "questionId": "q_06c3e08b4f38",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_03a89d85a0",
+        "o_905571e932",
+        "o_1ee47403a4",
+        "o_cf6035fdae"
+      ],
+      "answerKey": [
+        "o_03a89d85a0"
+      ]
+    },
+    {
+      "questionId": "q_ed6c4a6813b3",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_23764596b5",
+        "o_1aaa6fb45c",
+        "o_d18576e826",
+        "o_97d6330fa4"
+      ],
+      "answerKey": [
+        "o_97d6330fa4"
+      ]
+    },
+    {
+      "questionId": "q_0078a6611212",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_2d7c0c32a3",
+        "o_535f877ea0",
+        "o_fdd6e81bee"
+      ],
+      "answerKey": [
+        "o_535f877ea0"
+      ]
+    },
+    {
+      "questionId": "q_78580d600353",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_c514bfce14",
+        "o_792385869b",
+        "o_bd9eab9684"
+      ],
+      "answerKey": [
+        "o_792385869b"
+      ]
+    },
+    {
+      "questionId": "q_6f7fb2f4aedf",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_8b7b8c5c14",
+        "o_f2aeae2510",
+        "o_d282483ae8",
+        "o_dd2bac2f9f"
+      ],
+      "answerKey": [
+        "o_dd2bac2f9f"
+      ]
+    },
+    {
+      "questionId": "q_94c67a531c8a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_b1d5781111",
+        "o_91032ad7bb",
+        "o_22d200f867",
+        "o_e1822db470"
+      ],
+      "answerKey": [
+        "o_91032ad7bb"
+      ]
+    },
+    {
+      "questionId": "q_cac54e6cd560",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_ffdb0e9039",
+        "o_0c007101e4",
+        "o_6330d92254",
+        "o_65eef8bb43"
+      ],
+      "answerKey": [
+        "o_0c007101e4"
+      ]
+    },
+    {
+      "questionId": "q_6b582916b69d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_df468b4997",
+        "o_03fa882c05",
+        "o_b825b1c29f",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_e55bcd9b0e8c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_32793c4c6a",
+        "o_ec6e080b6b",
+        "o_9f9d25086c",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_771b6d923513",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_bcf706701c",
+        "o_b43ef02ec0",
+        "o_abbec70e5e",
+        "o_47ee4032ff"
+      ],
+      "answerKey": [
+        "o_bcf706701c"
+      ]
+    },
+    {
+      "questionId": "q_e68595223c40",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_070f67766d",
+        "o_2283960d5d",
+        "o_6efb2f4a2c",
+        "o_f13a363b42"
+      ],
+      "answerKey": [
+        "o_070f67766d"
+      ]
+    },
+    {
+      "questionId": "q_3b41ffd1b769",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_c2e822be7e",
+        "o_2a55acca8b",
+        "o_1e36689b63"
+      ],
+      "answerKey": [
+        "o_1e36689b63"
+      ]
+    },
+    {
+      "questionId": "q_e3e0818bd94f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_af81ebbcfc",
+        "o_4a6ff1914c",
+        "o_7c12626060"
+      ],
+      "answerKey": [
+        "o_4a6ff1914c"
+      ]
+    },
+    {
+      "questionId": "q_75e40b5fc1ea",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_db969025ee",
+        "o_a561a61eb5",
+        "o_2cdf42b6d5",
+        "o_3013698ee5"
+      ],
+      "answerKey": [
+        "o_db969025ee"
+      ]
+    },
+    {
+      "questionId": "q_194b46ca002c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_1e6fd2e68c",
+        "o_1fe8969b22",
+        "o_0d8665335d"
+      ],
+      "answerKey": [
+        "o_1fe8969b22"
+      ]
+    },
+    {
+      "questionId": "q_130031c4913d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_d1c03c7aa3",
+        "o_6fe9a84513",
+        "o_898f86bc22",
+        "o_ae8ecd243e"
+      ],
+      "answerKey": [
+        "o_6fe9a84513"
+      ]
+    },
+    {
+      "questionId": "q_2b517b295933",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_00664c6e6c",
+        "o_18863f1297",
+        "o_5df1b30e3e",
+        "o_d3818aa35b"
+      ],
+      "answerKey": [
+        "o_18863f1297"
+      ]
+    },
+    {
+      "questionId": "q_1a7f7a8eac20",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_4dd8ce92df",
+        "o_03d1ecabaa",
+        "o_41bad93e49"
+      ],
+      "answerKey": [
+        "o_03d1ecabaa"
+      ]
+    },
+    {
+      "questionId": "q_88ac502430ea",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_ec920234f5",
+        "o_80a3f27653",
+        "o_8a55289664"
+      ],
+      "answerKey": [
+        "o_ec920234f5"
+      ]
+    },
+    {
+      "questionId": "q_92f9c01fd956",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_4d134bc072",
+        "o_fc074d5013",
+        "o_2a45938070",
+        "o_5e796e4833"
+      ],
+      "answerKey": [
+        "o_fc074d5013"
+      ]
+    },
+    {
+      "questionId": "q_e66bfb58797a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_76814698ec",
+        "o_559be05ff9",
+        "o_890c194478",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_55c08546b7f3",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_41ef5b4841",
+        "o_03a89d85a0",
+        "o_37601c8890",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_136b3c166fdc",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_cc81ee2f16",
+        "o_250b16d6cf",
+        "o_eebe8b98da",
+        "o_e4f2d150b0"
+      ],
+      "answerKey": [
+        "o_cc81ee2f16"
+      ]
+    },
+    {
+      "questionId": "q_904158158d96",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_7ba8f5dfde",
+        "o_60193c7eaf",
+        "o_8843c8c499",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_9a35e2708093",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_aab56d7a84",
+        "o_672f230d25",
+        "o_cbc58aae53",
+        "o_49aefc9821"
+      ],
+      "answerKey": [
+        "o_672f230d25"
+      ]
+    },
+    {
+      "questionId": "q_bd2766beb325",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_de67c7693c",
+        "o_e9f3eb994b",
+        "o_ab3656a956",
+        "o_3537d5ef90"
+      ],
+      "answerKey": [
+        "o_ab3656a956"
+      ]
+    },
+    {
+      "questionId": "q_cf0bcb9826c0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_ab3656a956",
+        "o_de67c7693c",
+        "o_81944e48a3",
+        "o_017cc36151"
+      ],
+      "answerKey": [
+        "o_017cc36151"
+      ]
+    },
+    {
+      "questionId": "q_338096184f3f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_8da3e2a51a",
+        "o_abe6be223c",
+        "o_565bd28537",
+        "o_23147bfabb"
+      ],
+      "answerKey": [
+        "o_abe6be223c"
+      ]
+    },
+    {
+      "questionId": "q_34c8131086bb",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_07e4c96e48",
+        "o_518a84ec36",
+        "o_56ea74b3f8"
+      ],
+      "answerKey": [
+        "o_518a84ec36"
+      ]
+    },
+    {
+      "questionId": "q_7fec662d6822",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_0aef1aade7",
+        "o_f1715df0ef",
+        "o_5bf300ef95",
+        "o_453e026e11"
+      ],
+      "answerKey": [
+        "o_5bf300ef95"
+      ]
+    },
+    {
+      "questionId": "q_739d1baec04d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_0051cc4645",
+        "o_fa88306f05",
+        "o_1c3d2e5d88"
+      ],
+      "answerKey": [
+        "o_fa88306f05"
+      ]
+    },
+    {
+      "questionId": "q_e3c4eef55c16",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_250b16d6cf",
+        "o_879a651f47"
+      ],
+      "answerKey": [
+        "o_879a651f47"
+      ]
+    },
+    {
+      "questionId": "q_05288887bb15",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_d837f6039644",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d540a832cb63",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_66ca22546c76",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_cb7d3d1c15a7",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_dff8ffa9c390",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_87360f64e38d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_795a7bf829e4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_0082794dd569",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_67567b244654",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_84b37b1455d0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_25ae713a6ac6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_48d9476a2314",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_df0c4def03c6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_f724f4679702",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_e18deff1d27b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_53a870a83fb0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_7f1f0f7e5dda",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_5c609b39f5b8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_69169a317d2e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_a23c6a377ac9",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d676c81faf75",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_babce20e8ca2",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_e1583212fcbc",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_87ce2bb7a17d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_999edeb23f4b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_860aade3a6e8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_3597887f021c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8636e5cd4c73",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_869e8cb1acb3",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_f67431693ebf",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_6d837590ca52",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ce820dacce12",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8fcbf03cf474",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_2cb7781d8975",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_da3ac1b70dc0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8217e63d7192",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_fba189cfb0f0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_18dc66b466c8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_692a73258031",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_85efa164f94b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_a5032d615272",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_cb26f16f8cb7",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_415b0f7e83b0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_57e947700283",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_005db4339b75",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_bc479665a097",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_7fa53fbf54ee",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_c086f495e023",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_622a75c01319",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_aa8563e95599",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_157e210a939b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_10e7786c7380",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_e9905b674ed8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_f35a6d5f0bc8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_569fa4035773",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_bc52c89c7c2d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8efaee73ee78",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_32d926c037",
+        "o_31e2729799",
+        "o_f98f14642a",
+        "o_3ff6114a18"
+      ],
+      "answerKey": [
+        "o_3ff6114a18"
+      ]
+    },
+    {
+      "questionId": "q_a3d00c64152d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_67174b1e5d",
+        "o_ad4c9795a2",
+        "o_80e856c909",
+        "o_ab6366215e"
+      ],
+      "answerKey": [
+        "o_ab6366215e"
+      ]
+    },
+    {
+      "questionId": "q_204dbec1374b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_0e7efe235a",
+        "o_b7d34e266d",
+        "o_ac3a70f42b",
+        "o_0778a8de5a"
+      ],
+      "answerKey": [
+        "o_ac3a70f42b"
+      ]
+    },
+    {
+      "questionId": "q_bb31d424e854",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_72413e66ce",
+        "o_fb6e022cd9",
+        "o_e499a5469c",
+        "o_4c4f466c2f"
+      ],
+      "answerKey": [
+        "o_e499a5469c"
+      ]
+    },
+    {
+      "questionId": "q_c78490f7fc05",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_ca45cb6920",
+        "o_29d4018813",
+        "o_6654c0b11e"
+      ],
+      "answerKey": [
+        "o_ca45cb6920"
+      ]
+    },
+    {
+      "questionId": "q_b3b6d5408831",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_3377b74da8",
+        "o_8120fe62b7",
+        "o_655b939f9c"
+      ],
+      "answerKey": [
+        "o_655b939f9c"
+      ]
+    },
+    {
+      "questionId": "q_ce2f0c1b7b12",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_876a57b42b",
+        "o_6a77e40ecd",
+        "o_566076a03d"
+      ],
+      "answerKey": [
+        "o_566076a03d"
+      ]
+    },
+    {
+      "questionId": "q_63b821022098",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_fea159715a",
+        "o_489996954a",
+        "o_a4a3600c25",
+        "o_f90b233830"
+      ],
+      "answerKey": [
+        "o_a4a3600c25"
+      ]
+    },
+    {
+      "questionId": "q_4b12bb7cd40a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_adf2f75e02",
+        "o_b952de2d18",
+        "o_b9e9342edc",
+        "o_bf93c8b2e2"
+      ],
+      "answerKey": [
+        "o_adf2f75e02"
+      ]
+    },
+    {
+      "questionId": "q_7e9c9d086277",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_37fbf8eae5",
+        "o_a3c72df57f",
+        "o_eb6a762a93",
+        "o_35ce33abb1"
+      ],
+      "answerKey": [
+        "o_37fbf8eae5"
+      ]
+    },
+    {
+      "questionId": "q_ada6a8cae676",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_1e1156401f",
+        "o_ea5f6af29c",
+        "o_6139ef9570"
+      ],
+      "answerKey": [
+        "o_ea5f6af29c"
+      ]
+    },
+    {
+      "questionId": "q_e1708bbd7d22",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_7e0783095c",
+        "o_1971b5043d",
+        "o_5366a74167",
+        "o_5f5369e31f"
+      ],
+      "answerKey": [
+        "o_1971b5043d"
+      ]
+    },
+    {
+      "questionId": "q_c6039a3ec9a3",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_a3c72df57f",
+        "o_e45b2617e8",
+        "o_a9299bd0a2",
+        "o_c4ee207d9f"
+      ],
+      "answerKey": [
+        "o_a9299bd0a2"
+      ]
+    },
+    {
+      "questionId": "q_5b443f027196",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_058417247a",
+        "o_31eda90282",
+        "o_021814ce55",
+        "o_1515296dab"
+      ],
+      "answerKey": [
+        "o_31eda90282"
+      ]
+    },
+    {
+      "questionId": "q_04a18b543b0a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_f5f906c20b",
+        "o_4e402e9217",
+        "o_2600c87550",
+        "o_18b1364bf3"
+      ],
+      "answerKey": [
+        "o_2600c87550"
+      ]
+    },
+    {
+      "questionId": "q_b1e4871541c4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_a96a4a3a14",
+        "o_5beca4245b",
+        "o_faf0de71b2",
+        "o_29f3d9f15d"
+      ],
+      "answerKey": [
+        "o_29f3d9f15d"
+      ]
+    },
+    {
+      "questionId": "q_a029937601ec",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_db88a51bb3",
+        "o_f972341a81",
+        "o_18863f1297"
+      ],
+      "answerKey": [
+        "o_f972341a81"
+      ]
+    },
+    {
+      "questionId": "q_a072fc8b301f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_ef7d3b9ddc",
+        "o_d4ff27b220",
+        "o_e8bf7da475",
+        "o_07dc80e94d"
+      ],
+      "answerKey": [
+        "o_d4ff27b220"
+      ]
+    },
+    {
+      "questionId": "q_41bd7a4676a0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_19fc0ccbe2",
+        "o_9424e76a83",
+        "o_b76783d38c"
+      ],
+      "answerKey": [
+        "o_19fc0ccbe2"
+      ]
+    },
+    {
+      "questionId": "q_aba55f23d2a0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_573611b093",
+        "o_6649bc257f",
+        "o_88a95e0b10",
+        "o_05c78013a6"
+      ],
+      "answerKey": [
+        "o_573611b093"
+      ]
+    },
+    {
+      "questionId": "q_fafca0f1e011",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_7271b48ffd",
+        "o_e362f6ec91",
+        "o_16d7b83764"
+      ],
+      "answerKey": [
+        "o_16d7b83764"
+      ]
+    },
+    {
+      "questionId": "q_5c2c59e7035e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_bb9290a3ab",
+        "o_e04543343f",
+        "o_161cc3435b",
+        "o_9c5742d687"
+      ],
+      "answerKey": [
+        "o_161cc3435b"
+      ]
+    },
+    {
+      "questionId": "q_0a09a8129295",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_c8f5f8a9a5",
+        "o_47e3fc8389",
+        "o_64dd99bd96",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_d0567253383e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_2c6fea6456",
+        "o_d3c71f3bb2",
+        "o_3e02739f1e",
+        "o_b92ae579cd"
+      ],
+      "answerKey": [
+        "o_2c6fea6456"
+      ]
+    },
+    {
+      "questionId": "q_b8511ed145b6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_a54d39dcb6",
+        "o_d1d2980b6b",
+        "o_bee2755f0f",
+        "o_c51e38be14"
+      ],
+      "answerKey": [
+        "o_a54d39dcb6"
+      ]
+    },
+    {
+      "questionId": "q_7a79eae5f799",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_f1a6f056e7",
+        "o_a561a61eb5",
+        "o_debfeafb25",
+        "o_75deb5c84e"
+      ],
+      "answerKey": [
+        "o_debfeafb25"
+      ]
+    },
+    {
+      "questionId": "q_887b1e875297",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_f4f2eda03d",
+        "o_8c507fc053",
+        "o_aeb1329c35",
+        "o_75deb5c84e"
+      ],
+      "answerKey": [
+        "o_f4f2eda03d"
+      ]
+    },
+    {
+      "questionId": "q_7b11ef89d039",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_da653c67e9",
+        "o_e30d135bf2",
+        "o_2da62064e1",
+        "o_b1bc6210db"
+      ],
+      "answerKey": [
+        "o_da653c67e9"
+      ]
+    },
+    {
+      "questionId": "q_70291ab8977f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_7cc7d00182",
+        "o_5a8a337096",
+        "o_c26a63bdd4",
+        "o_c498113661"
+      ],
+      "answerKey": [
+        "o_7cc7d00182"
+      ]
+    },
+    {
+      "questionId": "q_3dd7de2c131c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_3a2ab93af4",
+        "o_cd9622385e",
+        "o_83a75f7ba2"
+      ],
+      "answerKey": [
+        "o_3a2ab93af4"
+      ]
+    },
+    {
+      "questionId": "q_8e0417facbd6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_748693cb9b",
+        "o_6c6c9d684a",
+        "o_4afabe353b",
+        "o_f9102f2019"
+      ],
+      "answerKey": [
+        "o_f9102f2019"
+      ]
+    },
+    {
+      "questionId": "q_341f3f720c36",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_6b61d7913c",
+        "o_2c208b7a08",
+        "o_e5ff5b5be6"
+      ],
+      "answerKey": [
+        "o_6b61d7913c"
+      ]
+    },
+    {
+      "questionId": "q_de9563ceeff5",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_7321380d3c",
+        "o_3a6d3bda71"
+      ],
+      "answerKey": [
+        "o_3a6d3bda71"
+      ]
+    },
+    {
+      "questionId": "q_8526aee2ac28",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_8a420f3f9b",
+        "o_e83a9946b0",
+        "o_e26f44d430",
+        "o_371fd8cd46"
+      ],
+      "answerKey": [
+        "o_371fd8cd46"
+      ]
+    },
+    {
+      "questionId": "q_d3107115e983",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_cd654ccedf",
+        "o_4918699a62",
+        "o_1cb57d9934",
+        "o_5778ae5435"
+      ],
+      "answerKey": [
+        "o_5778ae5435"
+      ]
+    },
+    {
+      "questionId": "q_c7a79b23a3f4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_8e4de28202",
+        "o_eab9ccbcee",
+        "o_69ffd9c876"
+      ],
+      "answerKey": [
+        "o_8e4de28202"
+      ]
+    },
+    {
+      "questionId": "q_8a0fd7f2c5ca",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_2131bb912335",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ba96c3a57197",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_f40853f42024",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_1a1a8e0b14d1",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_a9f3f6782b3e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_cc84a4879db8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_e4415919b134",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_7792f62b56e6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_1138aca423ae",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_66ad6cf07140",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_a4b48519ce41",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ebce82366b92",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d4f740766365",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_5ab65cab4f65",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_1c7346c9c958",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_2ba9be9faf27",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_de59ad841b60",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_769d9502d88c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_5f0231c330a6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_93e5dcfb5442",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_b2278a3abc28",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_a768a35f9535",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_fe1abb058d35",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_5068041d3834",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_38db07c4414f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_53b785e98865",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_8361f9a008ff",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_4c72e884399b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_4d08c680cc90",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_ee8c1c8e3978",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_171525754763",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_e0ca10612d2e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d472097c0f5e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_d4794c2f2562",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_ed9725657c24",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_ed50ed6a6066",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_9445db6a1ad6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_0ee5332018fe",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_9a5480da60fd",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_bd1e83c94802",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_9e8eb53b62d6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_77d2510e9f",
+        "o_1df468137b",
+        "o_46bcef6593",
+        "o_fb1f0ee65a"
+      ],
+      "answerKey": [
+        "o_77d2510e9f"
+      ]
+    },
+    {
+      "questionId": "q_9e90274e6399",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_918f5bcf88",
+        "o_98caea9d8a",
+        "o_352af7d21d"
+      ],
+      "answerKey": [
+        "o_918f5bcf88"
+      ]
+    },
+    {
+      "questionId": "q_8bc24f180a70",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_37a5fa259c",
+        "o_cdf8894db9",
+        "o_08c923df36"
+      ],
+      "answerKey": [
+        "o_37a5fa259c"
+      ]
+    },
+    {
+      "questionId": "q_f6d99c46a144",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_64ae18870e",
+        "o_699ff462ed",
+        "o_d679d7968b"
+      ],
+      "answerKey": [
+        "o_64ae18870e"
+      ]
+    },
+    {
+      "questionId": "q_9981ce08703b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_875ba73d09",
+        "o_da5240fbb6",
+        "o_04d6cce1f4"
+      ],
+      "answerKey": [
+        "o_04d6cce1f4"
+      ]
+    },
+    {
+      "questionId": "q_6bc7907ff562",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_c7b121edff",
+        "o_97674e261c"
+      ],
+      "answerKey": [
+        "o_97674e261c"
+      ]
+    },
+    {
+      "questionId": "q_2ce0c167ce6f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_5df6a4cb2e",
+        "o_316a984078",
+        "o_3d4deb8702"
+      ],
+      "answerKey": [
+        "o_5df6a4cb2e"
+      ]
+    },
+    {
+      "questionId": "q_83b26cf21589",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_4ad7a81d52",
+        "o_1c754deb83",
+        "o_415ef5d199"
+      ],
+      "answerKey": [
+        "o_1c754deb83"
+      ]
+    },
+    {
+      "questionId": "q_00e4936c846c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_911b135173",
+        "o_857b61889d",
+        "o_fc4d011b35",
+        "o_287db83685"
+      ],
+      "answerKey": [
+        "o_857b61889d"
+      ]
+    },
+    {
+      "questionId": "q_e5a3cb6ed558",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_e24db97d6e",
+        "o_9c228b5a48",
+        "o_d018d4e55e",
+        "o_2cd197281d"
+      ],
+      "answerKey": [
+        "o_9c228b5a48"
+      ]
+    },
+    {
+      "questionId": "q_435f21308cbf",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_a4844e70d9",
+        "o_5077a7663a",
+        "o_31c7272103"
+      ],
+      "answerKey": [
+        "o_31c7272103"
+      ]
+    },
+    {
+      "questionId": "q_aa42772d30db",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_bee3cb289f",
+        "o_3cd63f9ad0",
+        "o_4db3236e38",
+        "o_fda15123dc"
+      ],
+      "answerKey": [
+        "o_4db3236e38"
+      ]
+    },
+    {
+      "questionId": "q_7b6510b5d713",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_c94355f763",
+        "o_c365778866",
+        "o_a4f8db3eb7",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_2ff91a91a950",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_8d045225db",
+        "o_8ffbf19293",
+        "o_c9ee98e0f2"
+      ],
+      "answerKey": [
+        "o_8ffbf19293"
+      ]
+    },
+    {
+      "questionId": "q_fa52c1896ee4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_81072ddee8",
+        "o_90d5845e4c"
+      ],
+      "answerKey": [
+        "o_81072ddee8"
+      ]
+    },
+    {
+      "questionId": "q_ad6c70d83cf0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_fdc8e0d5fa",
+        "o_017f42a1c2",
+        "o_4400d54927",
+        "o_04ec48b810"
+      ],
+      "answerKey": [
+        "o_fdc8e0d5fa"
+      ]
+    },
+    {
+      "questionId": "q_e30d082adee8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_c0ca3af365",
+        "o_24d44678f1",
+        "o_2c19ac6e77"
+      ],
+      "answerKey": [
+        "o_24d44678f1"
+      ]
+    },
+    {
+      "questionId": "q_65abb8907823",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_3b7ba7fcf4",
+        "o_2ef9bebb2a",
+        "o_2273cdb3af",
+        "o_0a076f38bb"
+      ],
+      "answerKey": [
+        "o_0a076f38bb"
+      ]
+    },
+    {
+      "questionId": "q_188fc9f84303",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_716c4e1c51",
+        "o_d1c03c7aa3",
+        "o_6fe9a84513",
+        "o_61ed01d9eb"
+      ],
+      "answerKey": [
+        "o_716c4e1c51"
+      ]
+    },
+    {
+      "questionId": "q_192f1d22fac4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_716c4e1c51",
+        "o_6fe9a84513",
+        "o_d1c03c7aa3",
+        "o_b3a2e51dde"
+      ],
+      "answerKey": [
+        "o_d1c03c7aa3"
+      ]
+    },
+    {
+      "questionId": "q_99dd0b3d8547",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_85276afd78",
+        "o_2d5c33dab4",
+        "o_c16d831a56",
+        "o_0eea3a0d4a"
+      ],
+      "answerKey": [
+        "o_2d5c33dab4"
+      ]
+    },
+    {
+      "questionId": "q_6c3a0474b7e2",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_33838caa8b",
+        "o_90ac43506a",
+        "o_673903f56c",
+        "o_dbb5b45457"
+      ],
+      "answerKey": [
+        "o_90ac43506a"
+      ]
+    },
+    {
+      "questionId": "q_2095d2985935",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_69a4bb4242",
+        "o_76358d7628",
+        "o_2edeec3ea4",
+        "o_f3393380a4"
+      ],
+      "answerKey": [
+        "o_69a4bb4242"
+      ]
+    },
+    {
+      "questionId": "q_3f7016548a10",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_36b1e1e140",
+        "o_ac4e8c3b72",
+        "o_374480c38f",
+        "o_76766c20a4"
+      ],
+      "answerKey": [
+        "o_36b1e1e140"
+      ]
+    },
+    {
+      "questionId": "q_ea4e049b3f09",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_36b1e1e140",
+        "o_ac4e8c3b72",
+        "o_374480c38f",
+        "o_76766c20a4"
+      ],
+      "answerKey": [
+        "o_ac4e8c3b72"
+      ]
+    },
+    {
+      "questionId": "q_d1dc3f98f0c2",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_85f383768f",
+        "o_553c49a71d",
+        "o_f54853fb5c"
+      ],
+      "answerKey": [
+        "o_553c49a71d"
+      ]
+    },
+    {
+      "questionId": "q_2e99b1097371",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_bfd62af36e",
+        "o_85d493822b",
+        "o_a6da1eb73d",
+        "o_4fd3aadacd"
+      ],
+      "answerKey": [
+        "o_4fd3aadacd"
+      ]
+    },
+    {
+      "questionId": "q_1b9d6b64652d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_ac90b44261",
+        "o_93e6f95fdf",
+        "o_40ffb34860",
+        "o_4fb6f4b912"
+      ],
+      "answerKey": [
+        "o_ac90b44261"
+      ]
+    },
+    {
+      "questionId": "q_7c9e40060d0b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_26d082f67f",
+        "o_5944ee9918",
+        "o_e9d3438c82"
+      ],
+      "answerKey": [
+        "o_5944ee9918"
+      ]
+    },
+    {
+      "questionId": "q_f9b27c2445c1",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_e32eb12ea7",
+        "o_cf049fbc27",
+        "o_e120a13df7",
+        "o_a9cd956ca5"
+      ],
+      "answerKey": [
+        "o_a9cd956ca5"
+      ]
+    },
+    {
+      "questionId": "q_9f80c76eba15",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_43fc892917",
+        "o_bfac229cf0",
+        "o_a1462dc7cb",
+        "o_b3e3881b9f"
+      ],
+      "answerKey": [
+        "o_b3e3881b9f"
+      ]
+    },
+    {
+      "questionId": "q_7aa06e62ef37",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_191bde3b1b",
+        "o_c84a16a0a2",
+        "o_6e8e46af34",
+        "o_6c2cd44129"
+      ],
+      "answerKey": [
+        "o_c84a16a0a2"
+      ]
+    },
+    {
+      "questionId": "q_80acf3eae317",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_cc048cc5ae",
+        "o_31c1e334d8",
+        "o_8a85e7997f",
+        "o_2d5c33dab4"
+      ],
+      "answerKey": [
+        "o_31c1e334d8"
+      ]
+    },
+    {
+      "questionId": "q_acac0f25e96a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_79a16854e1",
+        "o_a272e3f888",
+        "o_ecbaf765bd",
+        "o_034cfb77bc"
+      ],
+      "answerKey": [
+        "o_ecbaf765bd"
+      ]
+    },
+    {
+      "questionId": "q_9d7da1d8d17f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_364775f8d6",
+        "o_99829dd637",
+        "o_e7e5a1b03e",
+        "o_e47f130c5d"
+      ],
+      "answerKey": [
+        "o_e7e5a1b03e"
+      ]
+    },
+    {
+      "questionId": "q_4b915ca4af3f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_19463dba0b",
+        "o_156f91acd6",
+        "o_8ec56dbddf"
+      ],
+      "answerKey": [
+        "o_8ec56dbddf"
+      ]
+    },
+    {
+      "questionId": "q_79d95dc612ed",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_16b6f25e84",
+        "o_6177a81376",
+        "o_6d779b3697",
+        "o_cdb4609d40"
+      ],
+      "answerKey": [
+        "o_16b6f25e84",
+        "o_6177a81376",
+        "o_6d779b3697",
+        "o_cdb4609d40"
+      ]
+    },
+    {
+      "questionId": "q_13195068b5bd",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ad7bbe8e63",
+        "o_c72c2741b0",
+        "o_559be05ff9",
+        "o_890c194478"
+      ],
+      "answerKey": [
+        "o_ad7bbe8e63",
+        "o_c72c2741b0",
+        "o_559be05ff9",
+        "o_890c194478"
+      ]
+    },
+    {
+      "questionId": "q_f7008a66e76d",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_fe2dd15c76",
+        "o_dd2273fae2",
+        "o_9ee56ed7b1",
+        "o_04d6cce1f4"
+      ],
+      "answerKey": [
+        "o_dd2273fae2",
+        "o_9ee56ed7b1",
+        "o_04d6cce1f4"
+      ]
+    },
+    {
+      "questionId": "q_e51662e30620",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_90fb072667",
+        "o_0970ede4b0",
+        "o_6981e64be3",
+        "o_136ef7da33"
+      ],
+      "answerKey": [
+        "o_90fb072667",
+        "o_0970ede4b0",
+        "o_6981e64be3",
+        "o_136ef7da33"
+      ]
+    },
+    {
+      "questionId": "q_a359ec0407ff",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_c94355f763",
+        "o_c365778866",
+        "o_a4f8db3eb7"
+      ],
+      "answerKey": [
+        "o_c94355f763",
+        "o_c365778866",
+        "o_a4f8db3eb7"
+      ]
+    },
+    {
+      "questionId": "q_f652cf9e3526",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_d76bd3a8cd",
+        "o_b0857e3b25",
+        "o_bde5cbc07c",
+        "o_3f9ddf9f92"
+      ],
+      "answerKey": [
+        "o_d76bd3a8cd",
+        "o_b0857e3b25",
+        "o_bde5cbc07c"
+      ]
+    },
+    {
+      "questionId": "q_8f8a8902a3d5",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_af1f673bbf",
+        "o_ab73e5e30a",
+        "o_e5accb4f86",
+        "o_9cca40c4c0"
+      ],
+      "answerKey": [
+        "o_af1f673bbf",
+        "o_ab73e5e30a",
+        "o_e5accb4f86",
+        "o_9cca40c4c0"
+      ]
+    },
+    {
+      "questionId": "q_1a75a9d7fe47",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_80e856c909",
+        "o_14ee62f51f",
+        "o_4c7141a27d"
+      ],
+      "answerKey": [
+        "o_80e856c909",
+        "o_14ee62f51f",
+        "o_4c7141a27d"
+      ]
+    },
+    {
+      "questionId": "q_f4440eacac2c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3dbd4e7f9e",
+        "o_471421207e",
+        "o_b59dbaa546",
+        "o_253f95c5be"
+      ],
+      "answerKey": [
+        "o_3dbd4e7f9e",
+        "o_471421207e",
+        "o_b59dbaa546"
+      ]
+    },
+    {
+      "questionId": "q_98cd0781e83f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_f488224092",
+        "o_439fa2e181",
+        "o_d4f87e1412",
+        "o_954661fbd7"
+      ],
+      "answerKey": [
+        "o_f488224092",
+        "o_439fa2e181",
+        "o_d4f87e1412",
+        "o_954661fbd7"
+      ]
+    },
+    {
+      "questionId": "q_8e948fcbe118",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ddc631fa76",
+        "o_fbcdc1988f",
+        "o_51a02dbc01",
+        "o_b6110b3215"
+      ],
+      "answerKey": [
+        "o_ddc631fa76",
+        "o_fbcdc1988f",
+        "o_51a02dbc01",
+        "o_b6110b3215"
+      ]
+    },
+    {
+      "questionId": "q_0dabeba92d1a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_d1c03c7aa3",
+        "o_6fe9a84513",
+        "o_898f86bc22",
+        "o_ae8ecd243e"
+      ],
+      "answerKey": [
+        "o_d1c03c7aa3",
+        "o_6fe9a84513",
+        "o_898f86bc22"
+      ]
+    },
+    {
+      "questionId": "q_3c6e17e678e1",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_56e8f8962a",
+        "o_4aa88d4900",
+        "o_b54ba18a6e",
+        "o_8d994eacb8"
+      ],
+      "answerKey": [
+        "o_56e8f8962a",
+        "o_4aa88d4900",
+        "o_b54ba18a6e"
+      ]
+    },
+    {
+      "questionId": "q_8413e35823fb",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_f0b3ef81cf",
+        "o_da953ccf32",
+        "o_f2c8e1adc1",
+        "o_2b6959a297"
+      ],
+      "answerKey": [
+        "o_f0b3ef81cf",
+        "o_da953ccf32",
+        "o_f2c8e1adc1",
+        "o_2b6959a297"
+      ]
+    },
+    {
+      "questionId": "q_34208db7cc74",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_57452a010d",
+        "o_d444b6cb7f",
+        "o_53fee017dd",
+        "o_ed164ed6af"
+      ],
+      "answerKey": [
+        "o_57452a010d",
+        "o_d444b6cb7f",
+        "o_53fee017dd",
+        "o_ed164ed6af"
+      ]
+    },
+    {
+      "questionId": "q_d8b1603fb8a6",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_276711f528",
+        "o_6ed653d7c9",
+        "o_970de4f664",
+        "o_ae4d488f50"
+      ],
+      "answerKey": [
+        "o_276711f528",
+        "o_6ed653d7c9",
+        "o_970de4f664",
+        "o_ae4d488f50"
+      ]
+    },
+    {
+      "questionId": "q_f414b4741d7f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_7a642e70d9",
+        "o_6acce27c01",
+        "o_4e43ce89a4",
+        "o_856c4f01e7"
+      ],
+      "answerKey": [
+        "o_7a642e70d9",
+        "o_6acce27c01",
+        "o_4e43ce89a4",
+        "o_856c4f01e7"
+      ]
+    },
+    {
+      "questionId": "q_7e84a7ffb77b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_ae1f76decc",
+        "o_8783e319ab",
+        "o_3e93e00181",
+        "o_2998a111a4"
+      ],
+      "answerKey": [
+        "o_ae1f76decc",
+        "o_8783e319ab",
+        "o_3e93e00181"
+      ]
+    },
+    {
+      "questionId": "q_d46e9e03eea7",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_33713708ac",
+        "o_196fffc641",
+        "o_4900bd1781"
+      ],
+      "answerKey": [
+        "o_33713708ac",
+        "o_196fffc641",
+        "o_4900bd1781"
+      ]
+    },
+    {
+      "questionId": "q_0645ed15b379",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_5050b1f2e8",
+        "o_e4ab3d9330",
+        "o_db3e4d319d",
+        "o_4aacfc07c8"
+      ],
+      "answerKey": [
+        "o_5050b1f2e8",
+        "o_e4ab3d9330",
+        "o_db3e4d319d",
+        "o_4aacfc07c8"
+      ]
+    },
+    {
+      "questionId": "q_3fdb6b35e0bc",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_6f3b863f52",
+        "o_1ed65a39b3",
+        "o_333dc7550a",
+        "o_4f02fe10e1"
+      ],
+      "answerKey": [
+        "o_6f3b863f52",
+        "o_1ed65a39b3",
+        "o_333dc7550a",
+        "o_4f02fe10e1"
+      ]
+    },
+    {
+      "questionId": "q_f25c3c4059e2",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_f1dafb962b",
+        "o_28a753b4b6",
+        "o_1a592113e2",
+        "o_90d22fffd6"
+      ],
+      "answerKey": [
+        "o_f1dafb962b",
+        "o_28a753b4b6",
+        "o_1a592113e2",
+        "o_90d22fffd6"
+      ]
+    },
+    {
+      "questionId": "q_fda89b7de7ce",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_353c9e217a6f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_a01917ce6350",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_5676eea4630c",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_fd773c446621",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8032724d5937",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_3bf3b8405c0f",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_36eae75f893a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_c1155cc33bed",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_05c306666550",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_958bcec6563a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_e8d0a0c02a85",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_c8a62f5904ce",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_8fbf8f1b54ec",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_bb1568f0b2b5",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_811f4c96ef29",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_1866de4e0193",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_69ce4c89a3ec",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_0f3a38d86275",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_17ddb8f2cf94",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_92e4cb53c309",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_b86e3ec16ec2",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_db7b1a9f6489",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_a22ee0acf141",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_0d7eeb9b947a",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_188744e0eb45",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_2f4a0908f89b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_fe81617e68f4",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_3551c79ccf",
+        "o_0486f8513d",
+        "o_447aada593",
+        "o_28b699c764"
+      ],
+      "answerKey": [
+        "o_3551c79ccf",
+        "o_0486f8513d"
+      ]
+    },
+    {
+      "questionId": "q_209f435331f0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_10403474bd",
+        "o_14e4c40cdf",
+        "o_b617df7727",
+        "o_668af08590"
+      ],
+      "answerKey": [
+        "o_10403474bd",
+        "o_14e4c40cdf",
+        "o_b617df7727",
+        "o_668af08590"
+      ]
+    },
+    {
+      "questionId": "q_2979933fe5bd",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_926c9d8e8a",
+        "o_3fa4c026e8",
+        "o_8fbf7060f8",
+        "o_051f93b16b"
+      ],
+      "answerKey": [
+        "o_926c9d8e8a",
+        "o_3fa4c026e8",
+        "o_8fbf7060f8"
+      ]
+    },
+    {
+      "questionId": "q_193fa098e4e0",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_1a16bab073",
+        "o_88450a1887",
+        "o_ecdd4e42be",
+        "o_329aedc2cf"
+      ],
+      "answerKey": [
+        "o_1a16bab073",
+        "o_ecdd4e42be"
+      ]
+    },
+    {
+      "questionId": "q_0705b2e27b4e",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_b152f085e2",
+        "o_fdb7605edc",
+        "o_b3c4deb471",
+        "o_72077749f7"
+      ],
+      "answerKey": [
+        "o_b152f085e2",
+        "o_fdb7605edc",
+        "o_b3c4deb471"
+      ]
+    },
+    {
+      "questionId": "q_2a682dc60266",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_bbdd56c534",
+        "o_e9b13e301c",
+        "o_02c88542e9",
+        "o_8e93d70514"
+      ],
+      "answerKey": [
+        "o_bbdd56c534",
+        "o_e9b13e301c",
+        "o_02c88542e9",
+        "o_8e93d70514"
+      ]
+    },
+    {
+      "questionId": "q_c193bc3e80d5",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_4e7b9a2235",
+        "o_cd0e396073",
+        "o_5d164bdbeb",
+        "o_72077749f7"
+      ],
+      "answerKey": [
+        "o_4e7b9a2235",
+        "o_cd0e396073",
+        "o_5d164bdbeb"
+      ]
+    },
+    {
+      "questionId": "q_4d61efccf61b",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "single",
+      "optionKeys": [
+        "o_2a67740d16",
+        "o_804f388671",
+        "o_945215a165",
+        "o_eb304c0219"
+      ],
+      "answerKey": [
+        "o_2a67740d16"
+      ]
+    },
+    {
+      "questionId": "q_1787b57e35a8",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_b859c7be75"
+      ]
+    },
+    {
+      "questionId": "q_c8e2fdc5a014",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "judgment",
+      "optionKeys": [
+        "o_f73d8418d3",
+        "o_b859c7be75"
+      ],
+      "answerKey": [
+        "o_f73d8418d3"
+      ]
+    },
+    {
+      "questionId": "q_b248b6122315",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "chapterId": "lab_tykspt2_classid_202309000001",
+      "type": "multiple",
+      "optionKeys": [
+        "o_2600c87550",
+        "o_4e402e9217",
+        "o_d3bea9efb1",
+        "o_f5f906c20b"
+      ],
+      "answerKey": [
+        "o_2600c87550",
+        "o_4e402e9217",
+        "o_f5f906c20b"
       ]
     }
   ]

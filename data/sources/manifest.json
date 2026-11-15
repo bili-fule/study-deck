@@ -9,6 +9,15 @@
       "sourceUrl": "https://exam.yooc.me/group/10965207/exam/610277/take",
       "expectedTotal": 297,
       "coverageNote": "官方页面显示 297 题，已采集 296 题；未采集的第 297 题不补造、不臆测。"
+    },
+    {
+      "file": "lab-bank.json",
+      "bankId": "bank_labmgmt_tykspt2_202309000001",
+      "title": "肇庆学院实验室安全教育与考试平台 · 通识类",
+      "shortTitle": "实验室安全",
+      "description": "实验室安全教育与考试平台（Tykspt2）官方题库快照；当前为通识类题库。",
+      "sourceUrl": "https://labmgmt.zqu.edu.cn/Tykspt2/default/gosjLookPage2?sjmenu=15&classid=202309000001&fwcs=&classtype=aqzstk",
+      "coverageNote": "当前题库页面列出第 1–322 题，共采集 322 题；页面未显示官方题库总数。"
     }
   ]
 }

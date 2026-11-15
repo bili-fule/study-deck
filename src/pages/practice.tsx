@@ -27,7 +27,7 @@ import { useStore } from "@/store/app-store";
 import { cardsForBank, getBank, getQuestion } from "@/lib/bank";
 import { navigate, routeQuery } from "@/lib/router";
 import { isCorrect } from "@/lib/scoring";
-import type { PracticeMode } from "@/lib/types";
+import type { BankQuestion, PracticeMode } from "@/lib/types";
 import { EmptyState, Panel, PageHeader, SectionHeading } from "@/ui/common";
 import { cx } from "@/utils/cx";
 
@@ -85,6 +85,10 @@ export function PracticeSetupPage({ route }: { route: string }) {
   );
   const [count, setCount] = useState(20);
   const [seed, setSeed] = useState("");
+
+  useEffect(() => {
+    if (count > activeBank.collected) setCount(Math.max(1, activeBank.collected));
+  }, [activeBank.collected, count]);
 
   useEffect(() => {
     if (!activeBank.chapters.some((chapter) => chapter.chapterId === chapterId)) {
@@ -230,11 +234,14 @@ export function PracticeSetupPage({ route }: { route: string }) {
             ) : null}
 
             <Select label="本轮题量" selectedKey={String(count)} onSelectionChange={(key) => setCount(Number(key))}>
-              {[10, 20, 30, 50, 100, 200, 296].map((value) => (
-                <SelectItem id={String(value)} key={value}>
-                  {value} 题
-                </SelectItem>
-              ))}
+              {[...new Set([10, 20, 30, 50, 100, 200, activeBank.collected])]
+                .filter((value) => value <= activeBank.collected)
+                .sort((a, b) => a - b)
+                .map((value) => (
+                  <SelectItem id={String(value)} key={value}>
+                    {value} 题
+                  </SelectItem>
+                ))}
             </Select>
             {count > poolSize ? (
               <p className="-mt-2 text-caption-1-medium text-text-tertiary">题库不足，本轮将使用全部 {poolSize} 题。</p>
@@ -619,6 +626,17 @@ function PendingSingleCommit({
   return null;
 }
 
+function formatSelectedAnswer(question: BankQuestion, selected: readonly string[]): string | null {
+  if (selected.length === 0) return null;
+  const chosen = new Set(selected);
+  const parts = question.options
+    .filter((option) => chosen.has(option.id))
+    .map((option) => `${option.label}. ${option.text}`);
+  const unknown = selected.filter((id) => !question.options.some((option) => option.id === id)).length;
+  if (unknown > 0) parts.push("选项已更新");
+  return parts.length > 0 ? parts.join(" / ") : null;
+}
+
 function optionTone(revealed: boolean, selected: boolean, answer: boolean): string {
   if (revealed && answer) return "border-status-lime-text bg-status-lime-background";
   if (revealed && selected && !answer) return "border-status-rose-text bg-status-rose-background";
@@ -753,7 +771,10 @@ export function QuestionListPage({ kind }: { kind: "mistakes" | "favorites" }) {
                     <p className="text-body-medium text-text-primary">{question.stem}</p>
                     <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-caption-1-medium text-text-secondary">
                       <span>官方答案：{question.answerText.join(" / ")}</span>
-                      {stat?.lastAt ? <span>上次作答：{stat.lastCorrect ? "正确" : "错误"}</span> : null}
+                      <span>
+                        上次作答：
+                        {formatSelectedAnswer(question, stat?.lastSelected ?? []) ?? "暂无作答记录"}
+                      </span>
                     </div>
                   </div>
                   <div className="flex shrink-0 items-center gap-1">

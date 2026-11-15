@@ -297,6 +297,11 @@ export function DashboardPage() {
                   去复习
                 </Button>
               </div>
+            ) : bankCards.length === 0 ? (
+              <div className="rounded-2xl bg-background-secondary-default p-4">
+                <p className="text-body-2-semibold text-text-primary">本库暂无经过核验的知识卡</p>
+                <p className="mt-1 text-caption-1-medium text-text-tertiary">练习、模考与进度统计仍可正常使用；不会自动生成卡片。</p>
+              </div>
             ) : (
               <div className="rounded-2xl bg-background-secondary-default p-4">
                 <p className="text-body-2-semibold text-text-primary">所有知识卡都已复习</p>
@@ -336,7 +341,8 @@ export function DashboardPage() {
 
       <div className="flex items-center justify-between gap-3 rounded-2xl border border-border-button-default bg-background-secondary-default px-4 py-3">
         <p className="text-caption-1-medium text-text-tertiary">
-          题库来源：{activeBank.title} · 官方采集 {activeBank.collected}/{activeBank.expectedTotal}
+          题库来源：{activeBank.title} · 官方采集 {activeBank.collected}
+          {activeBank.expectedTotal ? `/${activeBank.expectedTotal}` : " · 总数未显示"}
         </p>
         <LinkButton href="#/settings" size="small">
           备份与隐私

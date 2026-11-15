@@ -45,7 +45,7 @@ export interface Bank {
   shortTitle: string;
   description: string;
   sourceUrl: string;
-  expectedTotal: number;
+  expectedTotal: number | null;
   collected: number;
   coverageNote: string;
   rounds: number[];

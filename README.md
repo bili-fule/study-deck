@@ -23,7 +23,7 @@ npm run preview
 - 章节顺序、随机（可复现种子、每轮不重复）、智能加权（新题/错题/到期优先，并保证章节覆盖）、错题重练、收藏练习。练习中单选/判断点击选项即提交并立即显示对错，不再有独立“提交答案”按钮；多选勾选后点击“下一题 / 完成练习”提交并继续。
 - 练习完成状态：全部题目作答后自动标记为已完成并保留只读回看，直到点击“完成练习”结束；未完成/未作答的练习仍可继续。已完成练习不会出现在概览或练习页的“进行中”横幅；旧版本遗留的“已全部作答但仍为进行中”会话会在读取时自动迁移，不改动历史事件与答案。
 - 模拟考试：题量与时长可配置，默认 50 题 / 30 分钟；截止时间持久化，刷新后继续倒计时，到期自动交卷；交卷前不显示对错，交卷后统一批改与复盘。
-- 错题本按“最近一次作答错误”收录，答对后自动移出；收藏使用 append-only 事件 + 墓碑，不硬删除历史。
+- 错题本按“最近一次作答错误”收录，答对后自动移出；错题/收藏卡片并列显示官方答案与上次实际所选答案（按当前选项顺序映射稳定 ID），不再用对错状态代替选择内容。收藏使用 append-only 事件 + 墓碑，不硬删除历史。
 - 知识卡：15 张由官方题库事实整理，关联 52 道唯一题；SM-2 简化调度（again/hard/good/easy）。
 - 学习进度：覆盖率、正确率、连续天数、近 7 天、章节/分类明细、模拟考试历史。
 - 备份/恢复 JSON；导入前校验事件结构，非法文件不会覆盖现有数据。备份不包含账号、Cookie、同步游标或 ack 元数据。
@@ -32,7 +32,9 @@ npm run preview
 
 ## 数据与题库扩展
 
-题库快照在 `data/sources/question-bank.json`（296 / 官方 297 题；未采集题不补造），CSV 快照在 `data/sources/question-bank.csv`。编译产物：
+题库快照在 `data/sources/question-bank.json`（296 / 官方 297 题；未采集题不补造），CSV 快照在 `data/sources/question-bank.csv`。
+
+实验室安全题库快照在 `data/sources/lab-bank.json`：2026-11-15 经 BSK 浏览器实例访问官方 `labmgmt.zqu.edu.cn` 题库页采集（`gosjLookPage2?sjmenu=15&classid=202309000001...`）。当前页面第 1–322 题全部有官方答案：106 单选 / 186 判断 / 30 多选，0 未作答、0 题图。分类为 `通识类`（`classid=202309000001`）；官方页面未显示题库总数，因此 `expectedTotal` 留空，不把 322 宣称为官方总量。首页另外五个标签属于“在线学习”文章列表，不是本题库，未合并。本库暂不生成知识卡。编译产物：
 
 - `data/bank.bundle.json`：浏览器完整题库（题干、选项、来源、稳定 ID）。
 - `data/catalog.json`：服务端校验用最小目录 `{bankId,questionId,chapterId,type,optionKeys,answerKey}`。
@@ -52,8 +54,8 @@ npm run data:test        # 导入器边界回归（选项重排/无来源前缀/
 
 新增题库：
 
-1. 在 `data/sources/` 放入题库 JSON（`{ questions: [...] }`），并在 `data/sources/manifest.json` 的 `banks` 中登记 `file`、`bankId`、`title`、`expectedTotal` 等。
-2. 题目可继续使用行首 `（来源文件）` 前缀；通用题库也可以省略前缀，改用可选的 `sourceTitle` / `chapter` / `chapterId` / `type` 字段。显式 `type` 支持 `single` / `judgment` / `multiple`，即使多选题只有一个正确答案也不会被误判为单选。
+1. 在 `data/sources/` 放入题库 JSON（`{ questions: [...] }`），并在 `data/sources/manifest.json` 的 `banks` 中登记 `file`、`bankId`、`title`；`expectedTotal` 可选，官网未显示总数时省略并写清 `coverageNote`，不要用采集数伪造总数。
+2. 题目可继续使用行首 `（来源文件）` 前缀；通用题库也可以省略前缀，改用可选的 `sourceTitle` / `chapter` / `chapterId` / `category` / `type` 字段。`chapter` 是分类/章节标题，`sourceTitle` 是具体制度文件或来源标题（二者可同时提供）；`category` 用于覆盖自动分类，未提供时沿用内置规则。显式 `type` 支持 `single` / `judgment` / `multiple`，即使多选题只有一个正确答案也不会被误判为单选。
 3. 运行 `npm run data:build`；任何缺失答案、`answerText` 与 `answerKey` 不一致、重复 ID 都会使构建失败。
 4. 侧边栏题库选择器会自动列出所有已编译题库；练习、模考、错题、收藏、知识卡和进度都按当前题库作用域统计。
 

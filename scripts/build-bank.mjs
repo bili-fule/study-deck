@@ -101,11 +101,24 @@ function buildBank(entry) {
   const seenIds = new Map();
 
   for (const [index, raw] of source.questions.entries()) {
-    const split = splitSourcePrefix(raw.question ?? "");
+    const hasExplicitMetadata = Boolean(
+      raw.sourceTitle || raw.source || raw.chapter || raw.chapterId,
+    );
+    const split = hasExplicitMetadata
+      ? { source: "", stem: normalize(raw.question ?? "") }
+      : splitSourcePrefix(raw.question ?? "");
     const explicitChapter = typeof raw.chapter === "string" ? normalize(raw.chapter) : "";
     const explicitSource = raw.sourceTitle ?? raw.source;
+    const chapterTitle = normalize(
+      explicitChapter || split.source || entry.defaultChapterTitle || explicitSource || "综合练习",
+    );
     const sourceTitle = normalize(
       explicitSource || split.source || explicitChapter || entry.defaultChapterTitle || "综合练习",
+    );
+    const chapterCategory = normalize(
+      (typeof raw.category === "string" ? raw.category : "") ||
+        entry.defaultCategory ||
+        classifyCategory(chapterTitle),
     );
     const stem = split.stem;
     if (!stem) fail(`${entry.file} #${index + 1}: empty question body`);
@@ -130,13 +143,13 @@ function buildBank(entry) {
     seenIds.set(questionId, index + 1);
 
     const chapterId =
-      raw.chapterId ?? `ch_${sha1(`${entry.bankId}\u0000${sourceTitle}`).slice(0, 10)}`;
+      raw.chapterId ?? `ch_${sha1(`${entry.bankId}\u0000${chapterTitle}`).slice(0, 10)}`;
     if (!chapterMap.has(chapterId)) {
       chapterMap.set(chapterId, {
         chapterId,
         bankId: entry.bankId,
-        title: sourceTitle,
-        category: classifyCategory(sourceTitle),
+        title: chapterTitle,
+        category: chapterCategory,
         questionCount: 0,
       });
     }
@@ -220,11 +233,11 @@ function buildBank(entry) {
     shortTitle: entry.shortTitle ?? entry.title,
     description: entry.description ?? "",
     sourceUrl: entry.sourceUrl ?? "",
-    expectedTotal: entry.expectedTotal ?? questions.length,
+    expectedTotal: typeof entry.expectedTotal === "number" ? entry.expectedTotal : null,
     collected: questions.length,
     coverageNote:
       entry.coverageNote ??
-      (entry.expectedTotal && entry.expectedTotal !== questions.length
+      (typeof entry.expectedTotal === "number" && entry.expectedTotal !== questions.length
         ? `官方总数 ${entry.expectedTotal}，已采集 ${questions.length}。`
         : ""),
     rounds: Array.isArray(source.rounds) ? source.rounds : [],

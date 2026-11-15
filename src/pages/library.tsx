@@ -191,6 +191,27 @@ export function CardsPage() {
     setRevealed(false);
   }, [mode, category]);
 
+  if (bankCards.length === 0) {
+    return (
+      <div className="animate-rise flex flex-col gap-6">
+        <PageHeader
+          eyebrow="Knowledge cards"
+          title="知识卡"
+          description="只展示经过核验、且能由本库题目直接支持的知识卡；不会为新题库自动生成内容。"
+        />
+        <Panel>
+          <EmptyState
+            icon={RiLightbulbFlashLine}
+            title="本库暂无知识卡"
+            description={`${activeBank.title} 已纳入练习、模考、错题与进度统计；但没有经过核验的知识卡，不自动生成或借用其他题库的卡片。`}
+            actionLabel="去练习本库"
+            onAction={() => navigate("/practice")}
+          />
+        </Panel>
+      </div>
+    );
+  }
+
   if (!card) {
     return (
       <div className="animate-rise flex flex-col gap-6">

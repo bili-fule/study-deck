@@ -193,7 +193,7 @@ const lines = [];
 lines.push("# 知识卡事实覆盖报告");
 lines.push("");
 lines.push(`- 题库：${bank.title}（${bank.bankId}）`);
-lines.push(`- 题量：${bank.collected} / 官方 ${bank.expectedTotal}；${bank.coverageNote}`);
+lines.push(`- 题量：${bank.collected} / ${bank.expectedTotal ? `官方 ${bank.expectedTotal}` : "官方总数未显示"}；${bank.coverageNote}`);
 lines.push(`- 生成时间：${report.generatedAt}`);
 lines.push(`- 直接覆盖题目：**${report.union.count} 道唯一题**（跨组去重后）`);
 lines.push("");

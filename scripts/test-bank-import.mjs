@@ -78,7 +78,7 @@ if (keyText(original) !== "16学时" || keyText(changed) !== "16学时") {
 }
 
 const generic = compile({
-  manifest: { ...baseManifest, banks: [{ ...baseManifest.banks[0], expectedTotal: 2, defaultChapterTitle: "通用章节" }] },
+  manifest: { ...baseManifest, banks: [{ ...baseManifest.banks[0], expectedTotal: 3, defaultChapterTitle: "通用章节" }] },
   file: "bank.json",
   source: {
     questions: [
@@ -90,16 +90,35 @@ const generic = compile({
         answer: "B",
         answerText: ["乙"],
       },
+      {
+        question: "（旧前缀不应覆盖显式来源） 实验室安全题。",
+        sourceTitle: "实验室安全官方文件",
+        chapter: "通识类",
+        category: "通识类",
+        options: ["A.甲", "B.乙"],
+        answer: "A",
+        answerText: ["甲"],
+      },
     ],
   },
 });
 if (generic.status !== 0) throw new Error(`generic fixture failed: ${generic.stderr}`);
-if (generic.bundle.banks[0].questions.length !== 2) throw new Error("generic fixture question count mismatch");
+if (generic.bundle.banks[0].questions.length !== 3) throw new Error("generic fixture question count mismatch");
 if (generic.bundle.banks[0].questions[0].sourceTitle !== "通用章节") {
   throw new Error(`generic source fallback mismatch: ${generic.bundle.banks[0].questions[0].sourceTitle}`);
 }
 if (generic.bundle.banks[0].questions[1].type !== "multiple") {
   throw new Error("explicit multiple type was not respected");
+}
+const labChapter = generic.bundle.banks[0].chapters.find((chapter) => chapter.title === "通识类");
+if (!labChapter || labChapter.category !== "通识类") {
+  throw new Error("explicit chapter/category was not preserved");
+}
+if (generic.bundle.banks[0].questions[2].sourceTitle !== "实验室安全官方文件") {
+  throw new Error("explicit sourceTitle was not preserved separately from chapter");
+}
+if (!generic.bundle.banks[0].questions[2].stem.startsWith("（旧前缀不应覆盖显式来源）")) {
+  throw new Error("explicit-metadata question stem lost its leading parenthetical content");
 }
 
 const badAnswerText = compile({
