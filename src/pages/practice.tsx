@@ -6,11 +6,11 @@ import {
   RiCheckboxCircleLine,
   RiCloseCircleLine,
   RiErrorWarningLine,
-  RiFlagLine,
+  RiEyeLine,
   RiFlagFill,
+  RiFlagLine,
   RiLightbulbFlashLine,
   RiPlayCircleLine,
-  RiRefreshLine,
   RiShuffleLine,
   RiSparklingLine,
   RiStarFill,
@@ -19,160 +19,163 @@ import {
 import { Button } from "@/components/base/buttons/button";
 import { Checkbox } from "@/components/base/checkbox/checkbox";
 import { Radio, RadioGroup } from "@/components/base/radio/radio";
-import { Input } from "@/components/base/input/input";
 import { Select, SelectItem } from "@/components/base/select/select";
+import { Input } from "@/components/base/input/input";
 import { Chip } from "@/components/base/badges/chip";
+import { Drawer, DrawerBody, DrawerHeader } from "@/components/base/drawer/drawer";
+import { Switch } from "@/components/base/switch/switch";
 import { toast } from "@/components/base/toast/toast";
 import { useStore } from "@/store/app-store";
 import { cardsForBank, getBank, getQuestion } from "@/lib/bank";
 import { navigate, routeQuery } from "@/lib/router";
-import { isCorrect } from "@/lib/scoring";
-import type { BankQuestion, PracticeMode } from "@/lib/types";
-import { EmptyState, Panel, PageHeader, SectionHeading } from "@/ui/common";
+import { isCorrect, percent } from "@/lib/scoring";
+import type { BankChapter, BankQuestion } from "@/lib/types";
+import { EmptyState, Panel, PageHeader } from "@/ui/common";
 import { cx } from "@/utils/cx";
 
-const MODES: Array<{
-  mode: PracticeMode;
-  title: string;
-  description: string;
-  icon: typeof RiBookOpenLine;
-  tone: string;
-}> = [
-  {
-    mode: "chapter",
-    title: "章节顺序",
-    description: "按当前题库的章节顺序逐题推进，适合系统练习。",
-    icon: RiBookOpenLine,
-    tone: "bg-accent-50 text-accent-700",
-  },
+/** 顺序练习是主入口（全库/章节断点续练）；其余为即点即练的快捷方式。 */
+const QUICK_MODES = [
   {
     mode: "random",
     title: "随机练习",
-    description: "每轮洗牌且不重复，种子可复现。",
+    description: "整库洗牌且不重复，20 题一组。",
     icon: RiShuffleLine,
     tone: "bg-status-lime-background text-status-lime-text",
+    count: (collected: number) => Math.min(20, collected),
   },
   {
     mode: "adaptive",
     title: "智能加权",
-    description: "优先新题、错题和到期内容，并保证章节覆盖。",
+    description: "优先新题、错题和到期内容，20 题一组。",
     icon: RiSparklingLine,
     tone: "bg-status-purple-background text-status-purple-text",
+    count: (collected: number) => Math.min(20, collected),
   },
   {
     mode: "mistakes",
     title: "错题重练",
-    description: "只练最近一次答错的题，答对后自动移出。",
+    description: "最近一次答错的题，答对自动移出。",
     icon: RiErrorWarningLine,
     tone: "bg-status-rose-background text-status-rose-text",
+    count: (collected: number) => collected,
   },
   {
     mode: "favorites",
-    title: "收藏夹",
-    description: "从你收藏的题目中抽题，适合考前回看。",
+    title: "收藏练习",
+    description: "只练收藏过的题，适合考前回看。",
     icon: RiStarLine,
     tone: "bg-status-orange-background text-status-orange-text",
+    count: (collected: number) => collected,
   },
-];
+] as const;
 
 export function PracticeSetupPage({ route }: { route: string }) {
-  const { projection, session, actions, activeBank } = useStore();
+  const { state, projection, session, actions, activeBank } = useStore();
   const query = routeQuery(route);
-  const initialMode = (query.get("mode") as PracticeMode | null) ?? "chapter";
-  const [mode, setMode] = useState<PracticeMode>(MODES.some((item) => item.mode === initialMode) ? initialMode : "chapter");
-  const [chapterId, setChapterId] = useState<string>(
-    query.get("chapter") ?? activeBank.chapters[0]?.chapterId ?? "",
+
+  const chapterRows = useMemo(
+    () =>
+      activeBank.chapters.map((chapter) => {
+        const questions = activeBank.questions.filter((question) => question.chapterId === chapter.chapterId);
+        const attempted = questions.filter((question) => (projection.statsByQuestion.get(question.questionId)?.attempts ?? 0) > 0).length;
+        const correct = questions.reduce((sum, question) => sum + (projection.statsByQuestion.get(question.questionId)?.correct ?? 0), 0);
+        const attempts = questions.reduce((sum, question) => sum + (projection.statsByQuestion.get(question.questionId)?.attempts ?? 0), 0);
+        return { chapter, attempted, total: questions.length, accuracy: attempts ? percent(correct, attempts) : 0 };
+      }),
+    [activeBank, projection.statsByQuestion],
   );
-  const [count, setCount] = useState(20);
-  const [seed, setSeed] = useState("");
 
-  useEffect(() => {
-    if (count > activeBank.collected) setCount(Math.max(1, activeBank.collected));
-  }, [activeBank.collected, count]);
-
-  useEffect(() => {
-    if (!activeBank.chapters.some((chapter) => chapter.chapterId === chapterId)) {
-      setChapterId(activeBank.chapters[0]?.chapterId ?? "");
-    }
-  }, [activeBank, chapterId]);
-
-  useEffect(() => {
-    const next = query.get("mode") as PracticeMode | null;
-    if (next && MODES.some((item) => item.mode === next)) setMode(next);
-    const chapter = query.get("chapter");
-    if (chapter) setChapterId(chapter);
-  }, [route]);
-
-  const poolSize = useMemo(() => {
-    let questions = activeBank.questions;
-    if (mode === "chapter") questions = questions.filter((question) => question.chapterId === chapterId);
-    if (mode === "mistakes") questions = questions.filter((question) => projection.wrongQuestionIds.includes(question.questionId));
-    if (mode === "favorites") questions = questions.filter((question) => projection.favoriteQuestionIds.includes(question.questionId));
-    return questions.length;
-  }, [chapterId, mode, projection.favoriteQuestionIds, projection.wrongQuestionIds]);
-
-  const effectiveCount = Math.max(1, Math.min(count, Math.max(poolSize, 1)));
-
-  function start() {
-    if (poolSize === 0) {
-      toast.error("当前模式下没有可练习的题目", { description: mode === "favorites" ? "先收藏几道题再来。" : "先完成一轮练习，错题会自动出现。" });
-      return;
-    }
+  function startSequential(chapter?: BankChapter) {
     const created = actions.startSession({
       kind: "practice",
-      mode,
+      mode: "chapter",
       bankId: activeBank.bankId,
-      chapterId: mode === "chapter" ? chapterId : undefined,
-      count: effectiveCount,
-      seed,
-      title: MODES.find((item) => item.mode === mode)?.title ?? "练习",
+      chapterId: chapter?.chapterId,
+      count: chapter ? chapter.questionCount : activeBank.collected,
+      resume: true,
+      title: chapter ? `顺序练习 · ${chapter.title}` : "顺序练习",
     });
     if (!created) {
-      toast.error("无法创建练习", { description: "题库为空或筛选条件过窄。" });
+      toast.error("无法开始练习", { description: "题库为空。" });
       return;
     }
     navigate("/session");
   }
 
+  function startQuick(item: (typeof QUICK_MODES)[number]) {
+    const pool =
+      item.mode === "mistakes"
+        ? projection.wrongQuestionIds.length
+        : item.mode === "favorites"
+          ? projection.favoriteQuestionIds.length
+          : activeBank.collected;
+    if (pool === 0) {
+      toast.error(item.mode === "favorites" ? "还没有收藏的题目" : "还没有错题", {
+        description: item.mode === "favorites" ? "练习时点星标即可收藏。" : "先做几道题，答错的会自动进入错题本。",
+      });
+      return;
+    }
+    const created = actions.startSession({
+      kind: "practice",
+      mode: item.mode,
+      bankId: activeBank.bankId,
+      count: item.count(pool),
+      title: item.title,
+    });
+    if (!created) {
+      toast.error("无法开始练习");
+      return;
+    }
+    navigate("/session");
+  }
+
+  // 旧入口 ?mode=chapter(&chapter=...) 直接进入顺序练习；其余模式一键开始。
+  useEffect(() => {
+    const mode = query.get("mode");
+    if (!mode) return;
+    // 模考有倒计时，优先回到考试；进行中的练习直接由新入口替换，避免入口被旧的挡住。
+    if (session?.kind === "mock" && session.status === "active") {
+      navigate("/exam");
+      return;
+    }
+    if (mode === "chapter") {
+      const chapter = activeBank.chapters.find((item) => item.chapterId === query.get("chapter"));
+      startSequential(chapter);
+      return;
+    }
+    const item = QUICK_MODES.find((entry) => entry.mode === mode);
+    if (item) startQuick(item);
+    else navigate("/practice");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [route]);
+
+  const activePractice = session?.kind === "practice" && session.status === "active" ? session : null;
+  const activeMock = session?.kind === "mock" && session.status === "active" ? session : null;
+  const ongoing = activePractice ?? activeMock;
+
   return (
     <div className="animate-rise flex flex-col gap-6">
       <PageHeader
         eyebrow="Practice"
-        title="开始一轮练习"
-        description="单选/判断点击选项即提交并显示官方答案；多选点击“提交答案”判分，再点“下一题”继续。退出后进度会保留。"
+        title="开始练习"
+        description="顺序练习从上次未做的题继续；单选/判断点选即判分，多选提交后判分。"
         actions={
-          <>
-            {session?.status === "active" ? (
-              <Button
-                variant="secondary"
-                leadingIcon={RiPlayCircleLine}
-                onClick={() => navigate(session.kind === "mock" ? "/exam" : "/session")}
-              >
-                继续当前{session.kind === "mock" ? "考试" : "练习"}
-              </Button>
-            ) : null}
-            <Button variant="secondary" leadingIcon={RiRefreshLine} onClick={() => navigate("/mock")}>
-              模拟考试
-            </Button>
-          </>
+          <Button variant="secondary" onClick={() => navigate("/mock")}>
+            模拟考试
+          </Button>
         }
       />
 
-      {session?.status === "active" ? (
+      {ongoing ? (
         <Panel className="flex flex-col gap-3 border-accent-200 bg-accent-50/60 p-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <p className="text-body-2-semibold text-text-primary">
-              有一轮进行中的{session.kind === "mock" ? "模拟考试" : "练习"}：{session.title}
-            </p>
+            <p className="text-body-2-semibold text-text-primary">进行中：{ongoing.title}</p>
             <p className="mt-0.5 text-caption-1-medium text-text-secondary">
-              {session.currentIndex + 1}/{session.questionIds.length} 题
-              {session.kind === "mock" && session.deadlineAt
-                ? ` · 截止 ${new Date(session.deadlineAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" })}`
-                : ""}
+              {ongoing.currentIndex + 1}/{ongoing.questionIds.length} 题
             </p>
           </div>
           <div className="flex gap-2">
-            <Button size="small" onClick={() => navigate(session.kind === "mock" ? "/exam" : "/session")}>
+            <Button size="small" onClick={() => navigate(activeMock ? "/exam" : "/session")}>
               继续
             </Button>
             <Button
@@ -189,115 +192,116 @@ export function PracticeSetupPage({ route }: { route: string }) {
         </Panel>
       ) : null}
 
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1.3fr)_minmax(300px,0.7fr)]">
-        <Panel className="p-5 sm:p-6">
-          <SectionHeading title="练习方式" description="五种模式共享同一套官方题库与稳定题目 ID。" />
-          <div className="grid gap-3 sm:grid-cols-2">
-            {MODES.map((item) => {
-              const Icon = item.icon;
-              const active = mode === item.mode;
-              return (
-                <button
-                  key={item.mode}
-                  type="button"
-                  onClick={() => setMode(item.mode)}
-                  aria-pressed={active}
-                  className={cx(
-                    "flex cursor-pointer flex-col items-start rounded-2xl border p-4 text-start transition-[border-color,background-color,box-shadow]",
-                    active
-                      ? "border-accent-400 bg-accent-50 shadow-sm"
-                      : "border-border-button-default bg-background-primary-default hover:border-border-button-hover hover:bg-background-primary-hover",
-                  )}
-                >
-                  <span className={cx("mb-3 flex size-10 items-center justify-center rounded-xl", item.tone)}>
-                    <Icon className="size-5" aria-hidden />
-                  </span>
-                  <span className="text-body-semibold text-text-primary">{item.title}</span>
-                  <span className="mt-1 text-body-2-regular text-text-secondary">{item.description}</span>
-                </button>
-              );
-            })}
-          </div>
-        </Panel>
-
-        <Panel className="flex flex-col p-5 sm:p-6">
-          <SectionHeading title="范围与参数" description={`当前池 ${poolSize} 题`} />
-          <div className="flex flex-col gap-4">
-            {mode === "chapter" ? (
-              <Select label="章节" selectedKey={chapterId} onSelectionChange={(key) => setChapterId(String(key))}>
-                {activeBank.chapters.map((chapter) => (
-                  <SelectItem id={chapter.chapterId} key={chapter.chapterId}>
-                    {chapter.title}
-                  </SelectItem>
-                ))}
-              </Select>
-            ) : null}
-
-            <Select label="本轮题量" selectedKey={String(count)} onSelectionChange={(key) => setCount(Number(key))}>
-              {[...new Set([10, 20, 30, 50, 100, 200, activeBank.collected])]
-                .filter((value) => value <= activeBank.collected)
-                .sort((a, b) => a - b)
-                .map((value) => (
-                  <SelectItem id={String(value)} key={value}>
-                    {value} 题
-                  </SelectItem>
-                ))}
-            </Select>
-            {count > poolSize ? (
-              <p className="-mt-2 text-caption-1-medium text-text-tertiary">题库不足，本轮将使用全部 {poolSize} 题。</p>
-            ) : null}
-
-            <Input
-              label="随机种子（可选）"
-              value={seed}
-              onChange={(value) => setSeed(value)}
-              placeholder="留空自动生成，可复现同一轮排序"
-              hint="仅用于可复现洗牌，不是安全令牌。"
-            />
-
-            <div className="rounded-2xl bg-background-secondary-default p-4">
-              <p className="text-caption-1-semibold uppercase tracking-[0.1em] text-text-tertiary">本轮预览</p>
-              <p className="mt-2 text-title-2-semibold text-text-primary">
-                {effectiveCount} <span className="text-body-regular text-text-tertiary">题</span>
-              </p>
-              <p className="mt-1 text-body-2-regular text-text-secondary">
-                {mode === "chapter"
-                  ? activeBank.chapters.find((chapter) => chapter.chapterId === chapterId)?.title
-                  : MODES.find((item) => item.mode === mode)?.title}
-              </p>
-            </div>
-
-            <Button size="medium" leadingIcon={RiPlayCircleLine} onClick={start} isDisabled={poolSize === 0}>
-              开始练习
-            </Button>
-          </div>
-        </Panel>
+      <div className="flex flex-col gap-3 rounded-2xl border border-border-button-default bg-background-primary-default p-4 sm:flex-row sm:items-center">
+        <Switch
+          isSelected={state.settings.studyMode}
+          onChange={(value) => actions.updateSettings({ studyMode: value })}
+        >
+          <span className="flex items-center gap-1.5 text-body-2-medium text-text-primary">
+            <RiEyeLine className="size-4 text-accent-600" aria-hidden />
+            背题模式
+          </span>
+        </Switch>
+        <p className="text-caption-1-medium text-text-tertiary sm:ms-auto">
+          {state.settings.studyMode ? "已开启：直接显示答案与解析，作答不计入统计。" : "关闭时正常作答并统计正确率。"}
+        </p>
       </div>
 
-      <Panel className="p-5 sm:p-6">
-        <SectionHeading title="题库状态" description={activeBank.coverageNote} />
-        <div className="grid gap-4 sm:grid-cols-3">
-          <div className="rounded-2xl bg-background-secondary-default p-4">
-            <p className="text-caption-1-medium text-text-tertiary">总题量</p>
-            <p className="mt-1 text-title-2-semibold text-text-primary tabular">{activeBank.collected}</p>
+      <Panel className="flex flex-col gap-4 p-5 sm:p-6">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h2 className="text-title-3-semibold text-text-primary">顺序练习</h2>
+            <p className="mt-0.5 text-caption-1-medium text-text-tertiary">
+              已练 {projection.attempted}/{activeBank.collected} 题 · 从第一道未做的题继续
+            </p>
           </div>
-          <div className="rounded-2xl bg-background-secondary-default p-4">
-            <p className="text-caption-1-medium text-text-tertiary">章节数</p>
-            <p className="mt-1 text-title-2-semibold text-text-primary tabular">{activeBank.chapters.length}</p>
-          </div>
-          <div className="rounded-2xl bg-background-secondary-default p-4">
-            <p className="text-caption-1-medium text-text-tertiary">知识卡</p>
-            <p className="mt-1 text-title-2-semibold text-text-primary tabular">{cardsForBank(activeBank.bankId).length}</p>
-          </div>
+          <Button leadingIcon={RiPlayCircleLine} onClick={() => startSequential()}>
+            {projection.attempted > 0 ? "继续顺序练习" : "开始顺序练习"}
+          </Button>
+        </div>
+        <div className="flex flex-col divide-y divide-separator-border">
+          {chapterRows.map((row) => (
+            <button
+              key={row.chapter.chapterId}
+              type="button"
+              className="group flex cursor-pointer items-center gap-3 py-3 text-start"
+              onClick={() => startSequential(row.chapter)}
+            >
+              <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-accent-50 text-accent-700">
+                <RiBookOpenLine className="size-5" aria-hidden />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-body-2-semibold text-text-primary">{row.chapter.title}</span>
+                <span className="mt-0.5 block text-caption-1-medium text-text-tertiary">
+                  {row.attempted}/{row.total} 题{row.attempted > 0 ? ` · ${row.accuracy}% 正确` : ""}
+                  {row.attempted >= row.total ? " · 已练完，点击从头回看" : ""}
+                </span>
+              </span>
+              <span className="hidden w-28 shrink-0 sm:block">
+                <span className="block h-1.5 overflow-hidden rounded-full bg-background-tertiary-default">
+                  <span
+                    className="block h-full rounded-full bg-accent-500"
+                    style={{ width: `${percent(row.attempted, row.total)}%` }}
+                  />
+                </span>
+              </span>
+              <RiArrowRightLine className="size-4 shrink-0 text-text-tertiary transition-transform group-hover:translate-x-0.5" aria-hidden />
+            </button>
+          ))}
         </div>
       </Panel>
+
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+        {QUICK_MODES.map((item) => {
+          const Icon = item.icon;
+          const meta =
+            item.mode === "mistakes"
+              ? `${projection.wrongQuestionIds.length} 题待重练`
+              : item.mode === "favorites"
+                ? `${projection.favoriteQuestionIds.length} 题已收藏`
+                : `共 ${activeBank.collected} 题`;
+          return (
+            <button
+              key={item.mode}
+              type="button"
+              onClick={() => startQuick(item)}
+              className="group flex cursor-pointer flex-col items-start rounded-2xl border border-border-button-default bg-background-primary-default p-4 text-start transition-[border-color,box-shadow] hover:border-border-button-hover hover:shadow-md"
+            >
+              <span className={cx("mb-3 flex size-10 items-center justify-center rounded-xl", item.tone)}>
+                <Icon className="size-5" aria-hidden />
+              </span>
+              <span className="text-body-semibold text-text-primary">{item.title}</span>
+              <span className="mt-1 text-body-2-regular text-text-secondary">{item.description}</span>
+              <span className="mt-3 text-caption-1-semibold text-text-tertiary">{meta}</span>
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }
 
 export function PracticeSessionPage() {
-  const { session, projection, actions } = useStore();
-  const [showNavigator, setShowNavigator] = useState(false);
+  const { state, session, projection, actions } = useStore();
+  const [sheetOpen, setSheetOpen] = useState(false);
+
+  const activeQuestion =
+    session && session.kind === "practice" ? getQuestion(session.questionIds[session.currentIndex]) : undefined;
+  const study = Boolean(session?.studyMode);
+  const completed = session?.status === "completed";
+  // 驾考宝典式节奏：单选/判断答对后短暂显示反馈再自动跳下一题；答错停留看解析。
+  useEffect(() => {
+    if (!session || session.kind !== "practice" || session.status !== "active") return;
+    if (study || completed || !state.settings.autoNextOnCorrect) return;
+    if (!activeQuestion || activeQuestion.type === "multiple" || !session.revealed[activeQuestion.questionId]) return;
+    if (!isCorrect(activeQuestion, session.answers[activeQuestion.questionId] ?? [])) return;
+    const timer = window.setTimeout(() => {
+      // 末题答对不自动结束：留给用户看反馈后手动点“完成练习”。
+      if (session.currentIndex < session.questionIds.length - 1) actions.moveQuestion(session.currentIndex + 1);
+    }, 600);
+    return () => window.clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [session?.id, session?.currentIndex, activeQuestion?.questionId, study, completed, state.settings.autoNextOnCorrect]);
   if (!session || session.kind !== "practice" || (session.status !== "active" && session.status !== "completed")) {
     return (
       <div className="animate-rise">
@@ -314,7 +318,7 @@ export function PracticeSessionPage() {
     );
   }
 
-  const question = getQuestion(session.questionIds[session.currentIndex]);
+  const question = activeQuestion;
   if (!question) {
     return (
       <Panel>
@@ -323,16 +327,22 @@ export function PracticeSessionPage() {
     );
   }
   const selected = session.answers[question.questionId] ?? [];
-  const revealed = Boolean(session.revealed[question.questionId]);
-  const completed = session.status === "completed";
+  const revealed = study || Boolean(session.revealed[question.questionId]);
   const locked = completed || revealed;
-  const correct = revealed && isCorrect(question, selected);
+  const graded = !study && Boolean(session.revealed[question.questionId]);
+  const correct = graded && isCorrect(question, selected);
   const bank = getBank(session.bankId);
   const chapter = bank.chapters.find((item) => item.chapterId === question.chapterId);
   const linkedCards = cardsForBank(bank.bankId).filter((card) => card.questionIds.includes(question.questionId));
+  const sessionCorrect = session.questionIds.filter((id) => {
+    const item = getQuestion(id);
+    return item && session.revealed[id] && isCorrect(item, session.answers[id] ?? []);
+  }).length;
+  const sessionWrong = Object.keys(session.revealed).length - sessionCorrect;
+  const isLast = session.currentIndex >= session.questionIds.length - 1;
 
   function selectOption(optionId: string) {
-    if (completed || revealed || !question) return;
+    if (study || locked || !question) return;
     if (question.type === "multiple") {
       const nextSelected = selected.includes(optionId) ? selected.filter((id) => id !== optionId) : [...selected, optionId];
       actions.setSessionAnswer(question.questionId, nextSelected);
@@ -343,13 +353,13 @@ export function PracticeSessionPage() {
 
   function finish() {
     actions.finishPractice();
-    toast.success("本轮练习已结束", { description: "已保留全部作答记录与错题/收藏事件；未作答题目不会生成答题记录。" });
-    navigate("/progress");
+    toast.success("本轮练习已结束", { description: "作答记录与错题/收藏已保留；下次顺序练习从断点继续。" });
+    navigate("/practice");
   }
 
-  function advance() {
+  function next() {
     if (!session) return;
-    if (session.currentIndex >= session.questionIds.length - 1) {
+    if (isLast) {
       finish();
       return;
     }
@@ -357,28 +367,80 @@ export function PracticeSessionPage() {
   }
 
   function submitMultipleAnswer() {
-    if (!question || question.type !== "multiple" || locked || selected.length === 0) return;
+    if (!question || question.type !== "multiple" || study || locked || selected.length === 0) return;
     actions.answerPractice(question.questionId, selected);
   }
 
-  function next() {
-    if (!question || (question.type === "multiple" && !locked)) return;
-    advance();
-  }
+  const sheet = (
+    <div>
+      {!study ? (
+        <div className="mb-4 flex items-center justify-between gap-3 text-body-2-semibold">
+          <span className="flex items-center gap-1.5 text-status-lime-text">
+            <RiCheckboxCircleLine className="size-4" aria-hidden />
+            答对 {sessionCorrect}
+          </span>
+          <span className="flex items-center gap-1.5 text-status-rose-text">
+            <RiCloseCircleLine className="size-4" aria-hidden />
+            答错 {sessionWrong}
+          </span>
+          <span className="text-caption-1-medium text-text-tertiary">
+            已答 {Object.keys(session.revealed).length}/{session.questionIds.length}
+          </span>
+        </div>
+      ) : null}
+      <div className="grid grid-cols-6 gap-1.5 sm:grid-cols-10 xl:grid-cols-6">
+        {session.questionIds.map((id, index) => {
+          const answered = Boolean(session.revealed[id]);
+          const item = getQuestion(id);
+          const wasCorrect = answered && item && isCorrect(item, session.answers[id] ?? []);
+          const flagged = session.flagged.includes(id);
+          return (
+            <button
+              key={id}
+              type="button"
+              onClick={() => {
+                actions.moveQuestion(index);
+                setSheetOpen(false);
+              }}
+              className={cx(
+                "relative flex aspect-square cursor-pointer items-center justify-center rounded-lg text-caption-2-semibold tabular",
+                index === session.currentIndex
+                  ? "bg-accent-600 text-white"
+                  : answered
+                    ? wasCorrect
+                      ? "bg-status-lime-background text-status-lime-text"
+                      : "bg-status-rose-background text-status-rose-text"
+                    : "bg-background-secondary-default text-text-secondary hover:bg-background-tertiary-default",
+              )}
+              aria-label={`第 ${index + 1} 题${answered ? (wasCorrect ? "，答对" : "，答错") : "，未作答"}${flagged ? "，已标记" : ""}`}
+            >
+              {index + 1}
+              {flagged ? <span className="absolute end-0.5 top-0.5 size-1.5 rounded-full bg-orange-500" /> : null}
+            </button>
+          );
+        })}
+      </div>
+      {!study && state.settings.autoNextOnCorrect ? (
+        <p className="mt-4 text-caption-1-medium text-text-tertiary">答对自动跳下一题已开启，可在“设置与数据”关闭。</p>
+      ) : null}
+    </div>
+  );
 
   return (
-    <div className="animate-rise flex flex-col gap-5">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center gap-2">
-          <Button size="small" variant="ghost" leadingIcon={RiArrowLeftLine} onClick={() => navigate("/practice")}>
-            退出
-          </Button>
-          <Chip color="blue" variant="caption">
-            {session.title}
-          </Chip>
-          <span className="text-caption-1-medium text-text-tertiary">
-            {session.currentIndex + 1} / {session.questionIds.length}
+    // 不加 animate-rise：动画的 transform 会把 fixed 底栏变成随页面滚动的定位。
+    <div className="flex flex-col gap-4 pb-24">
+      <div className="sticky top-16 z-20 -mx-1 flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-border-button-default bg-background-primary-default px-3 py-2 shadow-sm lg:top-2">
+        <div className="flex min-w-0 items-center gap-2">
+          <Button iconOnly size="small" variant="ghost" leadingIcon={RiArrowLeftLine} aria-label="退出练习" onClick={() => navigate("/practice")} />
+          <span className="truncate text-body-2-semibold text-text-primary">{session.title}</span>
+          <span className="shrink-0 text-caption-1-medium text-text-tertiary tabular">
+            {session.currentIndex + 1}/{session.questionIds.length}
           </span>
+          {study ? (
+            <Chip color="purple" variant="caption">
+              背题
+            </Chip>
+          ) : null}
         </div>
         <div className="flex items-center gap-1.5">
           <Button
@@ -397,26 +459,24 @@ export function PracticeSessionPage() {
             aria-label={projection.statsByQuestion.get(question.questionId)?.favorite ? "取消收藏" : "收藏本题"}
             onClick={() => actions.toggleFavorite(question.questionId)}
           />
-          <Button size="small" variant="secondary" onClick={() => setShowNavigator((value) => !value)}>
-            题卡
-          </Button>
+        </div>
+        <div className="basis-full">
+          <div className="h-1 overflow-hidden rounded-full bg-background-tertiary-default">
+            <div
+              className="h-full rounded-full bg-accent-600 transition-[width] duration-300"
+              style={{ width: `${((session.currentIndex + 1) / session.questionIds.length) * 100}%` }}
+            />
+          </div>
         </div>
       </div>
 
-      <div className="h-1.5 overflow-hidden rounded-full bg-background-tertiary-default">
-        <div
-          className="h-full rounded-full bg-accent-600 transition-[width] duration-300"
-          style={{ width: `${((session.currentIndex + 1) / session.questionIds.length) * 100}%` }}
-        />
-      </div>
-
-      <div className={cx("grid gap-5", showNavigator ? "xl:grid-cols-[minmax(0,1fr)_280px]" : "grid-cols-1")}>
+      <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_280px]">
         <div className="flex flex-col gap-4">
           {completed ? (
             <Panel className="border-status-lime-text/30 bg-status-lime-background p-4">
               <p className="text-body-2-semibold text-status-lime-text">本轮练习已完成</p>
               <p className="mt-0.5 text-caption-1-medium text-text-secondary">
-                当前为只读回看；已作答 {Object.keys(session.revealed).length}/{session.questionIds.length} 题。未作答题目不会生成答题记录。
+                当前为只读回看；已作答 {Object.keys(session.revealed).length}/{session.questionIds.length} 题。
               </p>
             </Panel>
           ) : null}
@@ -431,13 +491,6 @@ export function PracticeSessionPage() {
             <h1 className="text-title-2-semibold leading-relaxed text-text-primary sm:text-title-1-semibold">
               {question.stem}
             </h1>
-
-            <PendingSingleCommit
-              key={question.questionId}
-              questionId={question.questionId}
-              selected={selected}
-              enabled={!locked && question.type !== "multiple" && selected.length > 0}
-            />
 
             {question.type === "multiple" ? (
               <div className="mt-6 flex flex-col gap-2.5">
@@ -498,13 +551,24 @@ export function PracticeSessionPage() {
               <div
                 className={cx(
                   "mt-6 rounded-2xl border p-4",
-                  correct ? "border-status-lime-text/30 bg-status-lime-background" : "border-status-rose-text/30 bg-status-rose-background",
+                  study
+                    ? "border-accent-200 bg-accent-50/60"
+                    : correct
+                      ? "border-status-lime-text/30 bg-status-lime-background"
+                      : "border-status-rose-text/30 bg-status-rose-background",
                 )}
               >
-                <p className={cx("flex items-center gap-2 text-body-semibold", correct ? "text-status-lime-text" : "text-status-rose-text")}>
-                  {correct ? <RiCheckboxCircleLine className="size-5" /> : <RiCloseCircleLine className="size-5" />}
-                  {correct ? "回答正确" : "回答错误"}
-                </p>
+                {study ? (
+                  <p className="flex items-center gap-2 text-body-semibold text-accent-700">
+                    <RiEyeLine className="size-5" aria-hidden />
+                    背题模式 · 不计入统计
+                  </p>
+                ) : (
+                  <p className={cx("flex items-center gap-2 text-body-semibold", correct ? "text-status-lime-text" : "text-status-rose-text")}>
+                    {correct ? <RiCheckboxCircleLine className="size-5" /> : <RiCloseCircleLine className="size-5" />}
+                    {correct ? "回答正确" : "回答错误"}
+                  </p>
+                )}
                 <p className="mt-2 text-body-2-regular text-text-primary">
                   官方答案：<strong>{question.answerText.join(" / ")}</strong>
                 </p>
@@ -513,50 +577,15 @@ export function PracticeSessionPage() {
                     <strong>官方解析：</strong>{question.explanation}
                   </p>
                 ) : null}
-                <p className="mt-1 text-caption-1-medium text-text-secondary">来源：{question.sourceTitle}</p>
+                {state.settings.showSourceInPractice ? (
+                  <p className="mt-1 text-caption-1-medium text-text-secondary">来源：{question.sourceTitle}</p>
+                ) : null}
               </div>
             ) : null}
 
-            <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
-              <Button
-                size="medium"
-                variant="secondary"
-                leadingIcon={RiArrowLeftLine}
-                isDisabled={session.currentIndex === 0}
-                onClick={() => actions.moveQuestion(session.currentIndex - 1)}
-              >
-                上一题
-              </Button>
-              <div className="flex flex-wrap items-center justify-end gap-2">
-                {question.type === "multiple" ? (
-                  <Button
-                    size="medium"
-                    variant={revealed ? "secondary" : "primary"}
-                    isDisabled={locked || selected.length === 0}
-                    onClick={submitMultipleAnswer}
-                  >
-                    {revealed ? "已提交" : "提交答案"}
-                  </Button>
-                ) : null}
-                {completed && session.currentIndex < session.questionIds.length - 1 ? (
-                  <Button size="medium" variant="secondary" trailingIcon={RiArrowRightLine} onClick={() => actions.moveQuestion(session.currentIndex + 1)}>
-                    下一题
-                  </Button>
-                ) : null}
-                <Button
-                  size="medium"
-                  variant={question.type === "multiple" && !revealed ? "secondary" : "primary"}
-                  trailingIcon={RiArrowRightLine}
-                  isDisabled={question.type === "multiple" && !locked}
-                  onClick={completed ? finish : next}
-                >
-                  {completed || session.currentIndex >= session.questionIds.length - 1 ? "完成练习" : "下一题"}
-                </Button>
-              </div>
-            </div>
             {question.type === "multiple" && !locked ? (
               <p className="mt-3 text-caption-1-medium text-text-tertiary">
-                多选题：点击整条选项可勾选或取消，选好后点击“提交答案”查看对错与解析，再点击“下一题 / 完成练习”继续。
+                多选题：勾选后点击底部“提交答案”判分。
               </p>
             ) : null}
           </Panel>
@@ -583,59 +612,63 @@ export function PracticeSessionPage() {
           ) : null}
         </div>
 
-        {showNavigator ? (
-          <Panel className="h-fit p-4">
-            <p className="mb-3 text-caption-1-semibold uppercase tracking-[0.1em] text-text-tertiary">题卡</p>
-            <div className="grid grid-cols-6 gap-1.5 sm:grid-cols-8 xl:grid-cols-6">
-              {session.questionIds.map((id, index) => {
-                const answered = Boolean(session.revealed[id]);
-                const flagged = session.flagged.includes(id);
-                return (
-                  <button
-                    key={id}
-                    type="button"
-                    onClick={() => actions.moveQuestion(index)}
-                    className={cx(
-                      "relative flex aspect-square cursor-pointer items-center justify-center rounded-lg text-caption-2-semibold tabular",
-                      index === session.currentIndex
-                        ? "bg-accent-600 text-white"
-                        : answered
-                          ? "bg-status-lime-background text-status-lime-text"
-                          : "bg-background-secondary-default text-text-secondary hover:bg-background-tertiary-default",
-                    )}
-                    aria-label={`第 ${index + 1} 题${answered ? "，已作答" : ""}${flagged ? "，已标记" : ""}`}
-                  >
-                    {index + 1}
-                    {flagged ? <span className="absolute end-0.5 top-0.5 size-1.5 rounded-full bg-orange-500" /> : null}
-                  </button>
-                );
-              })}
-            </div>
-            <div className="mt-4 flex items-center justify-between border-t border-separator-border pt-3 text-caption-1-medium text-text-tertiary">
-              <span>已答 {Object.keys(session.revealed).length}</span>
-              <span>共 {session.questionIds.length}</span>
-            </div>
-          </Panel>
-        ) : null}
+        <Panel className="hidden h-fit p-4 xl:block">
+          <p className="mb-3 text-caption-1-semibold uppercase tracking-[0.1em] text-text-tertiary">题卡</p>
+          {sheet}
+        </Panel>
       </div>
+
+      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-separator-border bg-background-primary-default lg:ps-[284px]">
+        <div className="mx-auto flex max-w-[1280px] flex-wrap items-center gap-2 px-4 py-3 sm:px-6 lg:px-10">
+          {!study ? (
+            <div className="me-2 flex items-center gap-3 text-body-2-semibold tabular">
+              <span className="flex items-center gap-1 text-status-lime-text">
+                <RiCheckboxCircleLine className="size-4" aria-hidden />
+                {sessionCorrect}
+              </span>
+              <span className="flex items-center gap-1 text-status-rose-text">
+                <RiCloseCircleLine className="size-4" aria-hidden />
+                {sessionWrong}
+              </span>
+            </div>
+          ) : null}
+          <Button size="small" variant="secondary" onClick={() => setSheetOpen(true)} className="xl:hidden">
+            题卡 {session.currentIndex + 1}/{session.questionIds.length}
+          </Button>
+          <div className="ms-auto flex items-center gap-2">
+            <Button
+              size="medium"
+              variant="secondary"
+              leadingIcon={RiArrowLeftLine}
+              isDisabled={session.currentIndex === 0}
+              onClick={() => session && actions.moveQuestion(session.currentIndex - 1)}
+            >
+              上一题
+            </Button>
+            {question.type === "multiple" && !study && !locked ? (
+              <Button size="medium" isDisabled={selected.length === 0} onClick={submitMultipleAnswer}>
+                提交答案
+              </Button>
+            ) : null}
+            <Button
+              size="medium"
+              variant={question.type === "multiple" && !study && !locked ? "secondary" : "primary"}
+              trailingIcon={RiArrowRightLine}
+              isDisabled={question.type === "multiple" && !study && !locked}
+              onClick={next}
+            >
+              {isLast ? "完成练习" : "下一题"}
+            </Button>
+          </div>
+        </div>
+      </div>
+
+      <Drawer isOpen={sheetOpen} onOpenChange={setSheetOpen} placement="bottom" aria-label="题卡">
+        <DrawerHeader title="题卡" description={`${session.title} · 点击题号跳转`} />
+        <DrawerBody className="p-4">{sheet}</DrawerBody>
+      </Drawer>
     </div>
   );
-}
-
-function PendingSingleCommit({
-  questionId,
-  selected,
-  enabled,
-}: {
-  questionId: string;
-  selected: string[];
-  enabled: boolean;
-}) {
-  const { actions } = useStore();
-  useEffect(() => {
-    if (enabled) actions.answerPractice(questionId, selected);
-  }, [actions, enabled, questionId, selected]);
-  return null;
 }
 
 function formatSelectedAnswer(question: BankQuestion, selected: readonly string[]): string | null {
@@ -689,7 +722,6 @@ export function QuestionListPage({ kind }: { kind: "mistakes" | "favorites" }) {
   const { projection, actions, activeBank } = useStore();
   const [chapterId, setChapterId] = useState("");
   const [search, setSearch] = useState("");
-  const [seed, setSeed] = useState("");
   const bankQuestionIds = new Set(activeBank.questions.map((question) => question.questionId));
   const ids = (kind === "mistakes" ? projection.wrongQuestionIds : projection.favoriteQuestionIds).filter((id) =>
     bankQuestionIds.has(id),
@@ -706,8 +738,6 @@ export function QuestionListPage({ kind }: { kind: "mistakes" | "favorites" }) {
       mode: kind,
       bankId: activeBank.bankId,
       count: Math.max(1, Math.min(questions.length, 100)),
-      seed,
-      title: kind === "mistakes" ? "错题重练" : "收藏练习",
     });
     if (!created) {
       toast.error("没有可练习的题目");
@@ -743,12 +773,9 @@ export function QuestionListPage({ kind }: { kind: "mistakes" | "favorites" }) {
           ))}
         </Select>
         <Input label="搜索题干或来源" value={search} onChange={(value) => setSearch(value)} className="sm:w-72" placeholder="输入关键词" />
-        <div className="flex items-center gap-2 sm:ms-auto">
-          <Input label="种子（可选）" value={seed} onChange={(value) => setSeed(value)} className="w-36" placeholder="自动" />
-          <Button size="small" variant="secondary" leadingIcon={RiShuffleLine} onClick={startDrill} isDisabled={questions.length === 0}>
-            抽题练习
-          </Button>
-        </div>
+        <Button size="small" variant="secondary" leadingIcon={RiShuffleLine} onClick={startDrill} isDisabled={questions.length === 0} className="sm:ms-auto">
+          抽题练习
+        </Button>
       </Panel>
 
       {questions.length === 0 ? (

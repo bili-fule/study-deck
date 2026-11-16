@@ -22,6 +22,16 @@ export function createSession(config: SessionConfig, projection: AppProjection):
   });
   const now = new Date();
   const startedAt = now.toISOString();
+  // 驾考式断点续练：顺序练习从本章第一道未作答的题开始；全部作答过则从头回看。
+  const resumeIndex =
+    config.resume && config.kind === "practice"
+      ? (() => {
+          const first = questions.findIndex(
+            (question) => (projection.statsByQuestion.get(question.questionId)?.attempts ?? 0) === 0,
+          );
+          return first === -1 ? 0 : first;
+        })()
+      : 0;
   return {
     id: `session_${now.getTime().toString(36)}_${seed}`,
     kind: config.kind,
@@ -33,11 +43,12 @@ export function createSession(config: SessionConfig, projection: AppProjection):
     seed,
     createdAt: startedAt,
     startedAt,
-    currentIndex: 0,
     answers: {},
+    studyMode: config.kind === "practice" ? Boolean(config.studyMode) : undefined,
     revealed: {},
     flagged: [],
     status: "active",
+    currentIndex: resumeIndex,
     deadlineAt:
       config.kind === "mock" && config.durationMinutes
         ? now.getTime() + config.durationMinutes * 60_000

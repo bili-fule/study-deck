@@ -42,6 +42,7 @@ export function BankPage() {
       bankId: activeBank.bankId,
       chapterId: chapter.chapterId,
       count: chapter.questionCount,
+      resume: true,
       title: chapter.title,
     });
     if (!created) {
@@ -153,7 +154,7 @@ export function BankPage() {
                 <ProgressRow label="覆盖率" meta={`${attempted}/${questions.length} · ${attempts ? percent(correct, attempts) : 0}% 正确`} value={percent(attempted, questions.length)} />
               </div>
               <Button className="mt-4" size="small" variant="secondary" leadingIcon={RiPlayCircleLine} onClick={() => startChapter(chapter)}>
-                练这一章
+                {attempted === 0 ? "练这一章" : attempted >= questions.length ? "从头回看" : "继续这一章"}
               </Button>
             </Panel>
           );

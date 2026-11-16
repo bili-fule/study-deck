@@ -91,6 +91,10 @@ export interface SessionConfig {
   seed?: string;
   durationMinutes?: number;
   title?: string;
+  /** Sequential practice: start at the first unanswered question of the chapter. */
+  resume?: boolean;
+  /** 背题模式：直接显示答案与解析，作答不计入统计。 */
+  studyMode?: boolean;
 }
 
 export interface ActiveSession {
@@ -109,6 +113,8 @@ export interface ActiveSession {
   answers: Record<string, string[]>;
   /** Practice-only: the answer for this question has been checked. */
   revealed: Record<string, true>;
+  /** 背题模式：进入会话即显示答案与解析，作答不计入统计。 */
+  studyMode?: boolean;
   flagged: string[];
   status: "active" | "completed" | "submitted";
   deadlineAt?: number;
@@ -122,6 +128,10 @@ export interface Settings {
   defaultMockCount: number;
   defaultMockMinutes: number;
   showSourceInPractice: boolean;
+  /** 答对后自动跳到下一题（驾考宝典式节奏）。 */
+  autoNextOnCorrect: boolean;
+  /** 练习页直接显示答案与解析（背题模式）。 */
+  studyMode: boolean;
   /** Empty means the primary bank; resolved through getBank() so unknown ids never break the app. */
   activeBankId: string;
 }

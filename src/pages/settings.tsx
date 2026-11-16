@@ -195,6 +195,18 @@ export function SettingsPage() {
             >
               练习答题后显示来源文件
             </Switch>
+            <Switch
+              isSelected={state.settings.autoNextOnCorrect}
+              onChange={(value) => actions.updateSettings({ autoNextOnCorrect: value })}
+            >
+              答对后自动跳下一题
+            </Switch>
+            <Switch
+              isSelected={state.settings.studyMode}
+              onChange={(value) => actions.updateSettings({ studyMode: value })}
+            >
+              背题模式（直接显示答案，不计入统计）
+            </Switch>
           </div>
         </Panel>
       </div>

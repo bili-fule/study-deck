@@ -30,7 +30,7 @@ function greeting(): string {
 }
 
 export function DashboardPage() {
-  const { state, projection, session, activeBank } = useStore();
+  const { state, projection, session, actions, activeBank } = useStore();
   const bankCards = cardsForBank(activeBank.bankId);
   const total = activeBank.collected;
   const coverage = percent(projection.attempted, total);
@@ -50,6 +50,22 @@ export function DashboardPage() {
 
   const dueCard = bankCards.find((card) => projection.dueCardIds.includes(card.cardId));
   const recentExam = projection.examHistory[0];
+
+  function startSequential() {
+    if (session?.kind === "mock" && session.status === "active") {
+      navigate("/exam");
+      return;
+    }
+    const created = actions.startSession({
+      kind: "practice",
+      mode: "chapter",
+      bankId: activeBank.bankId,
+      count: activeBank.collected,
+      resume: true,
+      title: "顺序练习",
+    });
+    navigate(created ? "/session" : "/practice");
+  }
 
   return (
     <div className="animate-rise flex flex-col gap-6">
@@ -168,17 +184,17 @@ export function DashboardPage() {
           <div className="grid gap-3 sm:grid-cols-2">
             <ModeCard
               icon={RiBookOpenLine}
-              title="章节顺序"
-              description="按当前题库的章节逐题推进，适合系统练习。"
-              meta={`${activeBank.chapters.length} 个章节`}
-              onClick={() => navigate("/practice?mode=chapter")}
+              title="顺序练习"
+              description="从上次未做的题继续，答对自动跳下一题。"
+              meta={`已练 ${projection.attempted}/${activeBank.collected} 题`}
+              onClick={startSequential}
               tone="accent"
             />
             <ModeCard
               icon={RiShuffleLine}
               title="随机练习"
               description="每轮洗牌且不重复，适合快速自测。"
-              meta="可复现种子"
+              meta="20 题一组"
               onClick={() => navigate("/practice?mode=random")}
               tone="lime"
             />
@@ -236,7 +252,7 @@ export function DashboardPage() {
               {projection.wrongQuestionIds.length > 0
                 ? `先清掉 ${Math.min(10, projection.wrongQuestionIds.length)} 道错题，再做一组随机练习。`
                 : projection.attempted === 0
-                  ? "从章节顺序开始，先熟悉当前题库。"
+                  ? "从顺序练习开始，先熟悉当前题库。"
                   : "状态不错，用智能加权巩固薄弱章节。"}
             </p>
             <Button

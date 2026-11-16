@@ -458,7 +458,10 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
 
   const startSession = useCallback(
     (config: SessionConfig): ActiveSession | null => {
-      const next = createSession(config, projectEvents(stateRef.current.events));
+      const next = createSession(
+        { ...config, studyMode: config.kind === "practice" && stateRef.current.settings.studyMode },
+        projectEvents(stateRef.current.events),
+      );
       if (next.questionIds.length === 0) return null;
       update((current) => ({ ...current, activeSession: next }));
       return next;
@@ -495,6 +498,22 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
       if (!active || !question || active.status !== "active" || active.revealed[questionId]) return;
       const answer = [...new Set(selected)].filter((id) => question.optionKeys.includes(id));
       if (answer.length === 0) return;
+      // 背题模式：只翻答案，不生成答题事件、不影响错题/正确率。
+      if (active.studyMode) {
+        update((current) => {
+          const currentSession = current.activeSession;
+          if (!currentSession || currentSession.revealed[questionId]) return current;
+          return {
+            ...current,
+            activeSession: {
+              ...currentSession,
+              answers: { ...currentSession.answers, [questionId]: answer },
+              revealed: { ...currentSession.revealed, [questionId]: true },
+            },
+          };
+        });
+        return;
+      }
       const at = new Date().toISOString();
       const event = attemptEvent(questionId, question.bankId, answer, "practice", at);
       update((current) => {

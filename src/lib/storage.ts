@@ -9,6 +9,8 @@ export const DEFAULT_SETTINGS: Settings = {
   defaultMockCount: 50,
   defaultMockMinutes: 30,
   showSourceInPractice: true,
+  autoNextOnCorrect: true,
+  studyMode: false,
   activeBankId: "",
 };
 
@@ -178,6 +180,9 @@ export function normalizeState(raw: unknown): LocalState {
       defaultMockCount: clampNumber(settings.defaultMockCount, 1, 10_000, DEFAULT_SETTINGS.defaultMockCount),
       defaultMockMinutes: clampNumber(settings.defaultMockMinutes, 1, 300, DEFAULT_SETTINGS.defaultMockMinutes),
       showSourceInPractice: Boolean(settings.showSourceInPractice),
+      autoNextOnCorrect:
+        typeof settings.autoNextOnCorrect === "boolean" ? settings.autoNextOnCorrect : DEFAULT_SETTINGS.autoNextOnCorrect,
+      studyMode: typeof settings.studyMode === "boolean" ? settings.studyMode : DEFAULT_SETTINGS.studyMode,
       activeBankId: typeof settings.activeBankId === "string" ? settings.activeBankId : "",
     },
     displayName: typeof value.displayName === "string" ? value.displayName.slice(0, 32) : "",
