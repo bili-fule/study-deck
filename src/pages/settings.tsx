@@ -140,9 +140,9 @@ export function SettingsPage() {
               <div className="flex items-start gap-3 rounded-2xl bg-background-secondary-default p-4">
                 <RiUserLine className="mt-0.5 size-5 shrink-0 text-foreground-icon-secondary" aria-hidden />
                 <div>
-                  <p className="text-body-2-semibold text-text-primary">邀请制账号</p>
+                  <p className="text-body-2-semibold text-text-primary">可选云端账号</p>
                   <p className="mt-1 text-caption-1-medium text-text-secondary">
-                    注册需要邀请码。你可以继续不登录使用；登录后，本机匿名练习会先询问是否导入当前账号。
+                    注册即可用，无需邀请码。你可以继续不登录使用；登录后，本机匿名练习会先询问是否导入当前账号。
                   </p>
                 </div>
               </div>

@@ -164,13 +164,22 @@ export function AppShell({ route, children }: { route: string; children: ReactNo
             variant="ghost"
             onClick={() => {
               void actions.logout();
+              setMobileOpen(false);
               navigate("/");
             }}
           >
             退出
           </Button>
         ) : (
-          <Button size="xs" variant="secondary" leadingIcon={RiLoginBoxLine} onClick={() => navigate("/auth")}>
+          <Button
+            size="xs"
+            variant="secondary"
+            leadingIcon={RiLoginBoxLine}
+            onClick={() => {
+              setMobileOpen(false);
+              navigate("/auth");
+            }}
+          >
             登录同步
           </Button>
         )}

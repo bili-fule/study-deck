@@ -8,7 +8,7 @@ usage statistics. Local learning and backups do not require a working API.
 ## Layout
 
 - `worker/index.ts`: routing, centralized origin checks, preflight and CORS.
-- `worker/auth.ts`: invite-only accounts and HttpOnly cookie sessions.
+- `worker/auth.ts`: open account registration and HttpOnly cookie sessions.
 - `worker/sync.ts`: shared event validation, verified scoring and account sync.
 - `worker/telemetry.ts`: anonymous learning-event ingestion.
 - `worker/admin.ts`: aggregate-only statistics; no individual-history endpoint.
@@ -73,9 +73,9 @@ does not prove execution inside the Workers runtime.
 5. Deploy API: `npm run cf:deploy`. This no longer builds/deploys static assets.
 6. Initialize admin:
    `npm run admin:init -- --remote --username admin` (password prompted).
-7. Issue an invitation: `npm run admin:invite -- --remote --uses 1`; for a chosen
-   code use `--code zqu`. Custom codes accept 3–64 letters, digits and hyphens;
-   short codes are easier to guess, so use one use for `zqu`.
+7. Registration is open: no invitation step. Anyone reaching the API can create
+   an account; the register throttle (30 attempts / 15 min per IP) is the only
+   abuse gate, so keep the API behind its intended audience.
 8. Rebuild/deploy the EdgeOne frontend with `npm run build`, output `dist`.
    Test login from the actual `https://st.xmfu.cn` origin.
 
@@ -135,7 +135,7 @@ All routes are JSON, with `Cache-Control: no-store`.
 | Method | Path | Access / result |
 | --- | --- | --- |
 | GET | `/api/health` | Public bank/question counts and catalog timestamp |
-| POST | `/api/auth/register` | `{username,password,inviteCode}` → 201 + session cookie |
+| POST | `/api/auth/register` | `{username,password}` → 201 + session cookie |
 | POST | `/api/auth/login` | `{username,password}` → 200 + session cookie |
 | POST | `/api/auth/logout` | 204, clears cookie and revokes server session |
 | GET | `/api/auth/me` | Current user, or 401 |

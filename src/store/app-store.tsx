@@ -73,7 +73,7 @@ interface StoreActions {
   clearLocalData: () => void;
   exportBackupFile: () => BackupFile;
   login: (username: string, password: string) => Promise<void>;
-  register: (username: string, password: string, inviteCode: string) => Promise<void>;
+  register: (username: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
   refreshAuth: () => Promise<void>;
   syncNow: () => Promise<void>;
@@ -392,13 +392,13 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
   );
 
   const register = useCallback(
-    async (username: string, password: string, inviteCode: string) => {
+    async (username: string, password: string) => {
       invalidateSync();
       const loadingAuth = { ...authRef.current, error: null, loading: true };
       authRef.current = loadingAuth;
       setAuth(loadingAuth);
       try {
-        const response = await cloud.register({ username, password, inviteCode });
+        const response = await cloud.register({ username, password });
         await activateUser(response.user, true);
       } catch (error) {
         setAuth((current) => ({

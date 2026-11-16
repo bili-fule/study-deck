@@ -14,8 +14,6 @@ export const LIMITS = {
   usernameMax: 32,
   passwordMin: 10,
   passwordMax: 200,
-  inviteCodeMin: 8,
-  inviteCodeMax: 64,
   pushMaxEvents: 200,
   pushMaxBodyBytes: 256 * 1024,
   pullDefaultLimit: 200,
@@ -42,7 +40,6 @@ export interface PublicUser {
 export interface RegisterRequest {
   username: string;
   password: string;
-  inviteCode: string;
 }
 
 export interface LoginRequest {

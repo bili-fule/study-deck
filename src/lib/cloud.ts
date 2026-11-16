@@ -52,13 +52,11 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     const message =
       errorBody?.error === "invalid_credentials"
         ? "用户名或密码不正确。"
-        : errorBody?.error === "invalid_invite"
-          ? "邀请码无效或已用完。"
-          : errorBody?.error === "username_taken"
-            ? "该用户名已被注册。"
-            : errorBody?.error === "invalid_event"
-              ? `同步事件被拒绝${errorBody.detail ? `：${errorBody.detail}` : ""}`
-              : errorBody?.error || `云端请求失败（${response.status}）`;
+        : errorBody?.error === "username_taken"
+          ? "该用户名已被注册。"
+          : errorBody?.error === "invalid_event"
+            ? `同步事件被拒绝${errorBody.detail ? `：${errorBody.detail}` : ""}`
+            : errorBody?.error || `云端请求失败（${response.status}）`;
     throw new CloudError(message, response.status, errorBody);
   }
   return body as T;

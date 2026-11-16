@@ -28,7 +28,7 @@ npm run preview
 - 知识卡：15 张由官方题库事实整理，关联 52 道唯一题；SM-2 简化调度（again/hard/good/easy）。
 - 学习进度：覆盖率、正确率、连续天数、近 7 天、章节/分类明细、模拟考试历史。
 - 备份/恢复 JSON；导入前校验事件结构，非法文件不会覆盖现有数据。备份不包含账号、Cookie、同步游标或 ack 元数据。
-- 云端 API：前端 `https://st.xmfu.cn`，Cloudflare 后端 `https://stapi.xmfu.cn/api`；精确域名 CORS + 携带凭据请求 + API 域名专属 HttpOnly Cookie。邀请制注册；本机匿名练习在登录时仍需确认才导入账号。云端失败不会阻塞本地功能。
+- 云端 API：前端 `https://st.xmfu.cn`，Cloudflare 后端 `https://stapi.xmfu.cn/api`；精确域名 CORS + 携带凭据请求 + API 域名专属 HttpOnly Cookie。注册即可用（无需邀请码），管理员账号只能由 CLI 创建；本机匿名练习在登录时仍需确认才导入账号。云端失败不会阻塞本地功能。
 - 管理员页面分别展示账号与匿名行为的聚合统计，没有逐用户或逐访客的作答详情；匿名次数不与账号次数相加。
 
 ## 数据与题库扩展
@@ -86,9 +86,9 @@ npm run dev          # Vite 将 /api 代理到 8787（另一个终端）
 
 Windows 说明：当前环境的 Wrangler/workerd 存在创建 `miniflare-email-store` 的已知权限错误；请使用 Linux / WSL 运行本地 Worker，不需要更改系统安全设置。纯前端开发与构建不依赖 Worker。
 
-上线前创建并绑定真实 D1、应用全部迁移、初始化管理员与邀请码，再部署 Worker。`stapi.xmfu.cn` 的 Custom Domain 需要 Cloudflare 中有效的 `xmfu.cn` 区域；前端 `st.xmfu.cn` 保留原来的 EdgeOne DNS 配置。不要把域名配置完成视为已经上线。
+上线前创建并绑定真实 D1、应用全部迁移、初始化管理员，再部署 Worker。`stapi.xmfu.cn` 的 Custom Domain 需要 Cloudflare 中有效的 `xmfu.cn` 区域；前端 `st.xmfu.cn` 保留原来的 EdgeOne DNS 配置。不要把域名配置完成视为已经上线。
 
-管理员脚本（由后端提供）：`npm run admin:init` / `admin:reset` / `admin:invite`。
+管理员脚本（由后端提供）：`npm run admin:init` / `admin:reset`。
 
 ## 第三方与许可
 

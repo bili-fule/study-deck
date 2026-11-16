@@ -18,7 +18,6 @@ const REGISTER_MAX_ATTEMPTS = 30;
 const MAX_AUTH_BODY_BYTES = 8 * 1024;
 
 const USERNAME_PATTERN = /^[A-Za-z0-9_.-]{3,32}$/;
-const INVITE_PATTERN = /^[A-Z0-9-]{3,64}$/;
 
 /**
  * A syntactically valid hash used to burn the same PBKDF2 cost when the
@@ -41,12 +40,6 @@ interface UserRow {
   password_hash: string;
   password_changed_at: number;
   created_at: number;
-}
-
-interface InviteRow {
-  max_uses: number;
-  used_count: number;
-  expires_at: number | null;
 }
 
 interface SessionRow {
@@ -102,17 +95,7 @@ function loginPasswordFrom(value: unknown): string {
   return value;
 }
 
-function inviteCodeFrom(value: unknown): string {
-  const code = typeof value === "string" ? value.trim().toUpperCase() : "";
-  if (!INVITE_PATTERN.test(code)) {
-    throw new HttpError(400, "invalid_request", {
-      detail: "invite code must be 3-64 characters of A-Z 0-9 -",
-    });
-  }
-  return code;
-}
-
-/** Map D1/SQLite errors from the atomic registration transaction. */
+/** Map D1/SQLite errors from the registration transaction. */
 function registrationFailure(error: unknown): HttpError {
   const message =
     typeof error === "string"
@@ -120,11 +103,6 @@ function registrationFailure(error: unknown): HttpError {
       : error instanceof Error
         ? error.message
         : String(error);
-  if (message.includes("invite_exhausted") || message.includes("FOREIGN KEY")) {
-    return new HttpError(403, "invalid_invite", {
-      detail: "invite code is invalid or exhausted",
-    });
-  }
   if (message.includes("UNIQUE constraint failed")) {
     return new HttpError(409, "username_taken", {
       detail: "username is already registered",
@@ -272,36 +250,16 @@ async function register(request: Request, env: Env): Promise<Response> {
   const body = await readJsonObject(request, MAX_AUTH_BODY_BYTES);
   const { username, lower } = usernameFrom(body.username);
   const password = registrationPasswordFrom(body.password);
-  const inviteCode = inviteCodeFrom(body.inviteCode);
 
   const ipKey = await throttleKey("register-ip", clientIp(request));
   await assertNotThrottled(env, ipKey, REGISTER_MAX_ATTEMPTS, now);
   await bumpThrottle(env, ipKey, now);
   await pruneThrottle(env, now);
 
-  const codeHash = await sha256Hex(inviteCode);
-  const invite = await env.DB.prepare(
-    "SELECT max_uses, used_count, expires_at FROM invites WHERE code_hash = ?",
-  )
-    .bind(codeHash)
-    .first<InviteRow>();
-  if (
-    !invite ||
-    invite.used_count >= invite.max_uses ||
-    (invite.expires_at !== null && invite.expires_at <= now)
-  ) {
-    throw new HttpError(403, "invalid_invite", {
-      detail: "invite code is invalid or exhausted",
-    });
-  }
-
   const passwordHash = await hashPassword(password);
 
-  // Atomic registration: the user row is inserted only if the invite quota
-  // still allows it, and an AFTER INSERT trigger consumes the use inside the
-  // same statement. The session insert is part of the same D1 transaction and
-  // only fires if the user row exists. Any failure rolls back everything, so
-  // a failed request never consumes an invite or leaves a stray account.
+  // Open registration: no invite gate. The user INSERT and its session share one
+  // D1 batch, so a failed insert (e.g. duplicate username) leaves no session.
   const id = crypto.randomUUID();
   const token = randomToken(32);
   const tokenHash = await sha256Hex(token);
@@ -309,14 +267,9 @@ async function register(request: Request, env: Env): Promise<Response> {
 
   const userStatement = env.DB.prepare(
     `INSERT INTO users
-       (id, username, username_lower, role, password_hash, password_changed_at, created_at, updated_at, invite_code_hash)
-     SELECT ?, ?, ?, 'user', ?, ?, ?, ?, ?
-     WHERE EXISTS (
-       SELECT 1 FROM invites
-       WHERE code_hash = ? AND used_count < max_uses
-         AND (expires_at IS NULL OR expires_at > ?)
-     )`,
-  ).bind(id, username, lower, passwordHash, now, now, now, codeHash, codeHash, now);
+       (id, username, username_lower, role, password_hash, password_changed_at, created_at, updated_at)
+     VALUES (?, ?, ?, 'user', ?, ?, ?, ?)`,
+  ).bind(id, username, lower, passwordHash, now, now, now);
 
   const sessionStatement = env.DB.prepare(
     `INSERT INTO sessions (token_hash, user_id, created_at, expires_at)
@@ -324,19 +277,10 @@ async function register(request: Request, env: Env): Promise<Response> {
      WHERE EXISTS (SELECT 1 FROM users WHERE id = ?)`,
   ).bind(tokenHash, id, now, expiresAt, id);
 
-  let results: D1Result[];
   try {
-    results = await env.DB.batch([userStatement, sessionStatement]);
+    await env.DB.batch([userStatement, sessionStatement]);
   } catch (error) {
     throw registrationFailure(error);
-  }
-  // `meta.changes` counts the user INSERT plus the trigger's invite UPDATE, so
-  // any committed row means the guarded insert succeeded; 0 means the invite
-  // quota check failed and nothing (not even the session) was written.
-  if ((results[0]?.meta.changes ?? 0) < 1) {
-    throw new HttpError(403, "invalid_invite", {
-      detail: "invite code is invalid or exhausted",
-    });
   }
 
   const user: PublicUser = {

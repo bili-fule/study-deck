@@ -27,7 +27,6 @@ export function CloudPage() {
   const [mode, setMode] = useState<"login" | "register">("login");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [inviteCode, setInviteCode] = useState("");
   const [busy, setBusy] = useState(false);
   const [localError, setLocalError] = useState<string | null>(null);
 
@@ -40,7 +39,7 @@ export function CloudPage() {
         await actions.login(username.trim(), password);
         toast.success("登录成功", { description: "本机匿名练习会先询问是否导入当前账号。" });
       } else {
-        await actions.register(username.trim(), password, inviteCode.trim());
+        await actions.register(username.trim(), password);
         toast.success("注册成功", { description: "账号已创建；本机匿名练习会先询问是否导入。" });
       }
       setPassword("");
@@ -200,8 +199,8 @@ export function CloudPage() {
     <div className="animate-rise mx-auto flex w-full max-w-lg flex-col gap-6">
       <PageHeader
         eyebrow="Cloud account"
-        title={mode === "login" ? "登录同步" : "邀请制注册"}
-        description="不登录也能完整使用。登录仅用于可选的跨设备同步；注册需要管理员发放的邀请码。"
+        title={mode === "login" ? "登录同步" : "注册账号"}
+        description="不登录也能完整使用。登录仅用于可选的跨设备同步；注册即可用，无需邀请码。"
       />
 
       <Panel className="p-6 sm:p-8">
@@ -248,18 +247,6 @@ export function CloudPage() {
             maxLength={200}
             isRequired
           />
-          {mode === "register" ? (
-            <Input
-              label="邀请码"
-              value={inviteCode}
-              onChange={(value) => setInviteCode(value)}
-              autoComplete="off"
-              placeholder="3–64 位字母、数字或连字符"
-              minLength={3}
-              maxLength={64}
-              isRequired
-            />
-          ) : null}
           {localError || auth.error ? (
             <p role="alert" className="rounded-xl bg-status-rose-background p-3 text-caption-1-medium text-status-rose-text">
               {localError ?? auth.error}
@@ -269,7 +256,7 @@ export function CloudPage() {
             type="submit"
             size="medium"
             leadingIcon={mode === "login" ? RiLoginBoxLine : RiUserLine}
-            isDisabled={busy || !username || !password || (mode === "register" && !inviteCode)}
+            isDisabled={busy || !username || !password}
           >
             {busy ? "请稍候…" : mode === "login" ? "登录并同步" : "创建账号"}
           </Button>
