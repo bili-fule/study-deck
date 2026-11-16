@@ -254,8 +254,8 @@ export function CloudPage() {
               value={inviteCode}
               onChange={(value) => setInviteCode(value)}
               autoComplete="off"
-              placeholder="向管理员获取，例如 SD-XXXX-XXXX-XXXX-XXXX"
-              minLength={8}
+              placeholder="3–64 位字母、数字或连字符"
+              minLength={3}
               maxLength={64}
               isRequired
             />

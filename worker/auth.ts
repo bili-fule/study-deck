@@ -18,7 +18,7 @@ const REGISTER_MAX_ATTEMPTS = 30;
 const MAX_AUTH_BODY_BYTES = 8 * 1024;
 
 const USERNAME_PATTERN = /^[A-Za-z0-9_.-]{3,32}$/;
-const INVITE_PATTERN = /^[A-Z0-9-]{8,64}$/;
+const INVITE_PATTERN = /^[A-Z0-9-]{3,64}$/;
 
 /**
  * A syntactically valid hash used to burn the same PBKDF2 cost when the
@@ -106,7 +106,7 @@ function inviteCodeFrom(value: unknown): string {
   const code = typeof value === "string" ? value.trim().toUpperCase() : "";
   if (!INVITE_PATTERN.test(code)) {
     throw new HttpError(400, "invalid_request", {
-      detail: "invite code must be 8-64 characters of A-Z 0-9 -",
+      detail: "invite code must be 3-64 characters of A-Z 0-9 -",
     });
   }
   return code;

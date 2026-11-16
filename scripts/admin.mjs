@@ -30,8 +30,8 @@ function usage() {
   node scripts/admin.mjs reset  [--username NAME] [--remote]
       Reset an admin password and revoke all of its sessions.
 
-  node scripts/admin.mjs invite [--uses N] [--days N] [--label TEXT] [--remote]
-      Mint an invite code. The code is printed once and stored only as a hash.
+  node scripts/admin.mjs invite [--uses N] [--days N] [--label TEXT] [--code CODE] [--remote]
+      Mint an invite code, or register the supplied code. The code is stored only as a hash.
 
 Options:
   --remote        Target the deployed D1 database (default: local).
@@ -39,6 +39,7 @@ Options:
   --uses          Invite uses, 1-1000 (default 1).
   --days          Invite lifetime in days, 1-3650 (default: never expires).
   --label         Human-readable invite label (for your own bookkeeping).
+  --code          Custom invite code (3-64 letters, digits or hyphens).
 `);
 }
 
@@ -203,7 +204,10 @@ async function createInvite(args) {
   const days = parseInteger(args.days, null, 1, 3650, "days");
   const label = typeof args.label === "string" ? args.label.trim().slice(0, 64) : null;
 
-  const code = generateInviteCode();
+  const code = typeof args.code === "string" ? args.code.trim().toUpperCase() : generateInviteCode();
+  if (!/^[A-Z0-9-]{3,64}$/.test(code)) {
+    fail("invite code must be 3-64 characters of A-Z 0-9 -");
+  }
   const codeHash = sha256Hex(code);
   const now = Date.now();
   const expiresAt = days === null ? "NULL" : String(now + days * 86_400_000);

@@ -73,7 +73,9 @@ does not prove execution inside the Workers runtime.
 5. Deploy API: `npm run cf:deploy`. This no longer builds/deploys static assets.
 6. Initialize admin:
    `npm run admin:init -- --remote --username admin` (password prompted).
-7. Issue an invitation: `npm run admin:invite -- --remote --uses 1`.
+7. Issue an invitation: `npm run admin:invite -- --remote --uses 1`; for a chosen
+   code use `--code zqu`. Custom codes accept 3–64 letters, digits and hyphens;
+   short codes are easier to guess, so use one use for `zqu`.
 8. Rebuild/deploy the EdgeOne frontend with `npm run build`, output `dist`.
    Test login from the actual `https://st.xmfu.cn` origin.
 
