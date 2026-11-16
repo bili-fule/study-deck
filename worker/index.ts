@@ -2,8 +2,10 @@ import type { HealthResponse } from "../shared/api";
 import { handleAdminStats } from "./admin";
 import { handleAuth } from "./auth";
 import { catalog } from "./catalog";
-import { assertMethod, HttpError, jsonResponse } from "./lib/http";
+import { assertMethod, assertSameOrigin, HttpError, jsonResponse } from "./lib/http";
+import { applyCors, handlePreflight } from "./lib/cors";
 import { handlePull, handlePush } from "./sync";
+import { handleTelemetry } from "./telemetry";
 
 async function route(request: Request, env: Env, url: URL): Promise<Response> {
   const pathname = url.pathname;
@@ -28,6 +30,11 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
     return handlePush(request, env);
   }
 
+  if (pathname === "/api/telemetry") {
+    assertMethod(request, "POST");
+    return handleTelemetry(request, env);
+  }
+
   if (pathname === "/api/sync/pull") {
     assertMethod(request, "GET");
     return handlePull(request, env, url);
@@ -48,7 +55,10 @@ export default {
     let response: Response;
 
     try {
-      response = await route(request, env, url);
+      assertSameOrigin(request, env.ALLOWED_ORIGINS);
+      response = request.method === "OPTIONS"
+        ? handlePreflight(request, env.ALLOWED_ORIGINS)
+        : await route(request, env, url);
     } catch (error) {
       if (error instanceof HttpError) {
         response = error.toResponse();
@@ -74,6 +84,6 @@ export default {
         durationMs: Date.now() - startedAt,
       }),
     );
-    return response;
+    return applyCors(request, response, env.ALLOWED_ORIGINS);
   },
 } satisfies ExportedHandler<Env>;

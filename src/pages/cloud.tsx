@@ -82,7 +82,7 @@ export function CloudPage() {
         <PageHeader
           eyebrow="Cloud"
           title="云端账号"
-          description="同源 /api 与 HttpOnly Cookie。登录只用于可选的跨设备同步，本地离线模式始终完整可用。"
+          description="API 使用 HttpOnly Cookie 与指定前端域名的跨域授权。登录用于跨设备同步，本地离线功能始终可用。"
           actions={
             auth.user.role === "admin" ? (
               <Button variant="secondary" leadingIcon={RiShieldCheckLine} onClick={() => navigate("/admin")}>

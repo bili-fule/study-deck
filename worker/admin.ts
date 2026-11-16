@@ -1,8 +1,11 @@
+import rawCatalog from "../data/catalog.json";
 import {
   LIMITS,
   type AdminChapterRow,
   type AdminQuestionRow,
   type AdminStatsResponse,
+  type AnonymousStats,
+  type EventType,
 } from "../shared/api";
 import { requireAdmin } from "./auth";
 import { catalog } from "./catalog";
@@ -18,6 +21,22 @@ interface QuestionAggregateRow {
   attempts: number;
   errors: number;
 }
+
+interface AnonymousAggregateRow {
+  visitors: number;
+  events: number;
+  attempts: number;
+  errors: number;
+  kind: EventType | null;
+  kind_events: number | null;
+}
+
+interface CatalogQuestionDimension {
+  bankId: string;
+  chapterId: string;
+  questionId: string;
+}
+
 
 interface ChapterAccumulator {
   bankId: string;
@@ -61,6 +80,40 @@ function optionalFilter(value: string | null, name: string): string | null {
   return value;
 }
 
+function anonymousFilter(
+  bankId: string | null,
+  chapterId: string | null,
+): { sql: string; values: string[] } {
+  if (chapterId === null) {
+    return bankId === null
+      ? { sql: "", values: [] }
+      : { sql: "WHERE bank_id = ?", values: [bankId] };
+  }
+
+  const questions: readonly CatalogQuestionDimension[] = rawCatalog.questions;
+  const questionIdsByBank = new Map<string, string[]>();
+  for (const question of questions) {
+    if (question.chapterId !== chapterId || (bankId !== null && question.bankId !== bankId)) {
+      continue;
+    }
+    const questionIds = questionIdsByBank.get(question.bankId) ?? [];
+    questionIds.push(question.questionId);
+    questionIdsByBank.set(question.bankId, questionIds);
+  }
+
+  if (questionIdsByBank.size === 0) return { sql: "WHERE 0", values: [] };
+  const clauses: string[] = [];
+  const values: string[] = [];
+  for (const [filteredBankId, questionIds] of questionIdsByBank) {
+    clauses.push(
+      "(bank_id = ? AND question_id IN (SELECT value FROM json_each(?)))",
+    );
+    values.push(filteredBankId, JSON.stringify(questionIds));
+  }
+  return { sql: `WHERE ${clauses.join(" OR ")}`, values };
+}
+
+
 /**
  * Aggregate-only admin statistics. Deliberately no per-user endpoint and no
  * user identifiers in the response: the admin can see population health, not
@@ -103,7 +156,8 @@ export async function handleAdminStats(
     }
   }
 
-  const [usersResult, questionResult] = await env.DB.batch([
+  const anonymousQueryFilter = anonymousFilter(bankId, chapterId);
+  const [usersResult, questionResult, anonymousResult] = await env.DB.batch([
     env.DB.prepare("SELECT COUNT(*) AS users FROM users"),
     env.DB.prepare(
       `SELECT bank_id, question_id,
@@ -113,9 +167,40 @@ export async function handleAdminStats(
        WHERE kind = 'attempt.record'
        GROUP BY bank_id, question_id`,
     ),
+    env.DB.prepare(
+      `WITH filtered AS (
+         SELECT visitor_hash, kind, is_correct FROM anonymous_events
+         ${anonymousQueryFilter.sql}
+       ), totals AS (
+         SELECT COUNT(DISTINCT visitor_hash) AS visitors,
+                COUNT(*) AS events,
+                COALESCE(SUM(CASE WHEN kind = 'attempt.record' THEN 1 ELSE 0 END), 0) AS attempts,
+                COALESCE(SUM(CASE WHEN kind = 'attempt.record' AND is_correct = 0 THEN 1 ELSE 0 END), 0) AS errors
+         FROM filtered
+       ), kinds AS (
+         SELECT kind, COUNT(*) AS kind_events FROM filtered GROUP BY kind
+       )
+       SELECT totals.*, kinds.kind, kinds.kind_events
+       FROM totals LEFT JOIN kinds ON 1 = 1`,
+    ).bind(...anonymousQueryFilter.values),
   ]);
 
   const users = Number((usersResult.results[0] as unknown as UsersRow | undefined)?.users ?? 0);
+
+  const anonymousTotals = anonymousResult.results[0] as unknown as AnonymousAggregateRow | undefined;
+  const anonymous: AnonymousStats = {
+    visitors: Number(anonymousTotals?.visitors ?? 0),
+    events: Number(anonymousTotals?.events ?? 0),
+    attempts: Number(anonymousTotals?.attempts ?? 0),
+    errors: Number(anonymousTotals?.errors ?? 0),
+    errorRate: 0,
+    byType: {},
+  };
+  for (const raw of anonymousResult.results as unknown as AnonymousAggregateRow[]) {
+    if (raw.kind !== null) anonymous.byType[raw.kind] = Number(raw.kind_events);
+  }
+  anonymous.errorRate = errorRate(anonymous.errors, anonymous.attempts);
+
 
   const questionRows: AdminQuestionRow[] = [];
   const chapterAccumulators = new Map<string, ChapterAccumulator>();
@@ -180,6 +265,7 @@ export async function handleAdminStats(
       errors,
       errorRate: errorRate(errors, attempts),
     },
+    anonymous,
     leaderboard,
     chapters,
   };

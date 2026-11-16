@@ -103,7 +103,7 @@ export function SettingsPage() {
         <Panel className="p-5 sm:p-6">
           <SectionHeading
             title="账号与同步"
-            description={auth.user ? "当前账号已连接云端，可选择手动同步。" : "未登录；全部学习数据保存在本机。"}
+            description={auth.user ? "当前账号已连接云端，可选择手动同步。" : "未登录；学习进度保存在本机，学习行为以匿名标识汇总。"}
             action={auth.user ? <Chip color="lime" variant="caption">已登录</Chip> : <Chip color="neutral" variant="caption">本机模式</Chip>}
           />
           {auth.user ? (
@@ -159,7 +159,7 @@ export function SettingsPage() {
           <Divider className="my-5" />
           <div className="flex items-start gap-2 text-caption-1-medium text-text-tertiary">
             <RiCloudLine className="mt-0.5 size-4 shrink-0" aria-hidden />
-            <p>同源 /api 与 HttpOnly Cookie 会话；不使用外部云端 URL，也不启用 CORS。</p>
+            <p>前端 st.xmfu.cn 通过授权跨域访问 stapi.xmfu.cn；会话 Cookie 仅属于 API 域名，脚本无法读取。</p>
           </div>
         </Panel>
 
@@ -251,10 +251,10 @@ export function SettingsPage() {
       <Panel className="p-5 sm:p-6">
         <SectionHeading title="隐私与部署" description="数据最小化是默认设计。" />
         <ul className="flex list-disc flex-col gap-2 ps-5 text-body-2-regular text-text-secondary">
-          <li>匿名模式不产生任何网络请求；登录后仅同步事件，不上传浏览器指纹或页面内容。</li>
-          <li>管理员只能看到聚合题目的作答次数、错误次数与错误率；没有逐用户作答详情视图。</li>
+          <li>未登录时也记录答题、收藏、模考和知识卡行为；服务端仅保存随机访客标识的哈希、事件类型、题目及判分，不保存完整答案、姓名、设备指纹或页面内容。</li>
+          <li>管理员只能查看账号及匿名行为的聚合统计；没有逐用户或逐访客的作答详情视图。匿名统计不等于账号备份，登录导入仍需确认。</li>
           <li>退出登录失败时会明确提示，不会伪装成已退出；HttpOnly Cookie 由服务端清除。</li>
-          <li>静态站点可单独部署并发完整使用；同一份 dist 也可由 Worker 同源托管并启用 /api。</li>
+          <li>前端部署在 EdgeOne，API 部署在 Cloudflare Worker；API 不可用时仍可练习、模考与备份，待上传行为保留在本机。</li>
         </ul>
       </Panel>
 

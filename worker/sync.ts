@@ -12,7 +12,6 @@ import {
 import { requireUser } from "./auth";
 import { catalog, isAnswerCorrect, type CatalogQuestion } from "./catalog";
 import {
-  assertSameOrigin,
   HttpError,
   jsonResponse,
   readJsonObject,
@@ -28,7 +27,7 @@ const CARD_RATINGS: readonly CardRating[] = ["again", "hard", "good", "easy"];
 
 class EventError extends Error {}
 
-interface NormalizedEvent {
+export interface NormalizedSyncEvent {
   id: string;
   kind: SyncEvent["type"];
   atMs: number;
@@ -112,7 +111,7 @@ function asSelected(value: unknown, question: CatalogQuestion): string[] {
   return [...unique].sort();
 }
 
-function normalizeEvent(value: unknown, now: number): NormalizedEvent {
+function normalizeEvent(value: unknown, now: number): NormalizedSyncEvent {
   const event = asRecord(value, "event");
   const id = event.id;
   if (typeof id !== "string" || !EVENT_ID_PATTERN.test(id)) {
@@ -280,10 +279,14 @@ function normalizeEvent(value: unknown, now: number): NormalizedEvent {
   }
 }
 
-export async function handlePush(request: Request, env: Env): Promise<Response> {
-  assertSameOrigin(request);
-  const user = await requireUser(request, env);
-  const body = await readJsonObject(request, LIMITS.pushMaxBodyBytes);
+/**
+ * Validate a push/telemetry request's event batch completely before any writes.
+ * Event failures report their zero-based index in the original batch.
+ */
+export function normalizeSyncEventBatch(
+  body: Record<string, unknown>,
+  now = Date.now(),
+): NormalizedSyncEvent[] {
   const rawEvents = body.events;
   if (!Array.isArray(rawEvents) || rawEvents.length === 0) {
     throw new HttpError(400, "invalid_request", {
@@ -296,10 +299,7 @@ export async function handlePush(request: Request, env: Env): Promise<Response> 
     });
   }
 
-  // Validate the whole batch before writing anything: one invalid event makes
-  // the request fail as a unit, so no partially-valid telemetry is stored.
-  const now = Date.now();
-  const normalized: NormalizedEvent[] = [];
+  const normalized: NormalizedSyncEvent[] = [];
   for (let index = 0; index < rawEvents.length; index++) {
     try {
       normalized.push(normalizeEvent(rawEvents[index], now));
@@ -313,7 +313,17 @@ export async function handlePush(request: Request, env: Env): Promise<Response> 
       throw error;
     }
   }
+  return normalized;
+}
 
+
+export async function handlePush(request: Request, env: Env): Promise<Response> {
+  const user = await requireUser(request, env);
+  const body = await readJsonObject(request, LIMITS.pushMaxBodyBytes);
+  const now = Date.now();
+  const normalized = normalizeSyncEventBatch(body, now);
+
+  // Validation completes before the append-only batch begins.
   const results = await env.DB.batch(
     normalized.map((event) =>
       env.DB.prepare(

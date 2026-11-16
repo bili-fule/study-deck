@@ -4,12 +4,10 @@
   "main": "worker/index.ts",
   "compatibility_date": "2026-11-15",
 
-  // Static SPA build output. The Worker only runs for /api/*; everything else is
-  // served from the assets layer (with SPA fallback for client-side routes).
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
+  // The static frontend is deployed separately to EdgeOne.
+  "routes": [{ "pattern": "stapi.xmfu.cn", "custom_domain": true }],
+  "vars": {
+    "ALLOWED_ORIGINS": "https://st.xmfu.cn"
   },
 
   "observability": {
@@ -22,10 +20,9 @@
     {
       "binding": "DB",
       "database_name": "study-deck",
-      // No database_id is committed. Before remote deployment, create the
-      // database with `npx wrangler d1 create study-deck` and paste the real
-      // returned id here (see docs/BACKEND.md). Local development and
-      // `migrations apply --local` use Miniflare storage and need no id.
+      "database_id": "64d2cf2f-1b6e-4c34-a7e4-f58e87126bda",
+      // Local development uses Miniflare storage.
+      // Remote deployments bind the database created for this Worker.
       "migrations_dir": "migrations"
     }
   ]

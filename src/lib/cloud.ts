@@ -10,6 +10,10 @@ import type {
   SyncPushResponse,
 } from "@/shared/api";
 
+const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL ?? (import.meta.env.PROD ? "https://stapi.xmfu.cn" : "")
+).replace(/\/+$/, "");
+
 export class CloudError extends Error {
   status: number;
   body: ApiErrorBody | null;
@@ -25,8 +29,8 @@ export class CloudError extends Error {
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   let response: Response;
   try {
-    response = await fetch(`/api${path}`, {
-      credentials: "same-origin",
+    response = await fetch(`${API_BASE_URL}/api${path}`, {
+      credentials: "include",
       headers: init?.body ? { "Content-Type": "application/json", ...init.headers } : init?.headers,
       ...init,
     });
@@ -78,6 +82,14 @@ export function logout(): Promise<void> {
 
 export function pushEvents(events: SyncEvent[], signal?: AbortSignal): Promise<SyncPushResponse> {
   return request<SyncPushResponse>("/sync/push", {
+    method: "POST",
+    body: JSON.stringify({ events }),
+    signal,
+  });
+}
+
+export function recordAnonymousEvents(events: SyncEvent[], signal?: AbortSignal): Promise<SyncPushResponse> {
+  return request<SyncPushResponse>("/telemetry", {
     method: "POST",
     body: JSON.stringify({ events }),
     signal,

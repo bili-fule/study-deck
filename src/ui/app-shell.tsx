@@ -150,7 +150,7 @@ export function AppShell({ route, children }: { route: string; children: ReactNo
             ) : (
               <>
                 <RiCloudOffLine className="size-3" aria-hidden />
-                无需登录，数据在本机
+                无需登录 · 匿名学习统计
               </>
             )}
           </p>

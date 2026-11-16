@@ -1,9 +1,9 @@
 /**
  * Study Deck cloud API contract — shared by the Worker (backend) and the SPA.
  *
- * Deployment: same-origin only. All routes live under `/api/*` on the same
- * origin as the static app and authenticate with the HttpOnly `sd_session`
- * cookie. There is no CORS and no bearer-token mode by design.
+ * Deployment: the Worker API may run on a separate configured origin and
+ * allows credentialed CORS only for its origin allowlist. Requests authenticate
+ * with the HttpOnly `sd_session` cookie; there is no bearer-token mode.
  */
 
 export const API_PREFIX = "/api";
@@ -199,11 +199,25 @@ export interface AdminChapterRow {
   errorRate: number;
 }
 
+export interface AnonymousStats {
+  /** Distinct visitor-cookie hashes with at least one accepted event. */
+  visitors: number;
+  events: number;
+  attempts: number;
+  errors: number;
+  /** errors / attempts, 0 when attempts === 0 */
+  errorRate: number;
+  byType: Partial<Record<EventType, number>>;
+}
+
+
 export interface AdminStatsResponse {
   /** ISO-8601 */
   generatedAt: string;
   minSamples: number;
   totals: AdminTotals;
+  /** Anonymous aggregates remain separate from registered account totals. */
+  anonymous: AnonymousStats;
   /** Easy-error leaderboard: questions with >= minSamples attempts, highest
    *  error rate first. Contains no user identifiers. */
   leaderboard: AdminQuestionRow[];

@@ -17,6 +17,7 @@ export function defaultState(): LocalState {
     schemaVersion: 1,
     events: [],
     ackedEventIds: [],
+    telemetryAckedEventIds: [],
     activeSession: null,
     settings: { ...DEFAULT_SETTINGS },
     displayName: "",
@@ -168,6 +169,9 @@ export function normalizeState(raw: unknown): LocalState {
     ackedEventIds: Array.isArray(value.ackedEventIds)
       ? value.ackedEventIds.filter((id): id is string => typeof id === "string")
       : [],
+    telemetryAckedEventIds: Array.isArray(value.telemetryAckedEventIds)
+      ? value.telemetryAckedEventIds.filter((id): id is string => typeof id === "string")
+      : [],
     activeSession: migrateActiveSession(value.activeSession),
     settings: {
       dailyGoal: clampNumber(settings.dailyGoal, 1, 300, DEFAULT_SETTINGS.dailyGoal),
@@ -255,6 +259,7 @@ export function exportBackup(scope: string, state: LocalState): BackupFile {
     state: {
       ...state,
       ackedEventIds: [],
+      telemetryAckedEventIds: [],
       syncCursor: 0,
       lastSyncedAt: null,
     },

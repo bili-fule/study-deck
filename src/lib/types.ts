@@ -131,6 +131,8 @@ export interface LocalState {
   events: SyncEvent[];
   /** Event ids already stored server-side (or pulled from it); local-only metadata. */
   ackedEventIds: string[];
+  /** Anonymous usage acknowledgments; never substitute for account synchronization. */
+  telemetryAckedEventIds: string[];
   activeSession: ActiveSession | null;
   settings: Settings;
   displayName: string;

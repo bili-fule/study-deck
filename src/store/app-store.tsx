@@ -37,6 +37,7 @@ import type {
   Settings,
   SyncState,
 } from "@/lib/types";
+import { LIMITS } from "@/shared/api";
 import type {
   AttemptEvent,
   CardRating,
@@ -314,6 +315,52 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     void refreshAuth();
   }, [refreshAuth]);
+
+  useEffect(() => {
+    if (auth.loading || auth.user || scope !== GUEST_SCOPE) return;
+    const generation = generationRef.current;
+    const controller = new AbortController();
+    let running = false;
+    const isCurrent = () =>
+      !controller.signal.aborted &&
+      generationRef.current === generation &&
+      scopeRef.current === GUEST_SCOPE &&
+      !authRef.current.loading &&
+      !authRef.current.user;
+    const upload = async () => {
+      if (running || !isCurrent()) return;
+      const current = stateRef.current;
+      const batch = pendingEvents(current.events, current.telemetryAckedEventIds).slice(0, LIMITS.pushMaxEvents);
+      if (batch.length === 0) return;
+      running = true;
+      try {
+        const result = await cloud.recordAnonymousEvents(batch, controller.signal);
+        if (!isCurrent()) return;
+        if (result.accepted + result.duplicates !== batch.length) throw new Error("匿名行为记录未确认完整接收");
+        const latest = stateRef.current;
+        const liveIds = new Set(latest.events.map((event) => event.id));
+        commit({
+          ...latest,
+          telemetryAckedEventIds: [...new Set([
+            ...latest.telemetryAckedEventIds,
+            ...batch.map((event) => event.id),
+          ])].filter((id) => liveIds.has(id)),
+        });
+      } catch (error) {
+        if (isCurrent()) console.warn("匿名行为暂未上传，保留本机记录，联网或下次学习时继续。", error);
+      } finally {
+        running = false;
+      }
+    };
+    const onOnline = () => { void upload(); };
+    const timer = window.setTimeout(onOnline, 750);
+    window.addEventListener("online", onOnline);
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener("online", onOnline);
+      controller.abort();
+    };
+  }, [auth.loading, auth.user, scope, state.events, state.telemetryAckedEventIds, commit]);
 
   useEffect(() => {
     setStorageError(takeStorageError());
@@ -642,6 +689,7 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
           // Restored data belongs to the current device; never inherit another
           // device's cursor/ack metadata or skip server history.
           ackedEventIds: [],
+          telemetryAckedEventIds: [],
           syncCursor: 0,
           lastSyncedAt: null,
           settings: { ...backup.state.settings, ...current.settings },
@@ -654,6 +702,7 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
         ...current,
         events: mergeEvents(current.events, backup.state.events),
         ackedEventIds: [],
+        telemetryAckedEventIds: [],
         syncCursor: 0,
         lastSyncedAt: null,
         activeSession: current.activeSession ?? backup.state.activeSession,

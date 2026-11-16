@@ -96,7 +96,7 @@ export function AdminPage() {
       <PageHeader
         eyebrow="Admin"
         title="聚合统计"
-        description="仅展示注册用户总量与题目/章节聚合。没有逐用户答题详情，也没有个人历史视图。"
+        description="分别展示账号学习与未登录行为的聚合统计，没有逐用户或逐访客的历史详情。"
         actions={
           <Button
             leadingIcon={RiRefreshLine}
@@ -177,14 +177,14 @@ export function AdminPage() {
           <p className="mt-1 text-caption-1-medium text-text-tertiary">全站账号，不受题目筛选影响</p>
         </Panel>
         <Panel className="p-5">
-          <p className="text-caption-1-medium text-text-tertiary">答题总次数</p>
+          <p className="text-caption-1-medium text-text-tertiary">账号答题总次数</p>
           <p className="mt-1 text-title-2-semibold text-text-primary tabular">
             {stats ? count(stats.totals.attempts) : "—"}
           </p>
           <p className="mt-1 text-caption-1-medium text-text-tertiary">仅实际提交，跳过题不计入</p>
         </Panel>
         <Panel className="p-5">
-          <p className="text-caption-1-medium text-text-tertiary">错误总次数</p>
+          <p className="text-caption-1-medium text-text-tertiary">账号错误总次数</p>
           <p className="mt-1 text-title-2-semibold text-text-primary tabular">
             {stats ? count(stats.totals.errors) : "—"}
           </p>
@@ -201,6 +201,28 @@ export function AdminPage() {
           </p>
         </Panel>
       </div>
+
+      <Panel className="p-5 sm:p-6">
+        <SectionHeading title="未登录行为" description="按当前题库与章节筛选；访客标识不等于人数，不与账号答题次数相加。" />
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+          {[
+            ["匿名访客标识", stats ? count(stats.anonymous.visitors) : "—"],
+            ["匿名行为事件", stats ? count(stats.anonymous.events) : "—"],
+            ["匿名答题次数", stats ? count(stats.anonymous.attempts) : "—"],
+            ["匿名答题错误率", stats ? percent(stats.anonymous.errorRate) : "—"],
+          ].map(([label, value]) => (
+            <div key={label} className="rounded-2xl bg-background-secondary-default p-4">
+              <p className="text-caption-1-medium text-text-tertiary">{label}</p>
+              <p className="mt-1 text-title-2-semibold text-text-primary tabular">{value}</p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-3 text-caption-1-medium text-text-tertiary">
+          收藏操作 {stats ? count(stats.anonymous.byType["favorite.set"] ?? 0) : "—"} ·
+          模考交卷 {stats ? count(stats.anonymous.byType["exam.completed"] ?? 0) : "—"} ·
+          知识卡复习 {stats ? count(stats.anonymous.byType["card.reviewed"] ?? 0) : "—"}
+        </p>
+      </Panel>
 
       <Panel className="p-5 sm:p-6">
         <SectionHeading

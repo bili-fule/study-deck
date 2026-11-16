@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-打开 http://localhost:5173/ 。默认无需登录，所有练习、错题、收藏、知识卡、进度和备份都在浏览器本机；可选的云端账号只用于跨设备同步。
+打开 http://localhost:5173/ 。无需登录即可练习、查看错题、收藏、复习与备份，完整学习进度保存在本机。未登录学习行为也会发送最小化匿名统计；登录账号用于可选的跨设备同步。
 
 生产构建与本地预览：
 
@@ -27,8 +27,8 @@ npm run preview
 - 知识卡：15 张由官方题库事实整理，关联 52 道唯一题；SM-2 简化调度（again/hard/good/easy）。
 - 学习进度：覆盖率、正确率、连续天数、近 7 天、章节/分类明细、模拟考试历史。
 - 备份/恢复 JSON；导入前校验事件结构，非法文件不会覆盖现有数据。备份不包含账号、Cookie、同步游标或 ack 元数据。
-- 可选云端：同源 `/api` + HttpOnly `sd_session` Cookie；邀请制注册；本地匿名练习在登录时询问是否导入当前账号。云端失败不会阻塞本地功能。
-- 管理员页面只展示聚合统计（用户总数、作答/错误次数与错误率、题目与章节聚合），没有逐用户作答详情。
+- 云端 API：前端 `https://st.xmfu.cn`，Cloudflare 后端 `https://stapi.xmfu.cn/api`；精确域名 CORS + 携带凭据请求 + API 域名专属 HttpOnly Cookie。邀请制注册；本机匿名练习在登录时仍需确认才导入账号。云端失败不会阻塞本地功能。
+- 管理员页面分别展示账号与匿名行为的聚合统计，没有逐用户或逐访客的作答详情；匿名次数不与账号次数相加。
 
 ## 数据与题库扩展
 
@@ -67,22 +67,25 @@ npm run data:test        # 导入器边界回归（选项重排/无来源前缀/
 - 保存失败（配额/隐私模式）或数据损坏会显示明确提示，并保留内存进度；损坏的原始数据不会被静默覆盖。
 - 导出 JSON 只含学习事件、当前会话、设置和显示名。恢复时重新校验事件 payload，并重置游标/ack 元数据，避免跨设备跳过云端记录。
 - 云端只同步事件：`attempt.record`、`favorite.set`、`exam.completed`、`card.reviewed`、`card.state`。未作答题目不产生答题事件；考试历史不计入练习错误率。
+- 未登录时向 `/api/telemetry` 上报同一组学习事件，服务端只保留事件类型、题目、时间及重新判定的对错，不保存完整所选答案或考试 payload。随机访客 Cookie 仅存哈希；不采集姓名或设备指纹，防滥用限流只使用短期哈希键。
+- 匿名统计确认与账号同步确认分别保存；匿名上报不修改账号同步游标，不会让登录导入跳过学习记录。网络失败时保留本地待上报事件，下次学习、重新打开页面或恢复联网时继续；重复事件不重复计数。
 
 ## 云端与部署
 
-后端代码在 `worker/**`、`migrations/**`，共享类型在 `shared/api.ts`；详细后端说明见 [docs/BACKEND.md](docs/BACKEND.md)。全新克隆的推荐顺序：
+后端代码在 `worker/**`、`migrations/**`，共享类型在 `shared/api.ts`；部署步骤与接口见 [docs/BACKEND.md](docs/BACKEND.md)。前端继续部署在 EdgeOne，Worker 仅提供 API：
 
 ```bash
 npm install
-npm run build        # 先生成 dist，Worker 同源托管时需要
-npm run cf:migrate   # 初始化本地 D1（migrations）
-npm run cf:dev       # Worker 监听 127.0.0.1:8787（独立终端）
-npm run dev          # Vite 将 /api 代理到 8787，changeOrigin:false（另一个终端）
+npm run cf:migrate   # 初始化本地 D1，包含匿名统计迁移
+npm run cf:dev       # API 监听 127.0.0.1:8787（独立终端）
+npm run dev          # Vite 将 /api 代理到 8787（另一个终端）
 ```
 
-Windows 说明：当前 Windows 环境的 Wrangler/workerd 可能在创建 `miniflare-email-store` 时遇到目录权限错误。这是本机运行时问题，不是前端或 Worker 代码问题；请改用 Linux / WSL 启动本地 Worker 完成云端联调。纯前端本地模式不依赖 Worker，可直接运行 `npm run dev`。
+前端生产构建默认连接 `https://stapi.xmfu.cn`。如需更改，在 EdgeOne 构建环境配置 `VITE_API_BASE_URL` 为 API 的来源地址（不含 `/api`），然后重新构建；开发模式默认使用 Vite 同源代理。生产白名单 `ALLOWED_ORIGINS` 位于 `wrangler.jsonc`，默认仅允许 `https://st.xmfu.cn`，不能填写 `*`。
 
-部署前必须检查目标环境、D1 绑定、邀请码/管理员初始化与域名；不要把未检查的环境直接发布到生产。静态站点可单独部署（完整本地功能），也可由同一个 Worker 同源托管 `dist` 并启用 `/api`。
+Windows 说明：当前环境的 Wrangler/workerd 存在创建 `miniflare-email-store` 的已知权限错误；请使用 Linux / WSL 运行本地 Worker，不需要更改系统安全设置。纯前端开发与构建不依赖 Worker。
+
+上线前创建并绑定真实 D1、应用全部迁移、初始化管理员与邀请码，再部署 Worker。`stapi.xmfu.cn` 的 Custom Domain 需要 Cloudflare 中有效的 `xmfu.cn` 区域；前端 `st.xmfu.cn` 保留原来的 EdgeOne DNS 配置。不要把域名配置完成视为已经上线。
 
 管理员脚本（由后端提供）：`npm run admin:init` / `admin:reset` / `admin:invite`。
 

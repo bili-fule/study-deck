@@ -2,7 +2,6 @@ import { LIMITS, SESSION_COOKIE, type PublicUser, type Role } from "../shared/ap
 import { hashPassword, randomToken, sha256Hex, verifyPassword } from "./lib/crypto";
 import {
   assertMethod,
-  assertSameOrigin,
   clientIp,
   HttpError,
   isSecureRequest,
@@ -269,7 +268,6 @@ export async function requireAdmin(request: Request, env: Env): Promise<SessionU
 /* ------------------------------------------------------------------ */
 
 async function register(request: Request, env: Env): Promise<Response> {
-  assertSameOrigin(request);
   const now = Date.now();
   const body = await readJsonObject(request, MAX_AUTH_BODY_BYTES);
   const { username, lower } = usernameFrom(body.username);
@@ -353,7 +351,6 @@ async function register(request: Request, env: Env): Promise<Response> {
 }
 
 async function login(request: Request, env: Env): Promise<Response> {
-  assertSameOrigin(request);
   const now = Date.now();
   const body = await readJsonObject(request, MAX_AUTH_BODY_BYTES);
   const { lower } = usernameFrom(body.username);
@@ -404,7 +401,6 @@ async function login(request: Request, env: Env): Promise<Response> {
 }
 
 async function logout(request: Request, env: Env): Promise<Response> {
-  assertSameOrigin(request);
   const token = readCookie(request, SESSION_COOKIE);
   if (token) {
     const tokenHash = await sha256Hex(token);

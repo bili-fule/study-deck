@@ -50,15 +50,35 @@ export function assertMethod(request: Request, ...allowed: string[]): void {
   }
 }
 
-/** Reject cross-site state changes even though SameSite=Lax already blocks the
- *  cookie on cross-site POSTs. Defence in depth for same-origin-only design. */
-export function assertSameOrigin(request: Request): void {
+/** Reject requests from origins outside this API's explicit trust boundary. */
+export function isAllowedOrigin(
+  origin: string | null,
+  request: Request,
+  allowedOrigins: string,
+): origin is string {
+  if (origin === null || origin === "null") return false;
+  if (origin === new URL(request.url).origin) return true;
+  return allowedOrigins.split(",").some((entry) => entry.trim() === origin);
+}
+
+/**
+ * Reject cross-origin state changes unless their exact Origin is trusted.
+ * Requests without Origin remain usable by non-browser clients.
+ */
+export function assertSameOrigin(request: Request, allowedOrigins: string): void {
   const origin = request.headers.get("origin");
-  if (origin !== null && origin !== new URL(request.url).origin) {
+  const trustedOrigin = isAllowedOrigin(origin, request, allowedOrigins);
+  if (origin !== null && !trustedOrigin) {
     throw new HttpError(403, "origin_mismatch");
   }
+
   const site = request.headers.get("sec-fetch-site");
-  if (site !== null && site !== "same-origin" && site !== "none") {
+  if (
+    site !== null &&
+    site !== "same-origin" &&
+    site !== "none" &&
+    !(site === "same-site" && trustedOrigin)
+  ) {
     throw new HttpError(403, "cross_site_request");
   }
 }
