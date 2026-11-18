@@ -33,6 +33,7 @@ export function DashboardPage() {
   const { state, projection, session, actions, activeBank } = useStore();
   const bankCards = cardsForBank(activeBank.bankId);
   const total = activeBank.collected;
+  const unansweredCount = total - projection.attempted;
   const coverage = percent(projection.attempted, total);
   const name = state.displayName || (session ? "继续上次的节奏" : "同学");
   const maxDaily = Math.max(1, ...projection.daily.map((day) => day.attempts));
@@ -100,6 +101,14 @@ export function DashboardPage() {
                   开始一轮练习
                 </Button>
               )}
+              <Button
+                size="medium"
+                variant="secondary"
+                isDisabled={unansweredCount === 0}
+                onClick={() => navigate("/practice?mode=unanswered")}
+              >
+                {unansweredCount > 0 ? `只刷未做题 · 剩 ${unansweredCount} 题` : "本题库已全部作答"}
+              </Button>
               <Button size="medium" variant="secondary" leadingIcon={RiTimerLine} onClick={() => navigate("/mock")}>
                 模拟考试
               </Button>

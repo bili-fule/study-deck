@@ -72,6 +72,7 @@ const QUICK_MODES = [
 export function PracticeSetupPage({ route }: { route: string }) {
   const { state, projection, session, actions, activeBank } = useStore();
   const query = routeQuery(route);
+  const unansweredCount = activeBank.collected - projection.attempted;
 
   const chapterRows = useMemo(
     () =>
@@ -97,6 +98,27 @@ export function PracticeSetupPage({ route }: { route: string }) {
     });
     if (!created) {
       toast.error("无法开始练习", { description: "题库为空。" });
+      return;
+    }
+    navigate("/session");
+  }
+
+  function startUnanswered() {
+    if (session?.kind === "mock" && session.status === "active") {
+      navigate("/exam");
+      return;
+    }
+    const created = actions.startSession({
+      kind: "practice",
+      mode: "unanswered",
+      bankId: activeBank.bankId,
+      count: activeBank.collected,
+      title: "只刷未做题",
+      studyMode: false,
+    });
+    if (!created) {
+      toast.info("本题库已全部作答");
+      navigate("/practice");
       return;
     }
     navigate("/session");
@@ -141,6 +163,10 @@ export function PracticeSetupPage({ route }: { route: string }) {
     if (mode === "chapter") {
       const chapter = activeBank.chapters.find((item) => item.chapterId === query.get("chapter"));
       startSequential(chapter);
+      return;
+    }
+    if (mode === "unanswered") {
+      startUnanswered();
       return;
     }
     const item = QUICK_MODES.find((entry) => entry.mode === mode);
@@ -203,7 +229,7 @@ export function PracticeSetupPage({ route }: { route: string }) {
           </span>
         </Switch>
         <p className="text-caption-1-medium text-text-tertiary sm:ms-auto">
-          {state.settings.studyMode ? "已开启：直接显示答案与解析，作答不计入统计。" : "关闭时正常作答并统计正确率。"}
+          {state.settings.studyMode ? "已开启：直接显示答案与解析，作答不计入统计。「只刷未做题」仍正常作答。" : "关闭时正常作答并统计正确率。"}
         </p>
       </div>
 
@@ -215,9 +241,14 @@ export function PracticeSetupPage({ route }: { route: string }) {
               已练 {projection.attempted}/{activeBank.collected} 题 · 从第一道未做的题继续
             </p>
           </div>
-          <Button leadingIcon={RiPlayCircleLine} onClick={() => startSequential()}>
-            {projection.attempted > 0 ? "继续顺序练习" : "开始顺序练习"}
-          </Button>
+          <div className="flex flex-wrap gap-2">
+            <Button variant="secondary" leadingIcon={RiPlayCircleLine} onClick={() => startSequential()}>
+              {projection.attempted > 0 ? "继续顺序练习" : "开始顺序练习"}
+            </Button>
+            <Button isDisabled={unansweredCount === 0} onClick={startUnanswered}>
+              {unansweredCount > 0 ? `只刷未做题 · 剩 ${unansweredCount} 题` : "本题库已全部作答"}
+            </Button>
+          </div>
         </div>
         <div className="flex flex-col divide-y divide-separator-border">
           {chapterRows.map((row) => (
@@ -353,7 +384,11 @@ export function PracticeSessionPage() {
 
   function finish() {
     actions.finishPractice();
-    toast.success("本轮练习已结束", { description: "作答记录与错题/收藏已保留；下次顺序练习从断点继续。" });
+    toast.success("本轮练习已结束", {
+      description: session?.mode === "unanswered"
+        ? "作答记录已保留；再次进入只会刷还没做的题。"
+        : "作答记录与错题/收藏已保留；下次顺序练习从断点继续。",
+    });
     navigate("/practice");
   }
 

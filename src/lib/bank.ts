@@ -7,6 +7,7 @@ import type {
   BankQuestion,
   KnowledgeCard,
   KnowledgeCardsFile,
+  PracticeMode,
   QuestionStat,
 } from "@/lib/types";
 import { shuffle, weightedSample } from "@/lib/prng";
@@ -114,7 +115,7 @@ export function buildQuestionSet({
   projection,
 }: {
   bankId: string;
-  mode: "chapter" | "random" | "adaptive" | "mistakes" | "favorites" | "mock";
+  mode: PracticeMode | "mock";
   chapterId?: string;
   count: number;
   seed: string;
@@ -131,10 +132,12 @@ export function buildQuestionSet({
     const favorites = new Set(projection.favoriteQuestionIds);
     pool = pool.filter((question) => favorites.has(question.questionId));
   }
-  if (mode === "chapter") {
-    return [...pool]
-      .sort((a, b) => a.chapterId.localeCompare(b.chapterId) || a.order - b.order)
-      .slice(0, count);
+  if (mode === "chapter" || mode === "unanswered") {
+    const ordered = mode === "unanswered"
+      ? pool.filter(({ questionId }) => !projection.statsByQuestion.get(questionId)?.attempts)
+      : [...pool];
+    ordered.sort((a, b) => a.chapterId.localeCompare(b.chapterId) || a.order - b.order);
+    return ordered.length > count ? ordered.slice(0, count) : ordered;
   }
   if (mode === "random" || mode === "mock" || mode === "mistakes" || mode === "favorites") {
     return shuffle(pool, seed).slice(0, count);

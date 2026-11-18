@@ -459,7 +459,7 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
   const startSession = useCallback(
     (config: SessionConfig): ActiveSession | null => {
       const next = createSession(
-        { ...config, studyMode: config.kind === "practice" && stateRef.current.settings.studyMode },
+        { ...config, studyMode: config.kind === "practice" && (config.studyMode ?? stateRef.current.settings.studyMode) },
         projectEvents(stateRef.current.events),
       );
       if (next.questionIds.length === 0) return null;

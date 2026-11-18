@@ -80,7 +80,7 @@ export interface KnowledgeCardsFile {
   cards: KnowledgeCard[];
 }
 
-export type PracticeMode = "chapter" | "random" | "adaptive" | "mistakes" | "favorites";
+export type PracticeMode = "chapter" | "unanswered" | "random" | "adaptive" | "mistakes" | "favorites";
 
 export interface SessionConfig {
   kind: "practice" | "mock";
